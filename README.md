@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **Estrategias para el endurecimiento de la ciberseguridad**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF3_233107_Tratamiento_Riesgos_Ciberseguridad_Micro_Pequena_Mediana_Empresa/](https://ecored-sena.github.io/CF3_233107_Tratamiento_Riesgos_Ciberseguridad_Micro_Pequena_Mediana_Empresa/)
 
 #
 

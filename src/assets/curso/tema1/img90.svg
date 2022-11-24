@@ -1,0 +1,9 @@
+<svg id="Grupo_84739" data-name="Grupo 84739" xmlns="http://www.w3.org/2000/svg" width="295" height="66.897" viewBox="0 0 295 66.897">
+  <path id="Rectángulo_33981" data-name="Rectángulo 33981" d="M0,0H261.551A33.449,33.449,0,0,1,295,33.449v0A33.449,33.449,0,0,1,261.551,66.9H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 0)" fill="#40327b"/>
+  <path id="hacker-working-in-the-darkness" d="M0,29.662H31.133c4.637-7.3,16.945-12.526,31.4-12.526q2.218,0,4.363.161V.084Q64.734,0,62.534,0C31.306,0,5.34,12.8,0,29.662Z" transform="translate(29.662 0) rotate(90)" fill="#583ae2"/>
+  <g id="Elipse_4717" data-name="Elipse 4717" transform="translate(16 37.897)" fill="none" stroke="#2ff980" stroke-width="5">
+    <ellipse cx="12" cy="12.5" rx="12" ry="12.5" stroke="none"/>
+    <ellipse cx="12" cy="12.5" rx="9.5" ry="10" fill="none"/>
+  </g>
+  <circle id="Elipse_4718" data-name="Elipse 4718" cx="2.25" cy="2.25" r="2.25" transform="translate(13.331 5)" fill="#2ff980"/>
+</svg>
