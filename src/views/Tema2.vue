@@ -8,10 +8,10 @@
       h1(data-aos="fade-right") Diseño de controles
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-4.mb-4
+      .col-lg-4.mb-4(data-aos="fade-right")
         figure
           img.img-t.mx-auto(src='@/assets/curso/tema2/img01.png', alt='')
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         p El debido cuidado profesional en materia de ciberseguridad implica la realización de todas las prácticas razonables necesarias para cumplir un estándar mínimo de diligencia que garantice un rendimiento fiable de la seguridad a largo plazo. Si estas prácticas se llevan a cabo de forma adecuada, se puede decir que la organización ha cumplido con sus obligaciones legales y éticas de protección de la información (Kohnke, Shoemaker & Sigler, 2016)
         p En la práctica, la norma de atención adoptada debe incorporar todos los elementos conocidos necesarios para hacer frente a las amenazas e incidentes probables.  Y dado que las consecuencias prácticas del fracaso son reales y pueden ser drásticas, la ignorancia de lo que hay que hacer no es una defensa contra la responsabilidad.  De todos modos, es mucho esperar que los profesionales de la ciberseguridad conozcan y sean capaces de satisfacer los requisitos de la debida atención profesional.  Por lo tanto, sería útil disponer de un modelo general de buenas prácticas de ciberseguridad para ayudar a esa comprensión.  Idealmente, este modelo debería ser universal en su aplicación y comúnmente aceptado como correcto dentro de la comunidad de profesionales.
 
@@ -173,7 +173,7 @@
 
     .bg_14-1.mb-5
       .row.justify-content-center.mb-5.mb-lg-4
-        .col-lg-8
+        .col-lg-8(data-aos="fade-right")
           p Con el objetivo de establecer y mantener una imagen correcta y en continua evolución de la forma de los objetivos de control y sus controles asociados, se hace necesario adelantar acciones de documentación y mantenimiento mediante una función de seguimiento y contabilidad de la línea de base. Este registro se mantiene normalmente en algún tipo de repositorio electrónico, o "libro de contabilidad" que es utilizado por la función de seguimiento y contabilidad de la línea de base de control para realizar el análisis de impacto antes de la autorización del cambio y se actualiza oportunamente una vez que el cambio ha sido aprobado e implementado.
           p El proceso de mantenimiento del conjunto de controles se extiende a todo el proceso de ciberseguridad y exige un análisis de los requisitos precisos de seguridad. Para ello, la organización debe adelantar las siguientes acciones:
         .col-lg-4
@@ -217,32 +217,34 @@
 
     p El campo de la ciberseguridad abarca las medidas adecuadas para garantizar que los datos electrónicos se mantengan a salvo de accesos no autorizados o de daños. Los procesos, las tecnologías y las prácticas en el campo de la ciberseguridad se desarrollan al servicio de este propósito. Un conjunto eficaz de controles de ciberseguridad debe:
 
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4").color_i-1
-      .tarjeta-avatar
-        img.img85.mx-auto(src='@/assets/curso/tema2/img16.svg' alt='AvatarTop')        
-        .tarjeta.color-acento-contenido
-          .p-4
-            p.text-center Identificar y autenticar con precisión a todas las entidades que desean acceder a un sistema.
-      .tarjeta-avatar
-        img.img85.mx-auto(src='@/assets/curso/tema2/img17.svg' alt='AvatarTop')
-        .tarjeta.color-acento-contenido
-          .p-4        
-            p.text-center Autorizar el acceso sólo a los objetos que el nivel de confianza de la entidad permite.
-      .tarjeta-avatar
-        img.img85.mx-auto(src='@/assets/curso/tema2/img18.svg' alt='AvatarTop')
-        .tarjeta.color-acento-contenido
-          .p-4        
-            p.text-center Supervisar y controlar las actividades durante el tiempo en que se concede el acceso a la entidad.    
-      .tarjeta-avatar
-        img.img85.mx-auto(src='@/assets/curso/tema2/img19.svg' alt='AvatarTop')
-        .tarjeta.color-acento-contenido
-          .p-4        
-            p.text-center Asegurar el acceso no autorizado o la manipulación de los datos.
-      .tarjeta-avatar
-        img.img85.mx-auto(src='@/assets/curso/tema2/img20.svg' alt='AvatarTop')
-        .tarjeta.color-acento-contenido
-          .p-4        
-            p.text-center Asegurar la manipulación no autorizada de los objetos del sistema.  
+    .row.justify-content-center.mb-2.mb-lg-5
+      .col-lg-12(data-aos="fade-down")
+        SlyderF.mb-5(columnas="col-lg-6 col-xl-4").color_i-1
+          .tarjeta-avatar
+            img.img85.mx-auto(src='@/assets/curso/tema2/img16.svg' alt='AvatarTop')        
+            .tarjeta.color-acento-contenido
+              .p-4
+                p.text-center Identificar y autenticar con precisión a todas las entidades que desean acceder a un sistema.
+          .tarjeta-avatar
+            img.img85.mx-auto(src='@/assets/curso/tema2/img17.svg' alt='AvatarTop')
+            .tarjeta.color-acento-contenido
+              .p-4        
+                p.text-center Autorizar el acceso sólo a los objetos que el nivel de confianza de la entidad permite.
+          .tarjeta-avatar
+            img.img85.mx-auto(src='@/assets/curso/tema2/img18.svg' alt='AvatarTop')
+            .tarjeta.color-acento-contenido
+              .p-4        
+                p.text-center Supervisar y controlar las actividades durante el tiempo en que se concede el acceso a la entidad.    
+          .tarjeta-avatar
+            img.img85.mx-auto(src='@/assets/curso/tema2/img19.svg' alt='AvatarTop')
+            .tarjeta.color-acento-contenido
+              .p-4        
+                p.text-center Asegurar el acceso no autorizado o la manipulación de los datos.
+          .tarjeta-avatar
+            img.img85.mx-auto(src='@/assets/curso/tema2/img20.svg' alt='AvatarTop')
+            .tarjeta.color-acento-contenido
+              .p-4        
+                p.text-center Asegurar la manipulación no autorizada de los objetos del sistema.  
 
     p.mb-4 La aplicación estratégica de los principios de ciberseguridad se centra en la cuestión de decidir qué se necesita para determinar el valor de la seguridad para una organización y a partir de allí, considerar aspectos de relevancia como los que se destacan en la siguiente infografía:
 

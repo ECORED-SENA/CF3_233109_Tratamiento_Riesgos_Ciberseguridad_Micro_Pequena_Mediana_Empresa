@@ -7,10 +7,10 @@
         span 1
       h1(data-aos="fade-right") Defensa en profundidad
 
-    p Ninguna solución única puede proteger realmente contra todos los vectores de ataque y tapar todos los agujeros de seguridad de un sistema. Aplicando un modelo de defensa en profundidad y estratificando las medidas de protección, las brechas en la seguridad de una capa pueden cerrarse con controles en otra capa, creando una postura de seguridad integral. 
+    p(data-aos="fade-right") Ninguna solución única puede proteger realmente contra todos los vectores de ataque y tapar todos los agujeros de seguridad de un sistema. Aplicando un modelo de defensa en profundidad y estratificando las medidas de protección, las brechas en la seguridad de una capa pueden cerrarse con controles en otra capa, creando una postura de seguridad integral. 
     p.text-bold.mb-5.mb-lg-0 La superposición de medidas de protección en un sistema informático es muy parecida a la forma en que, en la Edad Media, se alzaban las medidas de seguridad en un castillo, observe con atención: 
 
-    .bg_01.p-5.mb-5.mb-lg-0 
+    .bg_01.p-5.mb-5.mb-lg-0(data-aos="fade-down-right") 
       .row.justify-content-center.mb-4
         .col-lg-8
           ImagenInfografica.color-acento-botones
@@ -43,10 +43,10 @@
               p Por lo general, la última capa de defensa es una puerta fortificada y cerrada en la sala del tesoro con un par de guardias a cada lado.
 
     .row.align-items-center.mb-4
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img.img-t.mx-auto(src='@/assets/curso/tema1/img03.png', alt='')
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         p En el ejemplo del castillo medieval, los controles de seguridad aplicados son en su mayoría de naturaleza física, ya que implican principalmente impedir de forma física que la gente entre en el castillo o detectar una violación física del perímetro.
         p Ahora, tomemos en consideración que el rey del castillo hubiera encontrado una forma de hacer oro a partir del hierro mediante un proceso secreto de alquimia. En lugar de oro y joyas, la mazmorra alberga ahora un sofisticado proceso de fundición, controlado por un Sistema de Control Distribuido (DCS) de última generación. La fórmula secreta que convierte el hierro en oro está almacenada en un servidor en una de las cámaras de la torre. 
         p El proceso de alquimia está a cargo de un puñado de empleados de confianza bien evaluados y todos los sistemas de control y supervisión del SCI (Sistema de control interno) están conectados entre sí a través de una red Ethernet con una solución de acceso remoto que permite la interacción a distancia. El rey tiene acceso a todo el ICS (Sistemas de control industrial) desde su trono, por lo que puede vigilar la rapidez con la que se enriquece e interactuar con los sistemas siempre que lo necesite.
@@ -150,10 +150,10 @@
           h3.ms-4.text-white Seguridad física 
 
     .row.justify-content-center.align-items-center
-      .col-lg-4.mb-5
+      .col-lg-4.mb-5(data-aos="fade-right")
         figure
           img.img-t.m-auto(src='@/assets/curso/tema1/img18.svg')
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         p.m-0 El objetivo de la seguridad física es mantener a las personas fuera de las zonas en las que no están autorizadas a estar. Esto incluye áreas restringidas, salas de control, áreas de alta seguridad, paneles eléctricos y de red, salas de servidores y otras áreas restringidas o sensibles. Si un atacante tiene acceso físico a la red o a los equipos de computación, es sólo cuestión de tiempo que consiga acceder a la red o al sistema de computación. La capa de defensa física incluye recomendaciones como la construcción de muros de tamaño suficiente, la aplicación de cerraduras en las puertas, la instalación de cámaras de CCTV y la definición de políticas y controles para tratar a los visitantes e invitados (Noonan, 2004).  
 
     .row.mb-2(data-aos="fade-right")
@@ -162,10 +162,10 @@
           h3.ms-4.text-white Seguridad de la red 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8
+      .col-lg-8(data-aos="fade-right")
         p Al igual que la seguridad física, consiste en restringir el acceso a las áreas lógicas de la red ICS. La idea es dividir la red en zonas de seguridad, aplicando reglas de firewall, estableciendo listas de control de acceso e implementando sistemas de detección de intrusos (IDS) para separar las partes más sensibles (zonas más seguras) de la red de las zonas menos seguras. Al controlar y supervisar estrechamente el tráfico que atraviesa las zonas de seguridad, se pueden detectar y gestionar eficazmente las anomalías.
         p La implementación de una seguridad sólida comienza literalmente desde los cimientos. Al aplicar una base sólida a una red ICS, se allana el camino para permitir una implementación más ágil del programa de seguridad de la red. Una base sólida viene en forma de decisiones de diseño de arquitectura de red centradas en la seguridad, por ejemplo:
-      .col-lg-4
+      .col-lg-4(data-aos="fade-left")
         figure
           img.img-t.m-auto(src='@/assets/curso/tema1/img20.png')
 
@@ -193,10 +193,10 @@
           h3.ms-4.text-white Segmentación de la red 
 
     .row.mb-2.mb-lg-5
-      .col-lg-6
+      .col-lg-6(data-aos="fade-right")
         figure
           img.img-t.m-auto(src='@/assets/curso/tema1/img25.svg')
-      .col-lg-6
+      .col-lg-6(data-aos="fade-left")
         p El primer paso en el diseño de una arquitectura de red ICS consciente de la seguridad es definir la segmentación de la red. 
         .bg_08.p-2.py-4.mb-4
           .row.justify-content-center.align-items-center
@@ -319,19 +319,19 @@
       .row.justify-content-center.mb-4.mb-lg-5
         .col-lg-10
           .row.justify-content-center.align-items-center
-            .col-lg-4.mb-4.mb-lg-0
+            .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
               .tarjeta.bg_03.p-4
                 figure.mb-5
                   img.img-t.m-auto(src='@/assets/curso/tema1/img29.png')
                 h4.text-white Áreas funcionales de un proceso de producción
                 p.text-white Por ejemplo, la línea de producción 1 será una Zona de Área Celular separada, la línea de producción 2 será otra Zona de Área Celular, y las áreas de envío y recepción formarán Zonas de Área Celular separadas. 
-            .col-lg-4.mb-4.mb-lg-0
+            .col-lg-4.mb-4.mb-lg-0(data-aos="fade-up")
               .tarjeta.bg_03.p-4
                 figure.mb-5
                   img.img-t.m-auto(src='@/assets/curso/tema1/img30.png')
                 h4.text-white Capacidad de supervivencia
                 p.text-white Por ejemplo, si ciertas partes de un proceso de producción están vinculadas a los mismos servicios públicos como el gas, la electricidad y el aire, entonces tiene sentido colocar esos sistemas con servicios públicos comunes en sus propias Zonas de Área Celular. 
-            .col-lg-4  
+            .col-lg-4(data-aos="fade-left")
               .tarjeta.bg_03.p-4
                 figure.mb-5
                   img.img-t.m-auto(src='@/assets/curso/tema1/img31.png')
@@ -347,10 +347,10 @@
           h3.ms-4.text-white Seguridad de computación
 
     .row.justify-content-center
-      .col-lg-8
+      .col-lg-8(data-aos="fade-right")
         p La seguridad de la computación consiste en evitar la infiltración en los sistemas computacionales (estaciones de trabajo, servidores, computadores portátiles, etc.). Esto se consigue aplicando estrategias de parcheo, realizando ejercicios de endurecimiento de los sistemas informáticos e instalando aplicaciones y soluciones de seguridad como antivirus, protección de puntos finales y <em>software</em> de detección/prevención de intrusiones en los <em>hosts</em> (HIDS / HIPS)
         p Los controles de seguridad de computación también incluyen la restricción o la prevención del acceso a los puertos de comunicación no utilizados de los dispositivos informáticos, como el bloqueo del acceso a los puertos USB y <em>FireWire</em> mediante bloqueadores de puertos físicos (o <em>hot glue</em>) así como la aplicación de una política de dispositivos con una solución de protección de puntos finales como <em>Symantec Endpoint Protection</em> (SCP) Mantener los sistemas de computación libres de vulnerabilidades mediante la actualización y la aplicación de parches es también una forma de seguridad informática. 
-      .col-lg-4
+      .col-lg-4(data-aos="fade-left")
         figure
           img.img-t.m-auto(src='@/assets/curso/tema1/img33.png')
 
@@ -411,7 +411,7 @@
         .col-lg-4
           figure.mb-4(data-aos="fade-down-right")
             img.img-t.m-auto(src='@/assets/curso/tema1/img38.png', alt='')
-        .col-lg-8
+        .col-lg-8(data-aos="fade-left")
           p Mientras que la seguridad de la información consiste en mantener a un intruso fuera de un sistema informático, la seguridad de las aplicaciones consiste en evitar que un usuario realice interacciones no autorizadas con los programas y servicios que se ejecutan en el sistema informático. Esto se consigue implementando la autenticación, la autorización y la auditoría. Aquí, la autenticación verifica que el usuario es quien dice ser, la autorización restringe las acciones del usuario y la auditoría registra todas las interacciones que el usuario tiene con el sistema. Mantener las aplicaciones libres de vulnerabilidades mediante la detección y la aplicación de parches es también una forma de seguridad de las aplicaciones.
 
     .row.mb-4(data-aos="fade-right")
@@ -420,7 +420,7 @@
           h3.ms-4.text-white Seguridad de los dispositivos
 
     .row.justify-content-center.mb-4
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         p La seguridad de los dispositivos implica las acciones y los controles de seguridad relativos a la tríada AIC de los dispositivos ICS, donde AIC significa disponibilidad, integridad y confidencialidad. En el caso de los sistemas y redes computacionales habituales, el orden de la tríada de seguridad es AIC, o sea, confidencialidad, integridad y disponibilidad, pero en el contexto de un ICS, la disponibilidad está por encima de las demás, ya que el tiempo de actividad (disponibilidad) es el objetivo número uno en la producción y el que más repercute en la rentabilidad.
         p La seguridad de los dispositivos incluye la aplicación de parches, el endurecimiento de los dispositivos, las restricciones de acceso físico y lógico, y el establecimiento de un programa de ciclo de vida de los dispositivos que incluya la definición de procedimientos para la adquisición, la implementación, el mantenimiento, la gestión de la configuración y los cambios, y la eliminación de los dispositivos.
       .col-lg-4
@@ -428,7 +428,7 @@
           img.img-t.m-auto(src='@/assets/curso/tema1/img39.svg', alt='')
 
     .row.mb-4(data-aos="fade-right")
-      .col-lg-5
+      .col-lg-8
         .bg_15.p-4
           h3.ms-4.text-white Políticas, procedimientos y concienciación
 
@@ -448,7 +448,7 @@
       h2 1.2 Conceptos
 
     .row.justify-content-center.mb-4
-      .col-lg-8
+      .col-lg-8(data-aos="fade-right")
         p La plataforma en la nube es cada vez más atractiva para el mundo de la computación. Hoy en día, las técnicas de arquitectura orientada a servicios (SOA) y de programación orientada a aspectos (AOP) se utilizan ampliamente en las soluciones empresariales. Una pregunta que puede hacerse un equipo de gestión de TI o un equipo de desarrollo de <em>software</em> es: ¿cuál va a ser la próxima tendencia? La computación en nube parece ser la respuesta correcta. Se utilizan diferentes nombres para este tipo de plataforma, como computación de servicios, plataforma bajo demanda y plataforma como servicio. En relación con la computación en nube se ha extendido el uso de un conjunto de nuevas palabras de moda, como Programa como Servicio (PaaS) <em>software</em> como Servicio (SaaS) y cualquier cosa que se pueda imaginar como servicio (XaaS)
         p.text-bold A continuación, se presentan algunos servicios de computación en la nube y sus principales características.
       .col-lg-4
@@ -464,27 +464,28 @@
 
     .row.justify-content-center.mb-5
       .col-lg-9
-        .row
-          .col-md-3.col-lg.mb-5.mb-lg-0
-            .tarjeta-avatar
-              img.img85.mx-auto(src='@/assets/curso/tema1/img44.svg' alt='AvatarTop')        
-              .tarjeta.color-primario
-                .p-4
-                  p.text-center <b>Tiempo de ejecución de desarrollo:</b> simula el tiempo de ejecución permitiendo probar, depurar y ajustar la aplicación en un entorno de desarrollo local antes de desplegarla en la nube.
+        div
+          .row.justify-content-center
+            .col-lg-4.col-md-6.col-lg.mb-lg-0.d-flex.justify-content-center(data-aos="fade-right")
+              .tarjeta-avatar
+                img.img85.mx-auto(src='@/assets/curso/tema1/img44.svg' alt='AvatarTop')        
+                .tarjeta.color-primario
+                  .p-4
+                    p.text-center <b>Tiempo de ejecución de desarrollo:</b> simula el tiempo de ejecución permitiendo probar, depurar y ajustar la aplicación en un entorno de desarrollo local antes de desplegarla en la nube.
 
-          .col-md-3.col-lg.mb-5.mb-lg-0
-            .tarjeta-avatar
-              img.img85.mx-auto(src='@/assets/curso/tema1/img45.svg' alt='AvatarTop')
-              .tarjeta.color-primario
-                .p-4        
-                  p.text-center <b>Tiempo de ejecución:</b> incluye la estructura, el servicio de almacenamiento y el sistema operativo de Windows Azure.
+            .col-lg-4.col-md-6.col-lg.mb-lg-0.d-flex.justify-content-center(data-aos="fade-up")
+              .tarjeta-avatar
+                img.img85.mx-auto(src='@/assets/curso/tema1/img45.svg' alt='AvatarTop')
+                .tarjeta.color-primario
+                  .p-4        
+                    p.text-center <b>Tiempo de ejecución:</b> incluye la estructura, el servicio de almacenamiento y el sistema operativo de Windows Azure.
 
-          .col-md-3.col-lg.mb-5.mb-lg-0
-            .tarjeta-avatar
-              img.img85.mx-auto(src='@/assets/curso/tema1/img46.svg' alt='AvatarTop')
-              .tarjeta.color-primario
-                .p-4        
-                  p.text-center <b>Aplicaciones:</b> las aplicaciones se ejecutan desde el tiempo de ejecución de Azure. Un conjunto de servicios basados en Internet funciona como bloques de construcción para desarrollar aplicaciones. El paquete de servicios incluye .NET Services (antes BizTalk Services) SQL Azure y Live Services.
+            .col-lg-4.col-md-6.col-lg.mb-lg-0.d-flex.justify-content-center(data-aos="fade-left")
+              .tarjeta-avatar
+                img.img85.mx-auto(src='@/assets/curso/tema1/img46.svg' alt='AvatarTop')
+                .tarjeta.color-primario
+                  .p-4        
+                    p.text-center <b>Aplicaciones:</b> las aplicaciones se ejecutan desde el tiempo de ejecución de Azure. Un conjunto de servicios basados en Internet funciona como bloques de construcción para desarrollar aplicaciones. El paquete de servicios incluye .NET Services (antes BizTalk Services) SQL Azure y Live Services.
 
     p.mb-5 La figura 2 describe el concepto de la plataforma Azure. Cualquier aplicación de tipo on-premise construida en una organización podría también aprovechar los servicios proporcionados por Azure a través de Internet. Sin embargo, para alojar y ejecutar aplicaciones desde la plataforma en la nube de Azure, las aplicaciones deben ser desarrolladas utilizando el .NET Framework. Tanto las aplicaciones de Azure como las locales pueden acceder al servicio de almacenamiento de Azure utilizando un enfoque de transferencia de estado representativo (RESTful) El almacenamiento en la nube ya no se basa en el modelo relacional para cumplir con los requisitos de escalabilidad de Internet. Hay tres tipos de almacenamiento disponibles en la plataforma Azure: almacenamiento de blobs, almacenamiento de colas y almacenamiento de tablas.
     
@@ -512,7 +513,7 @@
     p El marco de Azure también proporciona un entorno de simulación de red local para simular el entorno de la nube, lo que permite depurar, probar y ajustar la aplicación localmente antes de desplegarla en producción. La red local puede iniciarse manualmente.
     p.text-bold Las funciones de la red se resumen en la siguiente lista:
 
-    TabsA.color-acento-contenido.mb-5
+    TabsA.color-acento-contenido.mb-5(data-aos="fade-left")
       .tarjeta.color-acento-botones--borde.p-4(titulo="Monitorizar el estado de la aplicación")
         .row.align-items-center
           .col-xl-9.mb-4
@@ -694,7 +695,7 @@
 
     .bg_31.p-4.py-5.mb-5
       .row.justify-content-center
-        .col-lg-11
+        .col-lg-11(data-aos="fade-right")
           ul.lista-ul--color.mb_1
             li.mb_1 
               i.fas.fa-check-circle
@@ -911,7 +912,7 @@
     .row.mb-4.mb-lg-5(data-aos="fade-right")
       .col-lg-5
         .bg_35.p-4
-          h3.ms-4.mt-2.mt-lg-0.text-white La importancia de la virtualización
+          h3.ms-4.text-white La importancia de la virtualización
 
     .bg_14
       .row.justify-content-center.align-items-center.mb-5.mb-lg-4

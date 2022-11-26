@@ -7,7 +7,7 @@
       .titulo-principal__numero
         span
           i.fas.fa-info
-      h1 Introducción
+      h1(data-aos="fade-right") Introducción
 
     p.mb-4 Bienvenido al componente formativo “Estrategias para el endurecimiento de la ciberseguridad”. Revise el siguiente video a manera de contextualización de las temáticas que se desarrollarán en este escenario de formación. 
 
