@@ -251,7 +251,7 @@
                       | Sistemas de bases de datos de toda la empresa.
                     li.mb_1 
                       i.lista-ul__vineta
-                      | Soluciones de aterrizaje de acceso remoto (Citrix, VPN y RDP)
+                      | Soluciones de aterrizaje de acceso remoto (Citrix, VPN y RDP).
               tr
                 td.text-bold.text-center(colspan="2") Zona industrial
                 td(colspan="5") Alberga sistemas y dispositivos críticos para la producción incluyendo estaciones de trabajo, servidores, bases de datos y automatización, y dispositivos de instrumentación y control. Un fallo en la disponibilidad, integridad o confidencialidad de cualquiera de los sistemas de esta zona podría afectar negativamente la productividad y la rentabilidad, la reputación o la seguridad de la empresa. Esta zona debe tener el más alto nivel de protección.  
@@ -348,7 +348,7 @@
 
     .row.justify-content-center
       .col-lg-8(data-aos="fade-right")
-        p La seguridad de la computación consiste en evitar la infiltración en los sistemas computacionales (estaciones de trabajo, servidores, computadores portátiles, etc.). Esto se consigue aplicando estrategias de parcheo, realizando ejercicios de endurecimiento de los sistemas informáticos e instalando aplicaciones y soluciones de seguridad como antivirus, protección de puntos finales y <em>software</em> de detección/prevención de intrusiones en los <em>hosts</em> (HIDS / HIPS)
+        p La seguridad de la computación consiste en evitar la infiltración en los sistemas computacionales (estaciones de trabajo, servidores, computadores portátiles, etc.). Esto se consigue aplicando estrategias de parcheo, realizando ejercicios de endurecimiento de los sistemas informáticos e instalando aplicaciones y soluciones de seguridad como antivirus, protección de puntos finales y <em>software</em> de detección/prevención de intrusiones en los <em>hosts</em> (HIDS / HIPS).
         p Los controles de seguridad de computación también incluyen la restricción o la prevención del acceso a los puertos de comunicación no utilizados de los dispositivos informáticos, como el bloqueo del acceso a los puertos USB y <em>FireWire</em> mediante bloqueadores de puertos físicos (o <em>hot glue</em>) así como la aplicación de una política de dispositivos con una solución de protección de puntos finales como <em>Symantec Endpoint Protection</em> (SCP) Mantener los sistemas de computación libres de vulnerabilidades mediante la actualización y la aplicación de parches es también una forma de seguridad informática. 
       .col-lg-4(data-aos="fade-left")
         figure
@@ -359,18 +359,18 @@
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-10.mb-5
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
-          .row(titulo="Endurecimiento de los endpoint")
+          .row(titulo="Endurecimiento de los <em>endpoint</em>")
             .col-lg-11              
               p Una parte integral de la seguridad informática de los ICS es el endurecimiento de los puntos finales, que tiene como objetivo reducir la superficie de ataque del punto final, así como limitar el impacto de un compromiso potencial del punto final.
           .row(titulo="Reducción de la superficie de ataque")
             .col-lg-11              
-              p El ejercicio implica revisar todos los sistemas y desactivar los servicios de Windows que no se utilicen, desinstalar las aplicaciones que no se usen y deshacerse de los scripts, programas, bases de datos y otros archivos instalados. Estas actividades realizadas al momento de la implementación del endpoint, deberían ser un ejercicio programado, realizado de forma regular después de la implementación del endpoint.
+              p El ejercicio implica revisar todos los sistemas y desactivar los servicios de Windows que no se utilicen, desinstalar las aplicaciones que no se usen y deshacerse de los scripts, programas, bases de datos y otros archivos instalados. Estas actividades realizadas al momento de la implementación del <em>endpoint</em>, deberían ser un ejercicio programado, realizado de forma regular después de la implementación del <em>endpoint</em>.
           .row(titulo="Limitar el impacto de un compromiso")
             .col-lg-11              
               p Limitar el impacto de una violación de la seguridad del punto final, por ejemplo, cuando un servicio o aplicación del sistema se ve comprometido, se logra restringiendo los permisos y privilegios dados al servicio o aplicación expuestos. Una forma de hacerlo es configurando los servicios y aplicaciones para que se ejecuten bajo cuentas de usuario dedicadas y restringidas.
           .row(titulo="Kit de herramientas de mitigación mejorada de Microsoft")
             .col-lg-11
-              p Otra forma de limitar el impacto de un compromiso es utilizar una solución de <em>software</em> de mitigación de seguridad, como el Enhanced Mitigation Experience Toolkit (EMET) de Microsoft o AppLocker de Microsoft. El EMET de Microsoft intercepta las llamadas a la interfaz de programación de aplicaciones y aplica perfiles de protección a esas llamadas, evitando llamadas peligrosas o maliciosas.        
+              p Otra forma de limitar el impacto de un compromiso es utilizar una solución de <em>software</em> de mitigación de seguridad, como el <em>Enhanced Mitigation Experience Toolkit</em> (EMET) de Microsoft o AppLocker de Microsoft. El EMET de Microsoft intercepta las llamadas a la interfaz de programación de aplicaciones y aplica perfiles de protección a esas llamadas, evitando llamadas peligrosas o maliciosas.
 
     .bg_12
       .row.mb-5
@@ -440,7 +440,7 @@
               figure(data-aos="fade-down-right")
                 img.img-t.m-auto(src='@/assets/curso/tema1/img41.svg', alt='')
         .col-lg-10(data-aos="fade-right")
-          p Por último, están, las políticas, los procedimientos y la concienciación, elementos que unen todos los controles de seguridad. Las políticas son una directriz de alto nivel sobre cuál es la postura de seguridad esperada para los sistemas y dispositivos, por ejemplo, cifrando todas las bases de datos. Los procedimientos son instrucciones paso a paso sobre cómo lograr los objetivos de las políticas, como, por ejemplo, implementar el cifrado AES en las bases de datos. La toma de conciencia de los riesgos en seguridad ayuda a conseguir y mantener la atención sobre los aspectos relacionados con la seguridad del ICS y su funcionamiento. La formación de conciencia suele consistir en una formación de seguridad anual que abarca temas como el spam, las amenazas internas y las prácticas de seguimiento (un intruso que sigue de cerca a un empleado legítimo en una instalación protegida por controles de acceso físico)
+          p Por último, están, las políticas, los procedimientos y la concienciación, elementos que unen todos los controles de seguridad. Las políticas son una directriz de alto nivel sobre cuál es la postura de seguridad esperada para los sistemas y dispositivos, por ejemplo, cifrando todas las bases de datos. Los procedimientos son instrucciones paso a paso sobre cómo lograr los objetivos de las políticas, como, por ejemplo, implementar el cifrado AES en las bases de datos. La toma de conciencia de los riesgos en seguridad ayuda a conseguir y mantener la atención sobre los aspectos relacionados con la seguridad del ICS y su funcionamiento. La formación de conciencia suele consistir en una formación de seguridad anual que abarca temas como el spam, las amenazas internas y las prácticas de seguimiento (un intruso que sigue de cerca a un empleado legítimo en una instalación protegida por controles de acceso físico).
 
     Separador
 
@@ -449,7 +449,7 @@
 
     .row.justify-content-center.mb-4
       .col-lg-8(data-aos="fade-right")
-        p La plataforma en la nube es cada vez más atractiva para el mundo de la computación. Hoy en día, las técnicas de arquitectura orientada a servicios (SOA) y de programación orientada a aspectos (AOP) se utilizan ampliamente en las soluciones empresariales. Una pregunta que puede hacerse un equipo de gestión de TI o un equipo de desarrollo de <em>software</em> es: ¿cuál va a ser la próxima tendencia? La computación en nube parece ser la respuesta correcta. Se utilizan diferentes nombres para este tipo de plataforma, como computación de servicios, plataforma bajo demanda y plataforma como servicio. En relación con la computación en nube se ha extendido el uso de un conjunto de nuevas palabras de moda, como Programa como Servicio (PaaS) <em>software</em> como Servicio (SaaS) y cualquier cosa que se pueda imaginar como servicio (XaaS)
+        p La plataforma en la nube es cada vez más atractiva para el mundo de la computación. Hoy en día, las técnicas de arquitectura orientada a servicios (SOA) y de programación orientada a aspectos (AOP) se utilizan ampliamente en las soluciones empresariales. Una pregunta que puede hacerse un equipo de gestión de TI o un equipo de desarrollo de <em>software</em> es: ¿cuál va a ser la próxima tendencia? La computación en nube parece ser la respuesta correcta. Se utilizan diferentes nombres para este tipo de plataforma, como computación de servicios, plataforma bajo demanda y plataforma como servicio. En relación con la computación en nube se ha extendido el uso de un conjunto de nuevas palabras de moda, como Programa como Servicio (PaaS) <em>software</em> como Servicio (SaaS) y cualquier cosa que se pueda imaginar como servicio (XaaS).
         p.text-bold A continuación, se presentan algunos servicios de computación en la nube y sus principales características.
       .col-lg-4
         figure(data-aos="fade-down-right")
@@ -485,9 +485,9 @@
                 img.img85.mx-auto(src='@/assets/curso/tema1/img46.svg' alt='AvatarTop')
                 .tarjeta.color-primario
                   .p-4        
-                    p.text-center <b>Aplicaciones:</b> las aplicaciones se ejecutan desde el tiempo de ejecución de Azure. Un conjunto de servicios basados en Internet funciona como bloques de construcción para desarrollar aplicaciones. El paquete de servicios incluye .NET Services (antes BizTalk Services) SQL Azure y Live Services.
+                    p.text-center <b>Aplicaciones:</b> las aplicaciones se ejecutan desde el tiempo de ejecución de Azure. Un conjunto de servicios basados en Internet funciona como bloques de construcción para desarrollar aplicaciones. El paquete de servicios incluye .NET <em>Services (antes BizTalk Services) SQL Azure y Live Services</em>.
 
-    p.mb-5 La figura 2 describe el concepto de la plataforma Azure. Cualquier aplicación de tipo on-premise construida en una organización podría también aprovechar los servicios proporcionados por Azure a través de Internet. Sin embargo, para alojar y ejecutar aplicaciones desde la plataforma en la nube de Azure, las aplicaciones deben ser desarrolladas utilizando el .NET Framework. Tanto las aplicaciones de Azure como las locales pueden acceder al servicio de almacenamiento de Azure utilizando un enfoque de transferencia de estado representativo (RESTful) El almacenamiento en la nube ya no se basa en el modelo relacional para cumplir con los requisitos de escalabilidad de Internet. Hay tres tipos de almacenamiento disponibles en la plataforma Azure: almacenamiento de blobs, almacenamiento de colas y almacenamiento de tablas.
+    p.mb-5 La figura 2 describe el concepto de la plataforma Azure. Cualquier aplicación de tipo on-premise construida en una organización podría también aprovechar los servicios proporcionados por Azure a través de Internet. Sin embargo, para alojar y ejecutar aplicaciones desde la plataforma en la nube de Azure, las aplicaciones deben ser desarrolladas utilizando el .NET <em>Framework</em>. Tanto las aplicaciones de Azure como las locales pueden acceder al servicio de almacenamiento de Azure utilizando un enfoque de transferencia de estado representativo (RESTful) El almacenamiento en la nube ya no se basa en el modelo relacional para cumplir con los requisitos de escalabilidad de Internet. Hay tres tipos de almacenamiento disponibles en la plataforma Azure: almacenamiento de blobs, almacenamiento de colas y almacenamiento de tablas.
     
     .titulo-sexto.color-acento-contenido(data-aos="fade-right").mb-4
       h5 Figura 2.
@@ -589,10 +589,10 @@
           ul.lista-ul--color
             li 
               i.fas.fa-check-circle
-              p.m-0 Consola de desarrolladores de Google (http:// console.developers.google.com), que proporciona una interfaz de usuario (UI) basada en la web con formularios HTML para la creación y la configuración de instancias.
+              p.m-0 Consola de desarrolladores de Google (http:// console.developers.google.com), que proporciona una interfaz de usuario (UI) basada en la <em>web</em> con formularios HTML para la creación y la configuración de instancias.
             li 
               i.fas.fa-check-circle
-              p.m-0 Gcloud compute, una interfaz de línea de comandos que puede utilizarse de forma interactiva o en scripts para una automatización sencilla, y la 
+              p.m-0 Gcloud compute, una interfaz de línea de comandos que puede utilizarse de forma interactiva o en <em>scripts</em> para una automatización sencilla.
             li 
               i.fas.fa-check-circle
               p.m-0 API de Compute Engine, una API RESTful para la integración en su propio código y en aplicaciones de gestión de la nube.
@@ -652,7 +652,7 @@
     
     h4.border_b1 Los servicios de AWS
 
-    p El hardware para la computación, el almacenamiento y las redes es la base de la nube de AWS. AWS ejecuta servicios de software sobre el hardware para proporcionar la nube (Ver figura 6).  Una interfaz web, la API, actúa como una interfaz entre los servicios de AWS y sus aplicaciones. Se puede gestionar los servicios enviando peticiones a la API manualmente a través de una GUI o programando los eventos a través de un SDK. Para ello, se puede utilizar una herramienta como la consola de administración, una interfaz de usuario basada en la web o una herramienta de línea de comandos.
+    p El <em>hardware</em> para la computación, el almacenamiento y las redes es la base de la nube de AWS. AWS ejecuta servicios de <em>software</em> sobre el <em>hardware</em> para proporcionar la nube (Ver figura 6).  Una interfaz <em>web</em>, la API, actúa como una interfaz entre los servicios de AWS y sus aplicaciones. Se puede gestionar los servicios enviando peticiones a la API manualmente a través de una GUI o programando los eventos a través de un SDK. Para ello, se puede utilizar una herramienta como la consola de administración, una interfaz de usuario basada en la web o una herramienta de línea de comandos.
     
     .titulo-sexto.color-acento-contenido(data-aos="fade-right").mb-4
       h5 Figura 6.
@@ -665,7 +665,7 @@
             img.img-t.m-auto(src='@/assets/curso/tema1/img68.svg', alt='')    
     figcaption.mb-5 <b>Nota.</b> Tomada de <em>Amazon web services in action</em> (p. 16), por M. Wittig & A. Wittig, 2018, Manning.
 
-    p Los servidores virtuales tienen una peculiaridad: se puede hacer la conexión a los servidores virtuales a través de SSH, por ejemplo, y obtener acceso de administrador. Esto significa que se puede instalar el software que quiera en un servidor virtual. Otros servicios, como el servicio de base de datos NoSQL, ofrecen sus características a través de una API y ocultan todo lo que ocurre entre bastidores. La Figura 7 muestra un administrador instalando una aplicación web PHP personalizada en un servidor virtual y gestionando servicios dependientes como una base de datos NoSQL utilizada por la aplicación web PHP.
+    p Los servidores virtuales tienen una peculiaridad: se puede hacer la conexión a los servidores virtuales a través de SSH, por ejemplo, y obtener acceso de administrador. Esto significa que se puede instalar el <em>software</em> que quiera en un servidor virtual. Otros servicios, como el servicio de base de datos NoSQL, ofrecen sus características a través de una API y ocultan todo lo que ocurre entre bastidores. La Figura 7 muestra un administrador instalando una aplicación web PHP personalizada en un servidor virtual y gestionando servicios dependientes como una base de datos NoSQL utilizada por la aplicación web PHP.
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-right").mb-4
       h5 Figura 7.
@@ -843,7 +843,7 @@
           figure(data-aos="fade-down-right")
             img.img-t.m-auto(src='@/assets/curso/tema1/img73.png', alt='')
 
-    p.mb-5 La virtualización en computación suele referirse a la abstracción de algún componente físico en un objeto lógico. Al virtualizar un objeto, se puede obtener una mayor utilidad del recurso que proporciona el objeto. Por ejemplo, las LAN (redes de área local) virtuales, o VLAN, proporcionan un mayor rendimiento de la red y una mejor capacidad de gestión al estar separadas del hardware físico. Del mismo modo, las redes de área de almacenamiento (SAN) proporcionan una mayor flexibilidad, una mejor disponibilidad y un uso más eficiente de los recursos de almacenamiento al abstraer los dispositivos físicos en objetos lógicos que pueden manipularse rápida y fácilmente. Sin embargo, el análisis se centrará en la virtualización de ordenadores completos.
+    p.mb-5 La virtualización en computación suele referirse a la abstracción de algún componente físico en un objeto lógico. Al virtualizar un objeto, se puede obtener una mayor utilidad del recurso que proporciona el objeto. Por ejemplo, las LAN (redes de área local) virtuales, o VLAN, proporcionan un mayor rendimiento de la red y una mejor capacidad de gestión al estar separadas del <em>hardware</em> físico. Del mismo modo, las redes de área de almacenamiento (SAN) proporcionan una mayor flexibilidad, una mejor disponibilidad y un uso más eficiente de los recursos de almacenamiento al abstraer los dispositivos físicos en objetos lógicos que pueden manipularse rápida y fácilmente. Sin embargo, el análisis se centrará en la virtualización de ordenadores completos.
                 
     .bg_12-1.mb-5
       .row
@@ -863,9 +863,9 @@
         .bg_34.p-4.pt-5
           .row.justify-content-center
             .col-lg-8
-              p La primera virtualización generalizada se realizó en los mainframes de IBM en los años 60, pero fueron Gerald Popek y Robert Goldberg quienes en 1974 codificaron el marco que describe los requisitos para que un sistema computacional soporte la virtualización. Su artículo  Formal requirements for virtualizable third generation architectures describe las funciones y propiedades de las máquinas virtuales y de los monitores de máquinas virtuales que se siguen utilizando en la actualidad (Popek & Goldberg, 1974). 
+              p La primera virtualización generalizada se realizó en los <em>mainframes</em> de IBM en los años 60, pero fueron <em>Gerald Popek y Robert Goldberg</em> quienes en 1974 codificaron el marco que describe los requisitos para que un sistema computacional soporte la virtualización. Su artículo  Formal <em>requirements for virtualizable third generation architectures</em> describe las funciones y propiedades de las máquinas virtuales y de los monitores de máquinas virtuales que se siguen utilizando en la actualidad (Popek & Goldberg, 1974). 
 
-    p Por su definición, una máquina virtual (VM) puede virtualizar todos los recursos de hardware, incluidos los procesadores, la memoria, el almacenamiento y la conectividad de red. Un monitor de máquina virtual (VMM), que hoy en día se denomina comúnmente hipervisor, es el software que proporciona el entorno en el que operan las VM. La siguiente figura ilustra de forma sencilla un VMM.
+    p Por su definición, una máquina virtual (VM) puede virtualizar todos los recursos de <em>hardware</em>, incluidos los procesadores, la memoria, el almacenamiento y la conectividad de red. Un monitor de máquina virtual (VMM), que hoy en día se denomina comúnmente hipervisor, es el <em>software</em> que proporciona el entorno en el que operan las VM. La siguiente figura ilustra de forma sencilla un VMM.
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-right").mb-4
       h5 Figura 9.
@@ -890,7 +890,7 @@
                   figure
                     img(src='@/assets/curso/tema1/img78.svg', alt='')
               h4 Fidelidad
-              p El entorno que se crea para la VM es esencialmente idéntico al de la máquina física original (hardware).
+              p El entorno que se crea para la VM es esencialmente idéntico al de la máquina física original (<em>hardware</em>).
 
           .col-sm-6.col-lg-4.mb-4.mb-sm-0(data-aos="fade-right")        
             .tarjeta--boton.color-acento-contenido.p-4
@@ -920,8 +920,8 @@
           figure.mb-5(data-aos="fade-down-right")
             img.img-t.m-auto(src='@/assets/curso/tema1/img81.png', alt='')
         .col-lg-8
-          p Aquí es donde se unen las dos historias. Hubo una explosión salvaje de centros de datos repletos de servidores; pero con el paso del tiempo, en una combinación del efecto de la Ley de Moore y el modelo "un servidor, una aplicación", esos servidores hicieron cada vez menos trabajo. Afortunadamente, la ayuda llegó en forma de virtualización. La idea y la ejecución de la virtualización no eran nuevas, ya funcionaba en los mainframes de IBM a principios de los años 70, pero se actualizó para los sistemas informáticos modernos. 
-          p Siguiendo la definición de Popek y Goldberg (1974), la virtualización permite que muchos sistemas operativos se ejecuten en el mismo hardware de servidor al mismo tiempo, manteniendo cada máquina virtual funcionalmente aislada de todas las demás. Así, la primera solución comercialmente disponible para proporcionar virtualización para ordenadores x86 vino de la mano de VMware en 2001.  Y dos años después, llegó una oferta paralela de código abierto llamada Xen. Estas soluciones (VMMs, o hipervisores) tomaron la forma de una capa de software que vivía entre un sistema operativo y las máquinas virtuales (VMs) o se instalaba directamente en el hardware, al igual que un sistema operativo tradicional como Windows o Linux.
+          p Aquí es donde se unen las dos historias. Hubo una explosión salvaje de centros de datos repletos de servidores; pero con el paso del tiempo, en una combinación del efecto de la Ley de Moore y el modelo "un servidor, una aplicación", esos servidores hicieron cada vez menos trabajo. Afortunadamente, la ayuda llegó en forma de virtualización. La idea y la ejecución de la virtualización no eran nuevas, ya funcionaba en los <em>mainframes</em> de IBM a principios de los años 70, pero se actualizó para los sistemas informáticos modernos. 
+          p Siguiendo la definición de <em>Popek y Goldberg</em> (1974), la virtualización permite que muchos sistemas operativos se ejecuten en el mismo <em>hardware</em> de servidor al mismo tiempo, manteniendo cada máquina virtual funcionalmente aislada de todas las demás. Así, la primera solución comercialmente disponible para proporcionar virtualización para ordenadores x86 vino de la mano de VMware en 2001.  Y dos años después, llegó una oferta paralela de código abierto llamada Xen. Estas soluciones (VMMs, o hipervisores) tomaron la forma de una capa de <em>software</em> que vivía entre un sistema operativo y las máquinas virtuales (VMs) o se instalaba directamente en el <em>hardware</em>, al igual que un sistema operativo tradicional como Windows o Linux.
 
     p.mb-5 Lo que la virtualización aportó a esos centros de datos sobrecargados y a los servidores infrautilizados fue la capacidad de condensar varios servidores físicos en un servidor que ejecutará muchas máquinas virtuales, lo que permitiría que ese servidor físico funcionará a una tasa de utilización mucho mayor. Esta condensación de servidores se denomina consolidación (Ver figura 10). Una medida de la consolidación se denomina ratio de consolidación y se calcula contando el número de máquinas virtuales en un servidor; por ejemplo, un servidor que tiene ocho máquinas virtuales funcionando en él tiene una ratio de consolidación de 8:1. La consolidación fue una bendición para los asediados centros de datos y los gestores de operaciones porque resolvió una serie de problemas cruciales justo cuando se había alcanzado un umbral crítico. Incluso un modesto ratio de consolidación de 4:1 podría eliminar tres cuartas partes de los servidores de un centro de datos.
 
@@ -949,11 +949,11 @@
               figure(data-aos="fade-down-right")
                 img.img-t.m-auto(src='@/assets/curso/tema1/img85.svg', alt='')
         .col-lg-10(data-aos="fade-right")
-          p En los centros de datos más grandes, donde se alojaban cientos o incluso miles de servidores, la virtualización proporciona una forma de retirar gran parte de los servidores lo que redujo el espacio total de un centro de datos y los requisitos de energía y refrigeración, además de eliminar la necesidad de construir centros de datos adicionales. Por extensión, con menos servidores, menos costos de mantenimiento del hardware menos tiempo de los administradores de sistemas dedicado a la realización de muchas otras tareas rutinarias.
+          p En los centros de datos más grandes, donde se alojaban cientos o incluso miles de servidores, la virtualización proporciona una forma de retirar gran parte de los servidores lo que redujo el espacio total de un centro de datos y los requisitos de energía y refrigeración, además de eliminar la necesidad de construir centros de datos adicionales. Por extensión, con menos servidores, menos costos de mantenimiento del <em>hardware</em> menos tiempo de los administradores de sistemas dedicado a la realización de muchas otras tareas rutinarias.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
-        p Además de la consolidación, se produjo un segundo avance. A medida que las empresas empezaron a ver las ventajas de la virtualización, dejaron de comprar nuevos equipos cuando terminaban sus contratos de alquiler o, si eran propietarios de estos, cuando caducaron sus licencias de mantenimiento de hardware. En su lugar, virtualización esas cargas de trabajo del servidor, lo que se conoce como contención. La contención benefició a las empresas de múltiples maneras: ya no tenían que renovar grandes cantidades de hardware año tras año y todos los costos de gestión y mantenimiento de esos servidores (energía, refrigeración, etc.) se eliminaban.  
+        p Además de la consolidación, se produjo un segundo avance. A medida que las empresas empezaron a ver las ventajas de la virtualización, dejaron de comprar nuevos equipos cuando terminaban sus contratos de alquiler o, si eran propietarios de estos, cuando caducaron sus licencias de mantenimiento de <em>hardware</em>. En su lugar, virtualización esas cargas de trabajo del servidor, lo que se conoce como contención. La contención benefició a las empresas de múltiples maneras: ya no tenían que renovar grandes cantidades de <em>hardware</em> año tras año y todos los costos de gestión y mantenimiento de esos servidores (energía, refrigeración, etc.) se eliminaban.  
         p Hasta el momento en que la virtualización se hizo comercialmente viable, la Ley de Moore iba en contra del modelo existente de aplicación/servidor/centro de datos; después de que se hizo factible, en realidad ayudó. Los ratios de consolidación de la primera generación de hipervisores x86 eran del orden de 5:1. Con el paso del tiempo, los chips más potentes y la memoria más grande permitieron ratios de consolidación mucho más altos, en los que un solo servidor físico podía albergar docenas o cientos de máquinas virtuales. En lugar de eliminar tres de cada cuatro servidores, la virtualización actual puede eliminar cómodamente nueve de cada diez; o con servidores suficientemente configurados, noventa y nueve de cada cien. Como resultado, la mayoría de los centros de datos corporativos han recuperado gran parte del espacio que habían perdido antes de la virtualización.
       .col-lg-4
         figure(data-aos="fade-down-right")
@@ -975,7 +975,7 @@
           .col-11.col-lg-6.mb-4.mb-lg-0.align-self-center
             div
               h4 Virtualización de escritorios
-              p Alternativa para la computación de escritorios que para las empresas resulta costosa e ineficiente (requiere personal para actualizaciones de software, soporte de hardware, asistencia técnica).   
+              p Alternativa para la computación de escritorios que para las empresas resulta costosa e ineficiente (requiere personal para actualizaciones de <em>software</em>, soporte de <em>hardware</em>, asistencia técnica).   
               p Los escritorios virtuales se ejecutan en servidores del centro de datos al igual que las aplicaciones a las que se conectan los usuarios, lo que reduce enormemente el tráfico de red y amplía los recursos.  En cuanto a la seguridad, máquinas virtuales específicamente diseñadas que residen en cada host, protegen todos los escritorios virtuales que allí se ejecutan.   
           .col-11.col-lg-5.mt-0.mt-md-4
             figure

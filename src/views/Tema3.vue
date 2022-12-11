@@ -153,7 +153,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8(data-aos="fade-right")
         p La debilidad más común en la seguridad de las aplicaciones es no validar adecuadamente la entrada procedente de un usuario o del entorno en el que se ejecuta la aplicación antes de utilizarla. Al no escudriñar la entrada en su aplicación, se puede desencadenar un comportamiento inesperado de la aplicación al forzarla a ejecutar fragmentos de un lenguaje de scripting o reenviar comandos sensibles del sistema.
-        p Las aplicaciones ICS pueden sufrir este tipo de vulnerabilidades tanto como cualquier otro software. Los programas HMI personalizados, la lógica de los controladores y las utilidades caseras a menudo no tienen en cuenta la validación de las entradas y son los principales candidatos a los ataques. Además, los dispositivos ICS a menudo vienen con páginas web integradas para fines de diagnóstico que se ejecutan en servidores web mal implementados con todo tipo de vulnerabilidades propias. Estos servidores web a menudo ejecutan aplicaciones web que utilizan una pobre validación de entrada, preparándose para ataques de inyección SQL, XSS y desbordamiento de búfer.
+        p Las aplicaciones ICS pueden sufrir este tipo de vulnerabilidades tanto como cualquier otro <em>software</em>. Los programas HMI personalizados, la lógica de los controladores y las utilidades caseras a menudo no tienen en cuenta la validación de las entradas y son los principales candidatos a los ataques. Además, los dispositivos ICS a menudo vienen con páginas web integradas para fines de diagnóstico que se ejecutan en servidores web mal implementados con todo tipo de vulnerabilidades propias. Estos servidores web a menudo ejecutan aplicaciones web que utilizan una pobre validación de entrada, preparándose para ataques de inyección SQL, XSS y desbordamiento de búfer.
       .col-lg-4(data-aos="fade-left")
         figure
           img.img-t.m-auto(src='@/assets/curso/tema3/img19.svg', alt='')
@@ -205,9 +205,9 @@
           figure.mb-4(data-aos="fade-down-right")
             img.img-t.m-auto(src='@/assets/curso/tema3/img22.png', alt='')
         .col-lg-8(data-aos="fade-left")
-          p La manipulación del software consiste en realizar modificaciones en el código de la aplicación antes o durante su ejecución. Al cambiar el código de una aplicación en la memoria o en el disco duro, se pueden eludir los controles de protección. Estas modificaciones pueden, por ejemplo, permitir al atacante eludir los mecanismos de autenticación o eludir las restricciones de licencia. Además, el firmware de un dispositivo puede ser alterado para permitir a un atacante el acceso por la puerta trasera al funcionamiento interno de un dispositivo. Con este tipo de acceso, el atacante puede buscar más vulnerabilidades en áreas del firmware que normalmente no son accesibles. Como ejemplo, en 2015 la empresa de seguridad ICS, CyberX, utilizó esta técnica para modificar el código del servidor web del firmware de un PLC Micrologix 1100 de Rockwell Automation para darles acceso al funcionamiento interno del PLC. Este acceso, a su vez, les permitió descubrir la vulnerabilidad FrostyURL.        
+          p La manipulación del <em>software</em> consiste en realizar modificaciones en el código de la aplicación antes o durante su ejecución. Al cambiar el código de una aplicación en la memoria o en el disco duro, se pueden eludir los controles de protección. Estas modificaciones pueden, por ejemplo, permitir al atacante eludir los mecanismos de autenticación o eludir las restricciones de licencia. Además, el <em>firmware</em> de un dispositivo puede ser alterado para permitir a un atacante el acceso por la puerta trasera al funcionamiento interno de un dispositivo. Con este tipo de acceso, el atacante puede buscar más vulnerabilidades en áreas del <em>firmware</em> que normalmente no son accesibles. Como ejemplo, en 2015 la empresa de seguridad ICS, CyberX, utilizó esta técnica para modificar el código del servidor web del <em>firmware de un PLC Micrologix 1100 de Rockwell Automation</em> para darles acceso al funcionamiento interno del PLC. Este acceso, a su vez, les permitió descubrir la vulnerabilidad <em>FrostyURL</em>.        
 
-    p.text-bold Los ataques más comunes asociados a las vulnerabilidades de manipulación de software son:
+    p.text-bold Los ataques más comunes asociados a las vulnerabilidades de manipulación de <em>software</em> son:
 
     .row.justify-content-center
       .col-lg-12
@@ -224,7 +224,7 @@
               img.img85.mx-auto(src='@/assets/curso/tema3/img25.svg' alt='AvatarTop')
               .tarjeta.color-primario
                 .p-4
-                  p.text-center Explotación mediante parches binarios, sustitución de código o extensión de código Crackeo de licencias de software.
+                  p.text-center Explotación mediante parches binarios, sustitución de código o extensión de código Crackeo de licencias de <em>software</em>.
         
           .col-lg-3.col-md-6.mb-4.mb-lg-0(data-aos="fade-left")
             .tarjeta-avatar
@@ -233,7 +233,7 @@
                 .p-4
                   p.text-center Troyanización de aplicaciones.
 
-    p.mb-4 Siempre se debe obtener el software de fuentes fiables. Si se descarga software pirata, se obtienen las actualizaciones de lugares aleatorios o se utilizan medios de instalación que se han pasado, se está exponiendo a ataques de software "troyanizado" o a un firmware manipulado. Siempre que sea posible, sus dispositivos de automatización deberían permitirle ejecutar imágenes de firmware firmadas criptográficamente. Esto implica que el dispositivo tenga la capacidad de verificar la integridad y validez del firmware antes de arrancarlo. Para evitar que su software sea manipulado, siga estas recomendaciones de buenas prácticas:
+    p.mb-4 Siempre se debe obtener el <em>software</em> de fuentes fiables. Si se descarga <em>software</em> pirata, se obtienen las actualizaciones de lugares aleatorios o se utilizan medios de instalación que se han pasado, se está exponiendo a ataques de <em>software</em> "troyanizado" o a un <em>firmware</em> manipulado. Siempre que sea posible, sus dispositivos de automatización deberían permitirle ejecutar imágenes de <em>firmware</em> firmadas criptográficamente. Esto implica que el dispositivo tenga la capacidad de verificar la integridad y validez del <em>firmware</em> antes de arrancarlo. Para evitar que su <em>software</em> sea manipulado, siga estas recomendaciones de buenas prácticas:
     
     .row
       .col-lg-10
@@ -394,7 +394,7 @@
           ul.lista-ul--color
             li 
               i.fas.fa-check-circle
-              p.m-0 Defectos en el software del servidor o configuraciones erróneas que permiten el listado de directorios y los ataques de cruce de directorios.
+              p.m-0 Defectos en el <em>software</em> del servidor o configuraciones erróneas que permiten el listado de directorios y los ataques de cruce de directorios.
             li 
               i.fas.fa-check-circle
               p.m-0 Archivos innecesarios por defecto, de copia de seguridad o de muestra, incluyendo scripts, aplicaciones, archivos de configuración y páginas web.
@@ -514,7 +514,7 @@
         figure(data-aos="fade-down-right")
             img.img-t.m-auto(src='@/assets/curso/tema3/img45.svg', alt='')
       .col-lg-8(data-aos="fade-left")
-        p Entonces, ¿cómo descubrir si alguna de estas vulnerabilidades está presente en las aplicaciones desplegadas en una red ICS? La respuesta es probando todas las aplicaciones instaladas en busca de vulnerabilidades. Se hace hincapié en todas las aplicaciones instaladas porque primero hay que conocer todas las aplicaciones que se están ejecutando en la red ICS. Aquí es donde los procedimientos de gestión de activos ayudarán. No se puede asegurar aquello que no se sabe que se tiene. Mantener una lista de activos actualizada con información que incluya versiones de software, niveles de parches y revisiones de firmware debería ser la mayor prioridad.
+        p Entonces, ¿cómo descubrir si alguna de estas vulnerabilidades está presente en las aplicaciones desplegadas en una red ICS? La respuesta es probando todas las aplicaciones instaladas en busca de vulnerabilidades. Se hace hincapié en todas las aplicaciones instaladas porque primero hay que conocer todas las aplicaciones que se están ejecutando en la red ICS. Aquí es donde los procedimientos de gestión de activos ayudarán. No se puede asegurar aquello que no se sabe que se tiene. Mantener una lista de activos actualizada con información que incluya versiones de <em>software</em>, niveles de parches y revisiones de <em>firmware</em> debería ser la mayor prioridad.
         p Una lista precisa de activos permite comparar la revisión y los niveles de parches de cada aplicación en la red ICS contra una lista de vulnerabilidades conocidas para la aplicación. Este proceso se puede hacer manualmente o con la ayuda de una herramienta automatizada como el escáner de vulnerabilidad Nessus.
 
     .bg_38

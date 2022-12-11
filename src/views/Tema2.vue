@@ -12,7 +12,7 @@
         figure
           img.img-t.mx-auto(src='@/assets/curso/tema2/img01.png', alt='')
       .col-lg-8(data-aos="fade-left")
-        p El debido cuidado profesional en materia de ciberseguridad implica la realización de todas las prácticas razonables necesarias para cumplir un estándar mínimo de diligencia que garantice un rendimiento fiable de la seguridad a largo plazo. Si estas prácticas se llevan a cabo de forma adecuada, se puede decir que la organización ha cumplido con sus obligaciones legales y éticas de protección de la información (Kohnke, Shoemaker & Sigler, 2016)
+        p El debido cuidado profesional en materia de ciberseguridad implica la realización de todas las prácticas razonables necesarias para cumplir un estándar mínimo de diligencia que garantice un rendimiento fiable de la seguridad a largo plazo. Si estas prácticas se llevan a cabo de forma adecuada, se puede decir que la organización ha cumplido con sus obligaciones legales y éticas de protección de la información (Kohnke, Shoemaker & Sigler, 2016).
         p En la práctica, la norma de atención adoptada debe incorporar todos los elementos conocidos necesarios para hacer frente a las amenazas e incidentes probables.  Y dado que las consecuencias prácticas del fracaso son reales y pueden ser drásticas, la ignorancia de lo que hay que hacer no es una defensa contra la responsabilidad.  De todos modos, es mucho esperar que los profesionales de la ciberseguridad conozcan y sean capaces de satisfacer los requisitos de la debida atención profesional.  Por lo tanto, sería útil disponer de un modelo general de buenas prácticas de ciberseguridad para ayudar a esa comprensión.  Idealmente, este modelo debería ser universal en su aplicación y comúnmente aceptado como correcto dentro de la comunidad de profesionales.
 
     p Las recomendaciones del modelo deben incorporar todas las mejores prácticas actualmente conocidas para garantizar la confidencialidad, la integridad y la disponibilidad de la información. Además, estas recomendaciones deben expresarse de forma que permitan a un profesional competente desarrollar un conjunto concreto de contramedidas para proteger la información que tiene a su cargo.
@@ -60,7 +60,7 @@
               p.m-0 Seguridad informática
             li 
               i.fas.fa-check-circle
-              p.m-0 Seguridad en el desarrollo y mantenimiento del software
+              p.m-0 Seguridad en el desarrollo y mantenimiento del <em>software</em>
             li 
               i.fas.fa-check-circle
               p.m-0 Adquisición

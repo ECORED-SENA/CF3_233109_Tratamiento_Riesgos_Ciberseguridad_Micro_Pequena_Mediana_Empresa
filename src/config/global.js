@@ -95,7 +95,7 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Endurecimiento del servicio',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -334,7 +334,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Mayra Alejandra Alvarez',
         cargo: 'Validación de contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
