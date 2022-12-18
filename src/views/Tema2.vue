@@ -218,8 +218,8 @@
     p El campo de la ciberseguridad abarca las medidas adecuadas para garantizar que los datos electrónicos se mantengan a salvo de accesos no autorizados o de daños. Los procesos, las tecnologías y las prácticas en el campo de la ciberseguridad se desarrollan al servicio de este propósito. Un conjunto eficaz de controles de ciberseguridad debe:
 
     .row.justify-content-center.mb-2.mb-lg-5
-      .col-lg-12(data-aos="fade-down")
-        SlyderF.mb-5(columnas="col-lg-6 col-xl-4").color_i-1
+      .col-xxl-12.col-lg-10.col-md-12(data-aos="fade-down")
+        SlyderF.mb-5(columnas="col-md-6 col-lg-6 col-xl-4").color_i-1
           .tarjeta-avatar
             img.img85.mx-auto(src='@/assets/curso/tema2/img16.svg' alt='AvatarTop')        
             .tarjeta.color-acento-contenido

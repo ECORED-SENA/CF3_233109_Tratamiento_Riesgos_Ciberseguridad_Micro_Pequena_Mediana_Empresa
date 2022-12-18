@@ -25,7 +25,7 @@ export default {
       },
       {
         clases: ['banner-principal-decorativo-5'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-5.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-5.png'),
       },
     ],
   },

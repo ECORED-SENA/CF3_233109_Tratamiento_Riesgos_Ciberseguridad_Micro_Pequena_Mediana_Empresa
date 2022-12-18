@@ -29,38 +29,38 @@
     p.text-bold.mb-5 Existen cinco tipos principales de endurecimiento del sistema:
 
     .row.mb-4
-      .col-lg-12
-        .row.align-items-center.hover1
-          .col-12.col-md-6.col-lg-2.mb-4.mb-lg-0(data-aos="fade-right")       
+      .col-lg-12.col-md-12.col-7
+        .row.justify-content-xs-center.align-items-center.hover1
+          .col-12.col-md-4.col-lg-2.mb-4.mb-lg-0(data-aos="fade-right")       
             .tarjeta--boton.color-acento-botones.p-4.m_left
-              .row.mb-5
+              .row.justify-content-xs-center.mb-5
                 .col-auto
                   figure
                     img(src='@/assets/curso/tema3/img03.svg', alt='')              
               p Endurecimiento de servidores.
 
-          .col-12.col-md-6.col-lg-2.mb-4.mb-lg-0(data-aos="fade-right")        
+          .col-12.col-md-4.col-lg-2.mb-4.mb-lg-0(data-aos="fade-right")        
             .tarjeta--boton.color-acento-botones.p-4.m_left1
               .row.mb-5
                 .col-auto
                   figure
                     img(src='@/assets/curso/tema3/img04.svg', alt='')              
               p Endurecimiento de aplicaciones de <em>software.</em> 
-          .col-12.col-md-6.col-lg-2.mb-4.mb-lg-0(data-aos="fade-left")        
+          .col-12.col-md-4.col-lg-2.mb-4.mb-lg-0(data-aos="fade-left")        
             .tarjeta--boton.color-acento-botones.p-4.m_left2
               .row.mb-5
                 .col-auto
                   figure
                     img(src='@/assets/curso/tema3/img05.svg', alt='')              
               p Endurecimiento del sistema operativo.
-          .col-12.col-md-6.col-lg-2.mb-4.mb-lg-0(data-aos="fade-right")        
+          .col-12.col-md-4.col-lg-2.mb-4.mb-lg-0(data-aos="fade-right")        
             .tarjeta--boton.color-acento-botones.p-4.m_left3
               .row.mb-5
                 .col-auto
                   figure
                     img(src='@/assets/curso/tema3/img06.svg', alt='')              
               p Endurecimiento de la base de datos.
-          .col-12.col-md-6.col-lg-2.mb-4.mb-lg-0(data-aos="fade-left")        
+          .col-12.col-md-4.col-lg-2.mb-4.mb-lg-0(data-aos="fade-left")        
             .tarjeta--boton.color-acento-botones.p-4.m_left4
               .row.mb-5
                 .col-auto
@@ -86,16 +86,16 @@
 
     p Hay muchas tareas que se pueden realizar como parte del proceso de endurecimiento sistemático. Por lo general, todas ellas de gran envergadura, como por ejemplo, el endurecimiento de los routers y switches o la implementación de DMZ (Zonas desmilitarizadas) y dispositivos de red perimetral. Estas tareas llevan tiempo, a veces meses, desde la fase inicial de planificación y diseño hasta la implementación. Y aunque todas son necesarias, se debería realizar seis tareas, en particular, antes de hacer cualquier otra cosa en su red, tome nota: 
 
-    .row.align-items-center.mb-5(data-aos="fade-right")
-      .col-lg-4.col-md-6.col-12.mb-4.mb-lg-0
+    .row.align-items-stretch.mb-0.mb-lg-4(data-aos="fade-right")
+      .col-lg-4.col-md-6.col-12.mb-4
         .bg_41.p-4
-          .row.justify-content-center.mb-5
+          .row.justify-content-center
             .col-lg-10.mb-4.mb-lg-5
               figure
                 img.img-t.m-auto(src='@/assets/curso/tema3/img12.svg', alt='')
             p.text-bold.m-0 Revisar el diseño de la red
             p El primer paso para reforzar la red es comprenderla: cómo están interconectados los dispositivos, cómo fluyen los datos en la empresa. 
-      .col-lg-4.col-md-6.col-12.mb-4.mb-lg-0
+      .col-lg-4.col-md-6.col-12.mb-4
         .bg_41.p-4
           .row.justify-content-center
             .col-lg-10.mb-4.mb-lg-5
@@ -103,25 +103,24 @@
                 img.img-t.m-auto(src='@/assets/curso/tema3/img13.svg', alt='')
             p.text-bold.m-0 Implantar un cortafuego
             p Tiene el mayor impacto de cualquier tarea que se pueda realizar para endurecer la infraestructura de red porque permite definir un perímetro.
-      .col-lg-4.col-md-6.col-12.mb-4.mb-lg-0
+      .col-lg-4.col-md-6.col-12.mb-4
         .bg_41.p-4
-          .row.justify-content-center.mb-5
+          .row.justify-content-center
             .col-lg-10.mb-4.mb-lg-5
               figure
                 img.img-t.m-auto(src='@/assets/curso/tema3/img14.svg', alt='')
             p.text-bold.m-0 Implementar listas de control de acceso (ACL)
             p Se debería restringir y controlar todo el tráfico que entra y sale de la red al exterior y entre los segmentos de la red interna. Si no hay justificación comercial para el tráfico, hay que bloquearlo.  Filtrar el tráfico con ACL en los cortafuegos y routers tanto internos como externos.
 
-    .row.align-items-center(data-aos="fade-left")
-      .col-lg-4.col-md-6.col-12.mb-4.mb-lg-0
+      .col-lg-4.col-md-6.col-12.mb-4
         .bg_41.p-4
-          .row.justify-content-center.mb-5
+          .row.justify-content-center
             .col-lg-10.mb-4.mb-lg-5
               figure
                 img.img-t.m-auto(src='@/assets/curso/tema3/img15.svg', alt='')
             p.text-bold.m-0 Desactivar funciones y servicios innecesarios
             p Aunque tradicionalmente se trata del ámbito de los servidores y las aplicaciones, los servicios innecesarios también afectan a los dispositivos de la infraestructura de red. Si no hay una razón para ejecutar un servicio concreto en el equipo de red, no hay que hacerlo.
-      .col-lg-4.col-md-6.col-12.mb-4.mb-lg-0
+      .col-lg-4.col-md-6.col-12.mb-4
         .bg_41.p-4.p-md-3.p-lg-4
           .row.justify-content-center
             .col-lg-10.mb-4.mb-lg-5
@@ -129,9 +128,9 @@
                 img.img-t.m-auto(src='@/assets/curso/tema3/img16.svg', alt='')
             p.text-bold.m-0 Implementar la protección contra virus
             p Los gusanos y virus actuales provocan a menudo ataques de denegación de servicio distribuido (DDoS) contra los routers y los conmutadores.  La forma más fácil de protegerse es con protección antivirus que incluya dispositivos de entrada y pasarelas SMTP, para evitar los virus y gusanos basados en el correo electrónico.
-      .col-lg-4.col-md-6.col-12.mb-4.mb-lg-0
+      .col-lg-4.col-md-6.col-12.mb-4
         .bg_41.p-4.p-md-3.p-lg-4
-          .row.justify-content-center.mb-5
+          .row.justify-content-center
             .col-lg-10.mb-4.mb-lg-5
               figure
                 img.img-t.m-auto(src='@/assets/curso/tema3/img17.svg', alt='')
@@ -160,37 +159,37 @@
 
     p.text-bold.mb-5 Los ataques más comunes asociados a las vulnerabilidades de validación de entrada son:
 
-    SlyderF.mb-5(columnas="col-lg-3 col-xl-4").color_i-1(data-aos="fade-right")       
+    SlyderF.mb-5(columnas="col-md-6 col-lg-6 col-xl-4").color_i-1(data-aos="fade-right")       
       .tarjeta-avatar-b.m_tarslyder2
         .tarjeta-avatar-b__img
           img(src='@/assets/curso/tema3/img20.svg' alt='AvatarTop')
         .tarjeta.tarjeta--azul
-          .p-4
+          .p-4.py-5
             p.m-0.text-center Desbordamiento del búfer.        
       .tarjeta-avatar-b.m_tarslyder2
         .tarjeta-avatar-b__img
           img(src='@/assets/curso/tema3/img20.svg' alt='AvatarTop')
         .tarjeta.tarjeta--azul
           .p-4
-            p.m-0.text-center Secuencia de comandos en sitios cruzados.        
+            p.mt-2.text-center.flex-center-text Secuencia de comandos en sitios cruzados.        
       .tarjeta-avatar-b.m_tarslyder2
         .tarjeta-avatar-b__img
           img(src='@/assets/curso/tema3/img20.svg' alt='AvatarTop')
         .tarjeta.tarjeta--azul
-          .p-4
+          .p-4.py-5
             p.m-0.text-center Inyección de código.        
       .tarjeta-avatar-b.m_tarslyder2
         .tarjeta-avatar-b__img
           img(src='@/assets/curso/tema3/img20.svg' alt='AvatarTop')
         .tarjeta.tarjeta--azul
-          .p-4
+          .p-4.py-5
             p.m-0.text-center Inyección SQL.        
       .tarjeta-avatar-b.m_tarslyder2
         .tarjeta-avatar-b__img
           img(src='@/assets/curso/tema3/img20.svg' alt='AvatarTop')
         .tarjeta.tarjeta--azul
           .p-4
-            p.m-0.text-center Canonización de comandos del sistema operativo.
+            p.mt-2.text-center.flex-center-text Canonización de comandos del sistema operativo.
 
     p Nunca hay que confiar en los datos externos, investigue las técnicas de validación de entrada adecuadas para su aplicación y haga que las pruebas de validación de entrada formen parte de su proceso de desarrollo de aplicaciones.
 
@@ -199,7 +198,7 @@
         .bg_43.p-4
           h3.ms-4.text-white Manipulación del <em>software</em>
 
-    .bg_14.mb-4
+    .bg_14.mb-5.mb-lg-4
       .row.justify-content-center.align-items-center
         .col-lg-4
           figure.mb-4(data-aos="fade-down-right")
@@ -212,21 +211,21 @@
     .row.justify-content-center
       .col-lg-12
         .row.justify-content-center.mb-5.m_tar-avatar2
-          .col-lg-3.col-md-6.mb-4.mb-lg-0(data-aos="fade-right")
+          .col-xxl-3.col-xl-3.col-lg-4.col-md-6.mb-2.mb-xxl-0(data-aos="fade-right")
             .tarjeta-avatar
               img.img85.mx-auto(src='@/assets/curso/tema3/img24.svg' alt='AvatarTop')
               .tarjeta.color-primario
                 .p-4
                   p.text-center Modificación del comportamiento en tiempo de ejecución de una aplicación para realizar acciones no autorizadas.
   
-          .col-lg-3.col-md-6.mb-4.mb-lg-0(data-aos="fade-up")
+          .col-xxl-3.col-xl-3.col-lg-4.col-md-6.mb-2.mb-xxl-0(data-aos="fade-up")
             .tarjeta-avatar
               img.img85.mx-auto(src='@/assets/curso/tema3/img25.svg' alt='AvatarTop')
               .tarjeta.color-primario
                 .p-4
                   p.text-center Explotación mediante parches binarios, sustitución de código o extensión de código Crackeo de licencias de <em>software</em>.
         
-          .col-lg-3.col-md-6.mb-4.mb-lg-0(data-aos="fade-left")
+          .col-xxl-3.col-xl-3.col-lg-4.col-md-6.mb-2.mb-xxl-0(data-aos="fade-left")
             .tarjeta-avatar
               img.img85.mx-auto(src='@/assets/curso/tema3/img26.svg' alt='AvatarTop')
               .tarjeta.color-primario
@@ -244,8 +243,8 @@
           .col-lg-8
             .bg_34-1.p-4.ps-5
               .row.justify-content-center
-                .col-lg-9
-                  ul.lista-ul--color.ms-0.ms-lg-5
+                .col-xxl-9.col-xl-9.col-lg-9
+                  ul.lista-ul--color.ms-0.ms-xxl-5.ms-xl-5.ms-lg-5.ps-lg-3.ps-xl-0
                     li 
                       i.fas.fa-check-circle
                       p.m-0 Ejecute siempre cualquier aplicación como usuario restringido en un entorno restringido. 
@@ -257,7 +256,7 @@
                       p.m-0 Descargue siempre los instaladores de <em>software</em> y las imágenes de <em>firmware</em> del sitio web del proveedor.  Restrinja el acceso al ordenador o dispositivo que ejecuta el <em>software</em> o <em>firmware</em> en la medida de lo posible, impidiendo  acceso a puertos periféricos, como USB y <em>Firmware</em>, a los puertos de diagnóstico y depuración, y acceso físico al ordenador o dispositivo.
 
     .row.mb-2.mb-lg-4(data-aos="fade-right")
-      .col-lg-5
+      .col-lg-6
         .bg_44.p-4
           h3.ms-4.text-white Vulnerabilidades de autenticación
 
@@ -322,37 +321,39 @@
           p.mb-4 La autorización es el concepto de permitir el acceso a los recursos sólo a aquellos que están autorizados a utilizarlos. Es el proceso que viene después de una autenticación exitosa, por lo que el usuario, en este punto, tendrá credenciales válidas asociadas a un conjunto bien definido de roles y privilegios. Las vulnerabilidades de esta categoría implican la verificación de los roles y privilegios. Al usuario se le permite más acceso a la aplicación o al sistema de lo necesario para realizar la tarea.
           p.text-bold.d-none.d-lg-block Los ataques más comunes asociados a las vulnerabilidades de autorización son:
     
-    .row.justify-content-center.align-items-center.mb-5.d-none.d-lg-block
-      .col-12.col-lg-12
-        .row.justify-content-lg-center.align-items-center.mb-5(data-aos="fade-left")
-          .col-auto.hover3
-            .tarjeta--boton.color-primario.p-4
-              figure.flex-center-text
-                img(src='@/assets/curso/tema3/img47.svg', alt='')
-          .col-lg-2.hover4
-            .tarjeta--boton.color-secundario.color3.p-4
-              p.flex-center-text Elevación de privilegios. 
-          .col-auto.hover3
-            .tarjeta--boton.color-primario.p-4.hover3
-              figure.flex-center-text
-                img(src='@/assets/curso/tema3/img47.svg', alt='')
-          .col-lg-2.hover4
-            .tarjeta--boton.color-secundario.color3.p-3
-              p.flex-center-text Divulgación de datos confidenciales. 
-          .col-auto.hover3
-            .tarjeta--boton.color-primario.p-4.hover3
-              figure.flex-center-text
-                img(src='@/assets/curso/tema3/img47.svg', alt='')
-          .col-lg-2.hover4
-            .tarjeta--boton.color-secundario.color3.p-4
-              p.flex-center-text Manipulación de datos.
-          .col-auto.hover3
-            .tarjeta--boton.color-primario.p-4.hover3
-              figure.flex-center-text
-                img(src='@/assets/curso/tema3/img47.svg', alt='')
-          .col-lg-2.hover4
-            .tarjeta--boton.color-secundario.color3.p-4
-              p.flex-center-text Ataques de seducción.      
+    .row.justify-content-center.align-items-center.mb-4
+      .col-xxl-3.col-lg-6.col-md-6.col-12.mb-4.mb-lg-0.mb-lg-4
+        .row.g-0.tarjeta1
+          .col-auto.tarjeta1__img.p-3
+            figure
+              img.img_1(src='@/assets/curso/tema3/img47.svg', alt='')
+              img.img_2(src='@/assets/curso/tema3/img47-1.svg', alt='')
+          .col.tarjeta1__contenido.p-3.d-flex.align-items-center
+            p.m-0 Elevación de privilegios. 
+      .col-xxl-3.col-lg-6.col-md-6.col-12.mb-4.mb-lg-0.mb-lg-4
+        .row.g-0.tarjeta1
+          .col-auto.tarjeta1__img.p-3
+            figure
+              img.img_1(src='@/assets/curso/tema3/img47.svg', alt='')
+              img.img_2(src='@/assets/curso/tema3/img47-1.svg', alt='')
+          .col.tarjeta1__contenido.p-3.d-flex.align-items-center
+            p.m-0 Divulgación de datos confidenciales.
+      .col-xxl-3.col-lg-6.col-md-6.col-12.mb-4.mb-lg-0.mb-lg-4
+        .row.g-0.tarjeta1
+          .col-auto.tarjeta1__img.p-3
+            figure
+              img.img_1(src='@/assets/curso/tema3/img47.svg', alt='')
+              img.img_2(src='@/assets/curso/tema3/img47-1.svg', alt='')
+          .col.tarjeta1__contenido.p-3.d-flex.align-items-center
+            p.m-0 Manipulación de datos.
+      .col-xxl-3.col-lg-6.col-md-6.col-12.mb-4.mb-lg-0.mb-lg-4
+        .row.g-0.tarjeta1
+          .col-auto.tarjeta1__img.p-3
+            figure
+              img.img_1(src='@/assets/curso/tema3/img47.svg', alt='')
+              img.img_2(src='@/assets/curso/tema3/img47-1.svg', alt='')
+          .col.tarjeta1__contenido.p-3.d-flex.align-items-center
+            p.m-0 Ataques de seducción.  
 
     .row
       .col-lg-10
@@ -363,9 +364,9 @@
           .col-lg-8
             .bg_34-1.p-4.ps-5
               .row.justify-content-center
-                .col-lg-9
-                  p.text-bold.ms-0.ms-lg-5 Ante este tipo de vulnerabilidad, tenga en cuenta:
-                  ul.lista-ul--color.ms-0.ms-lg-5
+                .col-xxl-9.col-xl-9.col-lg-8
+                  p.text-bold.ms-0.ms-xxl-5.ms-lg-5.ps-lg-3.ps-xl-0 Ante este tipo de vulnerabilidad, tenga en cuenta:
+                  ul.lista-ul--color.ms-0.ms-xxl-5.ms-xl-5.ms-lg-5.ps-lg-3.ps-xl-0
                     li 
                       i.fas.fa-check-circle
                       |	Utilizar privilegios y funciones granulares para los usuarios.

@@ -54,55 +54,55 @@
     p.text-bold.mb-5 Al instalar una red ICS accesible de forma remota ya no son eficientes sólo las defensas físicas contra los intrusos, lo que hace necesaria una estrategia defensiva que incluya entre otros los siguientes aspectos:
 
     .row.justify-content-center.align-items-center(data-aos="fade-left")
-      .col-lg-12.col-md-6
-        SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-          .tarjeta.bg_02.p-4.p-lg-2
-            .row.justify-content-lg-center.align-items-center
-              .col-auto.mb-3.mb-lg-4
+      .col-xxl-12.col-lg-12.col-md-12
+        SlyderF.mb-5(columnas="col-md-6 col-lg-6 col-xl-4")
+          .tarjeta.bg_02.p-4
+            .row.justify-content-center.align-items-center
+              .col-lg-4.col-md-6.col-4.mb-3.mb-lg-4
                 figure
-                  img.img-t.mx-auto.mt-0.mt-lg-4(src='@/assets/curso/tema1/img05.svg')
-              .col-lg-8
-                p.me-0.me-md-5.me-lg-3.mt-0.mt-lg-4 Protección contra personas no autorizadas que utilicen acceso remoto.
+                  img.img-t.mt-0.mt-lg-4(src='@/assets/curso/tema1/img05.svg')
+              .col-lg-8.col-md-12.col-11
+                p.m-0 Protección contra personas no autorizadas que utilicen acceso remoto.
           
-          .tarjeta.bg_02.p-4.p-lg-2
-            .row.justify-content-lg-center.align-items-center
-              .col-auto.mb-3.mb-lg-4
+          .tarjeta.bg_02.p-4
+            .row.justify-content-center.align-items-center
+              .col-lg-4.col-md-6.col-4.mb-3.mb-lg-4
                 figure
-                  img.img-t.mx-auto.mt-0.mt-lg-4(src='@/assets/curso/tema1/img06.svg')
-              .col-lg-8
-                p.me-0.me-md-5.me-lg-3.mt-0.mt-lg-4 Restricción de acceso a usuarios autorizados mientras interactúan física o remotamente con los sistemas ICS.
+                  img.img-t.mt-0.mt-lg-4(src='@/assets/curso/tema1/img06.svg')
+              .col-lg-8.col-md-12.col-10
+                p.m-0 Restricción de acceso a usuarios autorizados mientras interactúan física o remotamente con los sistemas ICS.
           
-          .tarjeta.bg_02.p-4.p-lg-2
-            .row.justify-content-lg-center.align-items-center
-              .col-auto.mb-3.mb-lg-4
+          .tarjeta.bg_02.p-4
+            .row.justify-content-center.align-items-center
+              .col-lg-4.col-md-6.col-4.mb-3.mb-lg-4
                 figure
-                  img.img-t.m-auto.mt-0.mt-lg-4(src='@/assets/curso/tema1/img07.svg')
-              .col-lg-8
-                p.me-0.me-md-5.me-lg-3 Trato adecuado para usuarios e invitados de la red.
+                  img.img-t.mt-0.mt-lg-4(src='@/assets/curso/tema1/img07.svg')
+              .col-lg-8.col-md-12.col-11
+                p.m-0 Trato adecuado para usuarios e invitados de la red.
           
-          .tarjeta.bg_02.p-4.p-lg-2
-            .row.justify-content-lg-center.align-items-center
-              .col-auto.mb-3.mb-lg-4
+          .tarjeta.bg_02.p-4
+            .row.justify-content-center.align-items-center
+              .col-lg-4.col-md-6.col-4.mb-3.mb-lg-4
                 figure
-                  img.img-t.m-auto.mt-0.mt-lg-4(src='@/assets/curso/tema1/img08.svg')
-              .col-lg-8
-                p.me-0.me-md-5.me-lg-3.mt-0.mt-lg-4 Protección de los datos en tránsito o almacenados en discos ante posible robo o manipulación.            
+                  img.img-t.mt-0.mt-lg-4(src='@/assets/curso/tema1/img08.svg')
+              .col-lg-8.col-md-12.col-11
+                p.m-0 Protección de los datos en tránsito o almacenados en discos ante posible robo o manipulación.            
           
-          .tarjeta.bg_02.p-4.p-lg-2
-            .row.justify-content-lg-center.align-items-center
-              .col-auto.mb-3.mb-lg-4
+          .tarjeta.bg_02.p-4.p-lg-3
+            .row.justify-content-center.align-items-center
+              .col-lg-4.col-md-6.col-4.mb-3.mb-lg-4
                 figure
-                  img.img-t.m-auto.mt-0.mt-lg-4(src='@/assets/curso/tema1/img09.svg')
-              .col-lg-8
-                p.me-0.me-md-5.me-lg-3 Defensa del sistema contra el tiempo de inactividad de la producción por manipulación de equipos ICS o ataques a la red. 
+                  img.img-t.mt-0.mt-lg-4(src='@/assets/curso/tema1/img09.svg')
+              .col-lg-8.col-md-12.col-11
+                p.m-0 Defensa del sistema contra el tiempo de inactividad de la producción por manipulación de equipos ICS o ataques a la red. 
           
-          .tarjeta.bg_02.p-4.p-lg-2
-            .row.justify-content-lg-center.align-items-center
-              .col-auto.mb-3.mb-lg-4
+          .tarjeta.bg_02.p-4.p-lg-3
+            .row.justify-content-center.align-items-center
+              .col-lg-4.col-md-6.col-4.mb-3.mb-lg-4
                 figure
-                  img.img-t.m-auto.mt-0.mt-lg-4(src='@/assets/curso/tema1/img10.svg')
-              .col-lg-8
-                p.me-0.me-md-5.me-lg-3 Protección ante riesgos de seguridad por manipulación o cambios que provoquen comportamiento inesperado en equipos y procesos. 
+                  img.img-t.mt-0.mt-lg-4(src='@/assets/curso/tema1/img10.svg')
+              .col-lg-8.col-md-12.col-11
+                p.m-0 Protección ante riesgos de seguridad por manipulación o cambios que provoquen comportamiento inesperado en equipos y procesos. 
                     
     p.mb-5 La forma adecuada de abordar todas las preocupaciones relacionadas con la seguridad y la defensa de un ICS es mediante la implementación de una estrategia de defensa en profundidad. A continuación, las capas a tener en cuenta para la elaboración de estrategias pertinentes:
 
@@ -175,14 +175,14 @@
           .row.align-items-center
             .col-auto
               img.img-t.m-auto(src='@/assets/curso/tema1/img21.svg', alt='')
-            .col-lg-9.col-md-8.col-8
+            .col-xxl-9.col-lg-8.col-md-9.col-8
               p.m-0 La provisión de puntos de control del tráfico de red en lugares estratégicos de la arquitectura de red, que faciliten la captura efectiva de paquetes, utilizada por herramientas de seguridad como los sistemas de detección de intrusiones (IDS) .
       .col-lg-6(data-aos="fade-left")
         .bg_06.p-2.py-3
           .row.align-items-center
             .col-auto
               img.img-t.m-auto(src='@/assets/curso/tema1/img22.svg', alt='')
-            .col-lg-9.col-md-8.col-8
+            .col-xxl-9.col-lg-8.col-md-9.col-8
               p.m-0 El diseño de una segmentación de la red que permita confinar y detectar los incidentes de seguridad y mantener las interrupciones, como las tormentas de difusión de paquetes, dentro de la zona, protegiendo la red en general.
 
     p Al dedicar un poco más de tiempo por adelantado, diseñando adecuadamente los cimientos de la red ICS, el trabajo de asegurar la red se vuelve más fácil en general. 
@@ -193,7 +193,7 @@
           h3.ms-4.text-white Segmentación de la red 
 
     .row.mb-2.mb-lg-5
-      .col-lg-6(data-aos="fade-right")
+      .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img.img-t.m-auto(src='@/assets/curso/tema1/img25.svg')
       .col-lg-6(data-aos="fade-left")
@@ -317,7 +317,7 @@
       p.mb-5 La definición de lo que entra en una Zona de Área Celular depende del objetivo de los esfuerzos de seguridad para toda la red ICS, pudiendo establecerse por:
 
       .row.justify-content-center.mb-4.mb-lg-5
-        .col-lg-10
+        .col-xxl-10.col-lg-12
           .row.justify-content-center.align-items-center
             .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
               .tarjeta.bg_03.p-4
@@ -346,7 +346,7 @@
         .bg_11.p-4
           h3.ms-4.text-white Seguridad de computación
 
-    .row.justify-content-center
+    .row.justify-content-center.mb-4.mb-lg-0
       .col-lg-8(data-aos="fade-right")
         p La seguridad de la computación consiste en evitar la infiltración en los sistemas computacionales (estaciones de trabajo, servidores, computadores portátiles, etc.). Esto se consigue aplicando estrategias de parcheo, realizando ejercicios de endurecimiento de los sistemas informáticos e instalando aplicaciones y soluciones de seguridad como antivirus, protección de puntos finales y <em>software</em> de detección/prevención de intrusiones en los <em>hosts</em> (HIDS / HIPS).
         p Los controles de seguridad de computación también incluyen la restricción o la prevención del acceso a los puertos de comunicación no utilizados de los dispositivos informáticos, como el bloqueo del acceso a los puertos USB y <em>FireWire</em> mediante bloqueadores de puertos físicos (o <em>hot glue</em>) así como la aplicación de una política de dispositivos con una solución de protección de puntos finales como <em>Symantec Endpoint Protection</em> (SCP) Mantener los sistemas de computación libres de vulnerabilidades mediante la actualización y la aplicación de parches es también una forma de seguridad informática. 
@@ -460,27 +460,27 @@
         .bg_16.p-4
           h3.ms-4.text-white Azure
 
-    p.mb-5 Azure es un nuevo sistema en la nube de Microsoft que permite que las aplicaciones se ejecuten desde un sistema conectado de forma remota, alojado en un centro de datos de Microsoft, y que almacene los datos en la nube. La plataforma consta de tres partes:
+    p.mb-4.mb-lg-5 Azure es un nuevo sistema en la nube de Microsoft que permite que las aplicaciones se ejecuten desde un sistema conectado de forma remota, alojado en un centro de datos de Microsoft, y que almacene los datos en la nube. La plataforma consta de tres partes:
 
     .row.justify-content-center.mb-5
-      .col-lg-9
+      .col-xxl-9.col-xl-11.col-lg-12
         div
           .row.justify-content-center
-            .col-lg-4.col-md-6.col-lg.mb-lg-0.d-flex.justify-content-center(data-aos="fade-right")
+            .col-xxl-4.col-xl-4.col-lg-4.col-md-6.d-flex.justify-content-center(data-aos="fade-right")
               .tarjeta-avatar
                 img.img85.mx-auto(src='@/assets/curso/tema1/img44.svg' alt='AvatarTop')        
                 .tarjeta.color-primario
                   .p-4
                     p.text-center <b>Tiempo de ejecución de desarrollo:</b> simula el tiempo de ejecución permitiendo probar, depurar y ajustar la aplicación en un entorno de desarrollo local antes de desplegarla en la nube.
 
-            .col-lg-4.col-md-6.col-lg.mb-lg-0.d-flex.justify-content-center(data-aos="fade-up")
+            .col-xxl-4.col-xl-4.col-lg-4.col-md-6.d-flex.justify-content-center(data-aos="fade-up")
               .tarjeta-avatar
                 img.img85.mx-auto(src='@/assets/curso/tema1/img45.svg' alt='AvatarTop')
                 .tarjeta.color-primario
                   .p-4        
                     p.text-center <b>Tiempo de ejecución:</b> incluye la estructura, el servicio de almacenamiento y el sistema operativo de Windows Azure.
 
-            .col-lg-4.col-md-6.col-lg.mb-lg-0.d-flex.justify-content-center(data-aos="fade-left")
+            .col-xxl-4.col-xl-4.col-lg-4.col-md-6.d-flex.justify-content-center(data-aos="fade-left")
               .tarjeta-avatar
                 img.img85.mx-auto(src='@/assets/curso/tema1/img46.svg' alt='AvatarTop')
                 .tarjeta.color-primario
@@ -516,39 +516,39 @@
     TabsA.color-acento-contenido.mb-5(data-aos="fade-left")
       .tarjeta.color-acento-botones--borde.p-4(titulo="Monitorizar el estado de la aplicación")
         .row.align-items-center
-          .col-xl-9.mb-4
+          .col-xxl-9.col-lg-8.mb-4
             h4 Monitorizar el estado de la aplicación
-            p Cada aplicación de Azure tiene un propietario que controla algunos aspectos de la aplicación cambiando la configuración para gobernar la seguridad y la escalabilidad (número de instancias) La estructura Azure supervisa el estado de la configuración de la aplicación para satisfacer las solicitudes de las aplicaciones en tiempo de ejecución.
-          .col-xl-2
+            p.m_right Cada aplicación de Azure tiene un propietario que controla algunos aspectos de la aplicación cambiando la configuración para gobernar la seguridad y la escalabilidad (número de instancias) La estructura Azure supervisa el estado de la configuración de la aplicación para satisfacer las solicitudes de las aplicaciones en tiempo de ejecución.
+          .col-xxl-2.col-lg-4
             figure
               img.img-t.m-auto(src='@/assets/curso/tema1/img53.svg', alt='Texto que describa la imagen')
 
         
       .tarjeta.color-acento-botones--borde.p-4(titulo="Garantizar el rendimiento de las aplicaciones")
         .row.align-items-center
-          .col-xl-9.mb-4
+          .col-xxl-9.col-lg-8.mb-4
             h4 Garantizar el rendimiento de las aplicaciones
             p Una aplicación en la nube se ejecuta en una máquina virtual (VM). Azure mantiene relación de uno a uno entre la VM y un núcleo de procesador físico. Si una aplicación solicita aumentar el número de instancias, la red asignará nuevos recursos de VM desde la nube a los núcleos.          
-          .col-xl-2
+          .col-xxl-2.col-lg-4
             figure
               img.img-t.m-auto(src='@/assets/curso/tema1/img54.svg', alt='Texto que describa la imagen')
             
       .tarjeta.color-acento-botones--borde.p-4(titulo="Gestión de la conmutación por error")
         .row.align-items-center
-          .col-xl-9.mb-4
+          .col-xxl-9.col-lg-8.mb-4
             h4 Gestión de la conmutación por error
             p La estructura supervisa el estado de ejecución de la aplicación. Cuando una instancia falla, el tejido iniciará una nueva instancia desde un nuevo recurso VM.
-          .col-xl-2
+          .col-xxl-2.col-lg-4
             figure
               img.img-t.m-auto(src='@/assets/curso/tema1/img55.svg', alt='Texto que describa la imagen')
 
         
       .tarjeta.color-acento-botones--borde.p-4(titulo="Registro y seguimiento")
         .row.align-items-center
-          .col-xl-9.mb-4
+          .col-xxl-9.col-lg-8.mb-4
             h4 Registro y seguimiento
             p Cuando una aplicación se ha desplegado en la nube, la única forma de registrar la información en tiempo de ejecución y enviar alertas o notificaciones al propietario de la aplicación es a través del tejido.            
-          .col-xl-2
+          .col-xxl-2.col-lg-4
             figure
               img.img-t.m-auto(src='@/assets/curso/tema1/img52.svg', alt='Texto que describa la imagen')
 
@@ -860,9 +860,9 @@
         figure
           img.img-t.m-auto.img_position(src='@/assets/curso/tema1/img75.svg')
       .col-lg-8
-        .bg_34.p-4.pt-5
+        .bg_34.p-4.pt-xxl-5
           .row.justify-content-center
-            .col-lg-8
+            .col-xxl-8.col-lg-7
               p La primera virtualización generalizada se realizó en los <em>mainframes</em> de IBM en los años 60, pero fueron <em>Gerald Popek y Robert Goldberg</em> quienes en 1974 codificaron el marco que describe los requisitos para que un sistema computacional soporte la virtualización. Su artículo  Formal <em>requirements for virtualizable third generation architectures</em> describe las funciones y propiedades de las máquinas virtuales y de los monitores de máquinas virtuales que se siguen utilizando en la actualidad (Popek & Goldberg, 1974). 
 
     p Por su definición, una máquina virtual (VM) puede virtualizar todos los recursos de <em>hardware</em>, incluidos los procesadores, la memoria, el almacenamiento y la conectividad de red. Un monitor de máquina virtual (VMM), que hoy en día se denomina comúnmente hipervisor, es el <em>software</em> que proporciona el entorno en el que operan las VM. La siguiente figura ilustra de forma sencilla un VMM.
