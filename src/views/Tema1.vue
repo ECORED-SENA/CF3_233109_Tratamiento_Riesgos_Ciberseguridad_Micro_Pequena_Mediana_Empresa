@@ -8,9 +8,9 @@
       h1(data-aos="fade-right") Defensa en profundidad
 
     p(data-aos="fade-right") Ninguna solución única puede proteger realmente contra todos los vectores de ataque y tapar todos los agujeros de seguridad de un sistema. Aplicando un modelo de defensa en profundidad y estratificando las medidas de protección, las brechas en la seguridad de una capa pueden cerrarse con controles en otra capa, creando una postura de seguridad integral. 
-    p.text-bold.mb-5.mb-lg-0 La superposición de medidas de protección en un sistema informático es muy parecida a la forma en que, en la Edad Media, se alzaban las medidas de seguridad en un castillo, observe con atención: 
+    p.text-bold.mb-5 La superposición de medidas de protección en un sistema informático es muy parecida a la forma en que, en la Edad Media, se alzaban las medidas de seguridad en un castillo, observe con atención: 
 
-    .bg_01.p-5.mb-5.mb-lg-0(data-aos="fade-down-right") 
+    .bg_01.p-5.mb-5(data-aos="fade-down-right") 
       .row.justify-content-center.mb-4
         .col-lg-8
           ImagenInfografica.color-acento-botones
@@ -149,7 +149,7 @@
         .bg_04.p-4
           h3.ms-4.text-white Seguridad física 
 
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-4.mb-5(data-aos="fade-right")
         figure
           img.img-t.m-auto(src='@/assets/curso/tema1/img18.svg')
@@ -169,17 +169,18 @@
         figure
           img.img-t.m-auto(src='@/assets/curso/tema1/img20.png')
 
-    .row.align-items-center.mb-3.mb-lg-4
+    .row.justify-content-center.mb-3.mb-lg-4
       .col-lg-6(data-aos="fade-right").mb-4.mb-lg-0
-        .bg_06.p-2.py-3
-          .row.align-items-center
+        .bg_06.p-2.py-3.hg-100
+          .row.align-items-center.hg-100
             .col-auto
               img.img-t.m-auto(src='@/assets/curso/tema1/img21.svg', alt='')
             .col-xxl-9.col-lg-8.col-md-9.col-8
-              p.m-0 La provisión de puntos de control del tráfico de red en lugares estratégicos de la arquitectura de red, que faciliten la captura efectiva de paquetes, utilizada por herramientas de seguridad como los sistemas de detección de intrusiones (IDS) .
+              p.m-0 La provisión de puntos de control del tráfico de red en lugares estratégicos de la arquitectura de red, que faciliten la captura efectiva de paquetes, utilizada por herramientas de seguridad como los sistemas de detección de intrusiones (IDS).
+              
       .col-lg-6(data-aos="fade-left")
-        .bg_06.p-2.py-3
-          .row.align-items-center
+        .bg_06.p-2.py-3.hg-100
+          .row.align-items-center.hg-100
             .col-auto
               img.img-t.m-auto(src='@/assets/curso/tema1/img22.svg', alt='')
             .col-xxl-9.col-lg-8.col-md-9.col-8
@@ -341,7 +342,7 @@
     p.mt-4.mt-lg-0 El modelo de zonas de seguridad de la red utiliza el concepto de confianza como base de su funcionamiento. A cada zona se le asigna un nivel de confianza. La confianza aumenta desde la zona exterior hasta la interior, que alberga los activos y datos de producción más críticos de la empresa. Sólo se permite la comunicación entre los sistemas de las zonas adyacentes y no se permite saltarse las zonas. Se colocan controles de seguridad entre cada zona, como cortafuegos de inspección de estado, sistemas de prevención y detección de intrusiones y sólidos controles de acceso. Los controles de seguridad implementados dentro de una zona permiten la detección de actividades maliciosas entre los sistemas de una zona.
     p.mb-5 La direccionalidad del tráfico también se puede tener en cuenta a la hora de definir las reglas de comunicación entre zonas. Por ejemplo, se podría permitir que el tráfico HTTPS entre la Zona Empresarial y la Zona Industrial sólo se origine en los clientes de la Zona Empresarial.
 
-    .row.mb-4(data-aos="fade-right")
+    .row(data-aos="fade-right")
       .col-lg-5
         .bg_11.p-4
           h3.ms-4.text-white Seguridad de computación
@@ -856,13 +857,13 @@
           p Si todavía no está familiarizado con la idea de la virtualización computacional, es posible que sus primeros pensamientos sean los de la realidad virtual, la tecnología que, mediante el uso de sofisticadas proyecciones visuales y retroalimentación sensorial, puede dar a una persona la experiencia de estar realmente en ese entorno creado. En un nivel fundamental, esto es exactamente lo que es la virtualización computacional: es cómo una aplicación computacional experimenta su entorno creado.
 
     .row.justify-content-center.mb-5(data-aos="fade-down-right")
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0
         figure
-          img.img-t.m-auto.img_position(src='@/assets/curso/tema1/img75.svg')
+          img(src='@/assets/curso/tema1/img75.svg')
       .col-lg-8
         .bg_34.p-4.pt-xxl-5
           .row.justify-content-center
-            .col-xxl-8.col-lg-7
+            .col.pe-5
               p La primera virtualización generalizada se realizó en los <em>mainframes</em> de IBM en los años 60, pero fueron <em>Gerald Popek y Robert Goldberg</em> quienes en 1974 codificaron el marco que describe los requisitos para que un sistema computacional soporte la virtualización. Su artículo  Formal <em>requirements for virtualizable third generation architectures</em> describe las funciones y propiedades de las máquinas virtuales y de los monitores de máquinas virtuales que se siguen utilizando en la actualidad (Popek & Goldberg, 1974). 
 
     p Por su definición, una máquina virtual (VM) puede virtualizar todos los recursos de <em>hardware</em>, incluidos los procesadores, la memoria, el almacenamiento y la conectividad de red. Un monitor de máquina virtual (VMM), que hoy en día se denomina comúnmente hipervisor, es el <em>software</em> que proporciona el entorno en el que operan las VM. La siguiente figura ilustra de forma sencilla un VMM.
@@ -882,7 +883,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-9
-        .row.mb-3.mb-lg-5
+        .row.justify-content-center.mb-3.mb-lg-5
           .col-sm-6.col-lg-4.mb-4(data-aos="fade-right")       
             .tarjeta--boton.color-acento-contenido.p-4
               .row.mb-5

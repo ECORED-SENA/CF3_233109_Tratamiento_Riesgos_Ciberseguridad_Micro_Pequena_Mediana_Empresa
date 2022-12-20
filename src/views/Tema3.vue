@@ -27,46 +27,44 @@
           p Pero en esencia, el endurecimiento del sistema es un método para proteger un sistema contra los ataques perpetrados por los ciberdelincuentes. Consiste en asegurar el <em>software</em> de un sistema de cómputo, principalmente, pero también su <em>firmware</em>, redes y otros elementos del sistema para reducir las vulnerabilidades y un posible compromiso de todo el sistema.
 
     p.text-bold.mb-5 Existen cinco tipos principales de endurecimiento del sistema:
+    
+    .row.justify-content-center.hover1.mb-5
+      .col-xl-2.col-lg-4.col-md-6.col-10.mb-4.mb-xl-0(data-aos="flip-left")      
+        .tarjeta--boton.color-acento-botones.p-4.hg-100 
+          .row.justify-content-center.mb-5
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema3/img03.svg', alt='')              
+          p Endurecimiento de servidores.
 
-    .row.mb-4
-      .col-lg-12.col-md-12.col-7
-        .row.justify-content-xs-center.align-items-center.hover1
-          .col-12.col-md-4.col-lg-2.mb-4.mb-lg-0(data-aos="fade-right")       
-            .tarjeta--boton.color-acento-botones.p-4.m_left
-              .row.justify-content-xs-center.mb-5
-                .col-auto
-                  figure
-                    img(src='@/assets/curso/tema3/img03.svg', alt='')              
-              p Endurecimiento de servidores.
-
-          .col-12.col-md-4.col-lg-2.mb-4.mb-lg-0(data-aos="fade-right")        
-            .tarjeta--boton.color-acento-botones.p-4.m_left1
-              .row.mb-5
-                .col-auto
-                  figure
-                    img(src='@/assets/curso/tema3/img04.svg', alt='')              
-              p Endurecimiento de aplicaciones de <em>software.</em> 
-          .col-12.col-md-4.col-lg-2.mb-4.mb-lg-0(data-aos="fade-left")        
-            .tarjeta--boton.color-acento-botones.p-4.m_left2
-              .row.mb-5
-                .col-auto
-                  figure
-                    img(src='@/assets/curso/tema3/img05.svg', alt='')              
-              p Endurecimiento del sistema operativo.
-          .col-12.col-md-4.col-lg-2.mb-4.mb-lg-0(data-aos="fade-right")        
-            .tarjeta--boton.color-acento-botones.p-4.m_left3
-              .row.mb-5
-                .col-auto
-                  figure
-                    img(src='@/assets/curso/tema3/img06.svg', alt='')              
-              p Endurecimiento de la base de datos.
-          .col-12.col-md-4.col-lg-2.mb-4.mb-lg-0(data-aos="fade-left")        
-            .tarjeta--boton.color-acento-botones.p-4.m_left4
-              .row.mb-5
-                .col-auto
-                  figure
-                    img(src='@/assets/curso/tema3/img07.svg', alt='')              
-              p Endurecimiento de la red.
+      .col-xl-2.col-lg-4.col-md-6.col-10.mb-4.mb-xl-0(data-aos="flip-left")      
+        .tarjeta--boton.color-acento-botones.p-4.hg-100 
+          .row.mb-5
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema3/img04.svg', alt='')              
+          p Endurecimiento de aplicaciones de <em>software.</em> 
+      .col-xl-2.col-lg-4.col-md-6.col-10.mb-4.mb-xl-0(data-aos="flip-left")       
+        .tarjeta--boton.color-acento-botones.p-4.hg-100 
+          .row.mb-5
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema3/img05.svg', alt='')              
+          p Endurecimiento del sistema operativo.
+      .col-xl-2.col-lg-4.col-md-6.col-10.mb-4.mb-xl-0(data-aos="flip-left")       
+        .tarjeta--boton.color-acento-botones.p-4.hg-100 
+          .row.mb-5
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema3/img06.svg', alt='')              
+          p Endurecimiento de la base de datos.
+      .col-xl-2.col-lg-4.col-md-6.col-10.mb-4.mb-xl-0(data-aos="flip-left")    
+        .tarjeta--boton.color-acento-botones.p-4.hg-100 
+          .row.mb-5
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema3/img07.svg', alt='')              
+          p Endurecimiento de la red.
 
     p Es importante tener en cuenta que los tipos de endurecimiento del sistema son lo suficientemente amplios como para ser universales y traducirse bien a través de diferentes configuraciones de servidores y sistemas computacionales; sin embargo, los métodos y herramientas utilizados para lograr prácticamente un estado endurecido o seguro por diseño varían ampliamente.              
 
@@ -207,30 +205,28 @@
           p La manipulación del <em>software</em> consiste en realizar modificaciones en el código de la aplicación antes o durante su ejecución. Al cambiar el código de una aplicación en la memoria o en el disco duro, se pueden eludir los controles de protección. Estas modificaciones pueden, por ejemplo, permitir al atacante eludir los mecanismos de autenticación o eludir las restricciones de licencia. Además, el <em>firmware</em> de un dispositivo puede ser alterado para permitir a un atacante el acceso por la puerta trasera al funcionamiento interno de un dispositivo. Con este tipo de acceso, el atacante puede buscar más vulnerabilidades en áreas del <em>firmware</em> que normalmente no son accesibles. Como ejemplo, en 2015 la empresa de seguridad ICS, CyberX, utilizó esta técnica para modificar el código del servidor web del <em>firmware de un PLC Micrologix 1100 de Rockwell Automation</em> para darles acceso al funcionamiento interno del PLC. Este acceso, a su vez, les permitió descubrir la vulnerabilidad <em>FrostyURL</em>.        
 
     p.text-bold Los ataques más comunes asociados a las vulnerabilidades de manipulación de <em>software</em> son:
+    
+    .row.justify-content-center.mb-5.m_tar-avatar2
+      .col-lg-4.col-10(data-aos="fade-right")
+        .tarjeta-avatar
+          img.img85.mx-auto(src='@/assets/curso/tema3/img24.svg' alt='AvatarTop')
+          .tarjeta.color-primario
+            .p-4
+              p.text-center Modificación del comportamiento en tiempo de ejecución de una aplicación para realizar acciones no autorizadas.
 
-    .row.justify-content-center
-      .col-lg-12
-        .row.justify-content-center.mb-5.m_tar-avatar2
-          .col-xxl-3.col-xl-3.col-lg-4.col-md-6.mb-2.mb-xxl-0(data-aos="fade-right")
-            .tarjeta-avatar
-              img.img85.mx-auto(src='@/assets/curso/tema3/img24.svg' alt='AvatarTop')
-              .tarjeta.color-primario
-                .p-4
-                  p.text-center Modificación del comportamiento en tiempo de ejecución de una aplicación para realizar acciones no autorizadas.
-  
-          .col-xxl-3.col-xl-3.col-lg-4.col-md-6.mb-2.mb-xxl-0(data-aos="fade-up")
-            .tarjeta-avatar
-              img.img85.mx-auto(src='@/assets/curso/tema3/img25.svg' alt='AvatarTop')
-              .tarjeta.color-primario
-                .p-4
-                  p.text-center Explotación mediante parches binarios, sustitución de código o extensión de código Crackeo de licencias de <em>software</em>.
-        
-          .col-xxl-3.col-xl-3.col-lg-4.col-md-6.mb-2.mb-xxl-0(data-aos="fade-left")
-            .tarjeta-avatar
-              img.img85.mx-auto(src='@/assets/curso/tema3/img26.svg' alt='AvatarTop')
-              .tarjeta.color-primario
-                .p-4
-                  p.text-center Troyanización de aplicaciones.
+      .col-lg-4.col-10(data-aos="fade-up")
+        .tarjeta-avatar
+          img.img85.mx-auto(src='@/assets/curso/tema3/img25.svg' alt='AvatarTop')
+          .tarjeta.color-primario
+            .p-4
+              p.text-center Explotación mediante parches binarios, sustitución de código o extensión de código Crackeo de licencias de <em>software</em>.
+    
+      .col-lg-4.col-10(data-aos="fade-left")
+        .tarjeta-avatar
+          img.img85.mx-auto(src='@/assets/curso/tema3/img26.svg' alt='AvatarTop')
+          .tarjeta.color-primario
+            .p-4
+              p.text-center Troyanización de aplicaciones.
 
     p.mb-4 Siempre se debe obtener el <em>software</em> de fuentes fiables. Si se descarga <em>software</em> pirata, se obtienen las actualizaciones de lugares aleatorios o se utilizan medios de instalación que se han pasado, se está exponiendo a ataques de <em>software</em> "troyanizado" o a un <em>firmware</em> manipulado. Siempre que sea posible, sus dispositivos de automatización deberían permitirle ejecutar imágenes de <em>firmware</em> firmadas criptográficamente. Esto implica que el dispositivo tenga la capacidad de verificar la integridad y validez del <em>firmware</em> antes de arrancarlo. Para evitar que su <em>software</em> sea manipulado, siga estas recomendaciones de buenas prácticas:
     
@@ -271,37 +267,36 @@
 
     p.text-bold.mb-5 Los ataques más comunes asociados a las vulnerabilidades de autenticación son los siguientes:
 
-    .row.justify-content-center
-      .col-lg-12
-        .row.mb-3.mb-lg-5.m_tarjeta-b.color_tarjeta-b.hover2
-          .col-sm-6.col-lg-3.mb-4(data-aos="fade-right")       
-            .tarjeta--boton.color-acento-contenido.p-4
-              .row.mb-4
-                .col-auto
-                  figure
-                    img(src='@/assets/curso/tema3/img31.svg', alt='')              
-              p Evasión del inicio de sesión.
-          .col-sm-6.col-lg-3.mb-4.mb-sm-0(data-aos="fade-right")        
-            .tarjeta--boton.color-acento-contenido.p-4
-              .row.mb-4
-                .col-auto
-                  figure
-                    img(src='@/assets/curso/tema3/img31.svg', alt='')              
-              p Manipulación de parámetros fijos Ataques de fuerza bruta y de diccionario.
-          .col-sm-6.col-lg-3.mb-4.mb-sm-0(data-aos="fade-left")        
-            .tarjeta--boton.color-acento-contenido.p-4
-              .row.mb-4
-                .col-auto
-                  figure
-                    img(src='@/assets/curso/tema3/img31.svg', alt='')              
-              p Repetición de cookies. 
-          .col-sm-6.col-lg-3.mb-4.mb-sm-0(data-aos="fade-left")        
-            .tarjeta--boton.color-acento-contenido.p-4
-              .row.mb-4
-                .col-auto
-                  figure
-                    img(src='@/assets/curso/tema3/img31.svg', alt='')              
-              p Ataques "Pass-the-hash". 
+    
+    .row.mb-3.mb-lg-5.m_tarjeta-b.color_tarjeta-b.hover2
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")       
+        .tarjeta--boton.color-acento-contenido.p-4
+          .row.mb-4
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema3/img31.svg', alt='')              
+          p Evasión del inicio de sesión.
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")        
+        .tarjeta--boton.color-acento-contenido.p-4
+          .row.mb-4
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema3/img31.svg', alt='')              
+          p Manipulación de parámetros fijos Ataques de fuerza bruta y de diccionario.
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-left")        
+        .tarjeta--boton.color-acento-contenido.p-4
+          .row.mb-4
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema3/img31.svg', alt='')              
+          p Repetición de cookies. 
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-left")        
+        .tarjeta--boton.color-acento-contenido.p-4
+          .row.mb-4
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema3/img31.svg', alt='')              
+          p Ataques "Pass-the-hash". 
 
     p.mb-4 Una medida eficaz, utilizada para detener los ataques de autenticación (automatizados), es añadir contenido aleatorio a la página de inicio de sesión presentada al cliente o usuario que se autentifica. El usuario debe ser capaz de enviar con éxito este contenido aleatorio como parte del proceso de autenticación para poder continuar en el sitio web o la aplicación. Otras medidas preventivas o correctivas incluyen procedimientos de autenticación rigurosos, el uso de tokens de autenticación sensibles al tiempo y restricciones a los intentos de autenticación fallidos.
 

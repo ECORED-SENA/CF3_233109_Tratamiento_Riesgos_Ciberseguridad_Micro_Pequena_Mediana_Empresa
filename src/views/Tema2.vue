@@ -79,9 +79,9 @@
 
     .bg_38
       .row.mb-5.mb-lg-4
-        .col-lg-10(data-aos="fade-right")
+        .col-lg-10.order-2.order-lg-1(data-aos="fade-right")
           p Los controles sugeridos por cada una de estas normas pueden servir como punto de referencia para desarrollar una respuesta de ciberseguridad a medida. Sin embargo, ninguno de ellos será eficaz a menos que la organización lleve a cabo un análisis exhaustivo del entorno de amenazas utilizando algún tipo de lista de comprobación u otra orientación estándar que normalmente se desarrolla a partir del conjunto de controles recomendados.
-        .col-lg-2
+        .col-lg-2.order-1.order-lg-2.mb-4.mb-lg-0
           .row.justify-content-center
             .col-auto 
               figure(data-aos="fade-down-right")
@@ -220,27 +220,27 @@
     .row.justify-content-center.mb-2.mb-lg-5
       .col-xxl-12.col-lg-10.col-md-12(data-aos="fade-down")
         SlyderF.mb-5(columnas="col-md-6 col-lg-6 col-xl-4").color_i-1
-          .tarjeta-avatar
-            img.img85.mx-auto(src='@/assets/curso/tema2/img16.svg' alt='AvatarTop')        
+          .tarjeta-avatar.hg-100
+            img.img85(src='@/assets/curso/tema2/img16.svg' alt='AvatarTop').m-auto        
             .tarjeta.color-acento-contenido
               .p-4
                 p.text-center Identificar y autenticar con precisión a todas las entidades que desean acceder a un sistema.
-          .tarjeta-avatar
+          .tarjeta-avatar.hg-100
             img.img85.mx-auto(src='@/assets/curso/tema2/img17.svg' alt='AvatarTop')
             .tarjeta.color-acento-contenido
               .p-4        
                 p.text-center Autorizar el acceso sólo a los objetos que el nivel de confianza de la entidad permite.
-          .tarjeta-avatar
+          .tarjeta-avatar.hg-100
             img.img85.mx-auto(src='@/assets/curso/tema2/img18.svg' alt='AvatarTop')
             .tarjeta.color-acento-contenido
               .p-4        
                 p.text-center Supervisar y controlar las actividades durante el tiempo en que se concede el acceso a la entidad.    
-          .tarjeta-avatar
+          .tarjeta-avatar.hg-100
             img.img85.mx-auto(src='@/assets/curso/tema2/img19.svg' alt='AvatarTop')
             .tarjeta.color-acento-contenido
               .p-4        
                 p.text-center Asegurar el acceso no autorizado o la manipulación de los datos.
-          .tarjeta-avatar
+          .tarjeta-avatar.hg-100
             img.img85.mx-auto(src='@/assets/curso/tema2/img20.svg' alt='AvatarTop')
             .tarjeta.color-acento-contenido
               .p-4        

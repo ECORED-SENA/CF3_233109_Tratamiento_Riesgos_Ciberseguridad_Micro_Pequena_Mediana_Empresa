@@ -45,26 +45,20 @@
 
 .bg_01
   position: relative
-  .row
+  & > *
     position: relative
   &::before
     content: ''
     position: absolute
     margin: 0 0rem
-    top: 12%
-    left: 0%
+    bottom: 0
+    left: 0
     width: 100%
     height: 100%
     background-image: url("../assets/curso/tema1/img01.svg")
     background-repeat: no-repeat
-    @media (max-width: $bp-max-md)
-      background-size: cover
-      top: -2%
-      height: 105%
-    @media (min-width: 990px) and (max-width: 1024px)
-      height: 81%
-    @media (min-width: 1200px) and (max-width: 1400px)
-      height: 80%
+    background-size: cover
+    
 
 .color1
   background-color: #E4E4E4
@@ -150,23 +144,31 @@
     background-image: url("../assets/curso/tema1/img19.svg")
     background-repeat: no-repeat
 
-.bg_06
+/// Altura 100% tarjetas
+.hg-100
+  height: 100%
+
+.horizontal-scroll
+  align-items: stretch !important
+
+.bg_06  
   background-image: url("../assets/curso/tema1/img20.svg")
   background-repeat: no-repeat
+  background-size: cover
   border-radius: 10px
-  width: 610px
-  @media (max-width: $bp-max-md)
-    margin-left: 1%
-    background-size: cover
-  @media (max-width: $bp-max-xs)
-    background-image: url("../assets/curso/tema1/img20-1.svg")!important
-    background-size: cover
-    width: 370px!important
-  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
-      width: 524px
-      background-size: cover
-  @media (min-width: 990px) and (max-width: 1024px)
-    width: 103%
+  // width: 610px
+  // @media (max-width: $bp-max-md)
+  //   margin-left: 1%
+  //   background-size: cover
+  // @media (max-width: $bp-max-xs)
+  //   background-image: url("../assets/curso/tema1/img20-1.svg")!important
+  //   background-size: cover
+  //   width: 370px!important
+  // @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+  //     width: 524px
+  //     background-size: cover
+  // @media (min-width: 990px) and (max-width: 1024px)
+  //   width: 103%
   
 .bg_07
   position: relative
@@ -343,30 +345,19 @@
 
 .tarjeta.color-primario 
     background-image: url("../assets/curso/tema1/img47.svg")
-    background-repeat: no-repeat
-    width: 293px
-    height: 371px
-    border-radius: 10px
-    @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
-      width: 97%
-      height: 372px
-    @media (max-width: $bp-max-md)
-      width: 288px
-      height: 360px
+    background-repeat: no-repeat    
+    background-size: cover
+    background-position: center center
+    border-radius: 10px    
+    background-color: white
 
 .m_tar-avatar2
   .tarjeta.color-primario
+    width: 100%
     background-image: url("../assets/curso/tema3/img23.svg")
-    background-repeat: no-repeat
-    width: 295px
-    height: 240px
-    border-radius: 10px
-    @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
-      width: 252px
-    @media (max-width: $bp-max-md)
-      margin-left: 0px
-    @media (max-width: $bp-max-xs)
-      margin-left: 45px
+    background-repeat: no-repeatd 
+    background-size: cover
+    background-position: center center  
 
 .img85
   max-width: 85px
@@ -388,30 +379,14 @@
 
 .tarjeta.color-acento-contenido
     background-image: url("../assets/curso/tema2/img15.svg")
-    background-repeat: no-repeat
-    width: 295px
-    height: 224.87px
-    border-radius: 10px 
-    @media (max-width: $bp-max-md)
-      width: 250px
-    @media (max-width: $bp-max-xs)
-      margin-left: 3%
-      width: 295px
-    @media (min-width: 990px) and (max-width: 1024px)
-      width: 285px
-    @media (min-width: 1200px) and (max-width: 1400px)
-      width: 228px
+    background-repeat: no-repeat    
+    background-size: cover
+    background-position: center center
+    border-radius: 10px     
 
 .m_tarjeta-b
   .tarjeta--boton.color-acento-contenido
-    width: 295px
-    height: 234px
-    @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
-      width: 252px
-    @media (max-width: $bp-max-xs)
-      margin-left: 11%
-    @media (min-width: 990px) and (max-width: 1024px)
-      width: 215px 
+    height: 100%
 .hover2
     .tarjeta--boton:hover
       background-color: #2FF980  
@@ -622,23 +597,29 @@
   @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
     left: 0px
 
-.bg_34
+.bg_34  
+  min-height: 250px
   background-image: url("../assets/curso/tema1/img11-1.svg")
   background-repeat: no-repeat
-  height: 252px
-  width: 915px
-  margin-left: -13%
-  @media (max-width: $bp-max-md)
-    background-image: none
-    background-color: #B5E4EB
-    margin-left: 0
-    margin-top: 5%
-    height: 100%
-    width: 100%
-  @media (min-width: 990px) and (max-width: 1024px)
-    margin-left: -39%
-  @media (min-width: 1200px) and (max-width: 1400px)
-    margin-left: -21.5%
+  background-size: cover
+  background-position: right center
+  @media (max-width: 990px) 
+    background-position: center center
+
+  // height: 252px
+  // width: 915px
+  // margin-left: -13%
+  // @media (max-width: $bp-max-md)
+  //   background-image: none
+  //   background-color: #B5E4EB
+  //   margin-left: 0
+  //   margin-top: 5%
+  //   height: 100%
+  //   width: 100%
+  // @media (min-width: 990px) and (max-width: 1024px)
+  //   margin-left: -39%
+  // @media (min-width: 1200px) and (max-width: 1400px)
+  //   margin-left: -21.5%
 
 .bg_34-1
   background-image: url("../assets/curso/tema3/img27.svg")
@@ -677,7 +658,7 @@
 .tarjeta--boton 
     border-radius: 10px
     background-color: #D5CEF8
-    height: 314px
+    //height: 314px
 
 .bg_35
   position: relative
@@ -760,28 +741,13 @@
 
 .tarjeta--boton.color-acento-botones
   background-image: url("../assets/curso/tema3/img08.svg")
-  background-repeat: no-repeat
-  width: 229px
-  height: 271.11px
-  @media (max-width: $bp-max-xs)
-    background-image: none
-    background-color: #DAF1F5
-    width: 300px!important
-    height: 235px
-  @media (max-width: $bp-max-md)
-    width: 215px
-  @media (min-width: 990px) and (max-width: 1024px)
-    width: 168px
-  @media (min-width: 1200px) and (max-width: 1400px)
-    width: 205px
+  background-repeat: no-repeat  
+  background-size: cover
+  background-position: bottom center
+
 .hover1
   .tarjeta--boton:hover
-    background-image: url("../assets/curso/tema3/img09.svg")
-    @media (max-width: $bp-max-xs)
-      background-image: none
-      background-color: #AB9DF1
-      width: 300px
-      height: 235px
+    background-image: url("../assets/curso/tema3/img09.svg")    
 
 .tarjeta--boton.color-primario
   background-color: #583AE2
@@ -835,34 +801,6 @@
     margin-left: 20%!important
   @media (max-width: $bp-max-md)
     margin-left: -10%
-
-.m_left1
-  margin-left: 21%
-  @media (max-width: $bp-max-xs)
-    margin-left: 20%!important
-  @media (max-width: $bp-max-md)
-    margin-left: -5%
-
-.m_left2
-  margin-left: 43%
-  @media (max-width: $bp-max-xs)
-    margin-left: 20%!important
-  @media (max-width: $bp-max-md)
-    margin-left: -1%
-
-.m_left3
-  margin-left: 66%
-  @media (max-width: $bp-max-xs)
-    margin-left: 20%!important
-  @media (max-width: $bp-max-md)
-    margin-left: -10%
-
-.m_left4
-  margin-left: 88%
-  @media (max-width: $bp-max-xs)
-    margin-left: 20%!important
-  @media (max-width: $bp-max-md)
-    margin-left: -5%
 
 .bg_40
   background-image: url("../assets/curso/tema2/img21.svg")
