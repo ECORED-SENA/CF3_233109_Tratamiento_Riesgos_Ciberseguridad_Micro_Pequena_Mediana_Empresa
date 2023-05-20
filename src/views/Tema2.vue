@@ -33,49 +33,49 @@
           ul.lista-ul--color
             li 
               i.fas.fa-check-circle
-              p.m-0 Política
+              p.m-0 Política.
             li 
               i.fas.fa-check-circle
-              p.m-0 Control de la gobernanza
+              p.m-0 Control de la gobernanza.
             li 
               i.fas.fa-check-circle
-              p.m-0 Seguridad del personal
+              p.m-0 Seguridad del personal.
             li 
               i.fas.fa-check-circle
-              p.m-0 Seguridad física y del entorno 
+              p.m-0 Seguridad física y del entorno. 
             li 
               i.fas.fa-check-circle
-              p.m-0 Gestión de activos
+              p.m-0 Gestión de activos.
             li 
               i.fas.fa-check-circle
-              p.m-0 Control de acceso
+              p.m-0 Control de acceso.
             li 
               i.fas.fa-check-circle
-              p.m-0 Seguridad de las operaciones
+              p.m-0 Seguridad de las operaciones.
             li 
               i.fas.fa-check-circle
-              p.m-0 Seguridad de la red
+              p.m-0 Seguridad de la red.
             li 
               i.fas.fa-check-circle
-              p.m-0 Seguridad informática
+              p.m-0 Seguridad informática.
             li 
               i.fas.fa-check-circle
-              p.m-0 Seguridad en el desarrollo y mantenimiento del <em>software</em>
+              p.m-0 Seguridad en el desarrollo y mantenimiento del <em>software</em>.
             li 
               i.fas.fa-check-circle
-              p.m-0 Adquisición
+              p.m-0 Adquisición.
             li 
               i.fas.fa-check-circle
-              p.m-0 Gestión de incidentes
+              p.m-0 Gestión de incidentes.
             li 
               i.fas.fa-check-circle
-              p.m-0 Cumplimiento de la normativa
+              p.m-0 Cumplimiento de la normativa.
             li 
               i.fas.fa-check-circle
-              p.m-0 Continuidad
+              p.m-0 Continuidad.
             li 
               i.fas.fa-check-circle
-              p.m-0 Elementos de los factores humanos, como la formación y la educación
+              p.m-0 Elementos de los factores humanos, como la formación y la educación.
 
     .bg_38
       .row.mb-5.mb-lg-4
@@ -201,19 +201,19 @@
               ul.lista-ul--color
                 li 
                   i.fas.fa-check-circle
-                  p.m-0 Secuencia y calendario de utilización del control
+                  p.m-0 Secuencia y calendario de utilización del control.
                 li 
                   i.fas.fa-check-circle
-                  p.m-0 Prácticas específicas de control
+                  p.m-0 Prácticas específicas de control.
                 li 
                   i.fas.fa-check-circle
-                  p.m-0 Responsabilidades
+                  p.m-0 Responsabilidades.
                 li 
                   i.fas.fa-check-circle
-                  p.m-0 Documentación e informes
+                  p.m-0 Documentación e informes.
                 li 
                   i.fas.fa-check-circle
-                  p.m-0 Responsabilidad en la resolución de problemas
+                  p.m-0 Responsabilidad en la resolución de problemas.
 
     p El campo de la ciberseguridad abarca las medidas adecuadas para garantizar que los datos electrónicos se mantengan a salvo de accesos no autorizados o de daños. Los procesos, las tecnologías y las prácticas en el campo de la ciberseguridad se desarrollan al servicio de este propósito. Un conjunto eficaz de controles de ciberseguridad debe:
 

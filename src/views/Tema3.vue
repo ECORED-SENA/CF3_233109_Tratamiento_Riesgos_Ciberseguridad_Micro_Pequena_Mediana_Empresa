@@ -11,7 +11,7 @@
       .col-lg-8(data-aos="fade-right")
         p El endurecimiento del sistema es el proceso de asegurar un servidor o sistema computacional minimizando su superficie de ataque, o superficie de vulnerabilidad, y sus potenciales vectores de ataque. Es una forma de protección contra los ciberataques que consiste en cerrar las brechas del sistema que los ciber atacantes suelen utilizar para explotar el sistema y acceder a los datos sensibles de los usuarios.
         p Una definición oficial de endurecimiento del sistema, según el Instituto Nacional de Normas y Tecnología (NIST), es que se trata de <b>"un proceso destinado a eliminar un medio de ataque mediante la aplicación de parches a las vulnerabilidades y la desactivación de servicios no esenciales".</b>
-        p Parte del proceso de eliminación del endurecimiento del sistema consiste en eliminar o desactivar las aplicaciones del sistema, los permisos, los puertos, las cuentas de usuario y otras características innecesarias para que los atacantes tengan menos oportunidades de acceder a la información sensible de un sistema informático de misión crítica o de infraestructura crítica. Ackerman, P. (2017).
+        p Parte del proceso de eliminación del endurecimiento del sistema consiste en eliminar o desactivar las aplicaciones del sistema, los permisos, los puertos, las cuentas de usuario y otras características innecesarias para que los atacantes tengan menos oportunidades de acceder a la información sensible de un sistema informático de misión crítica o de infraestructura crítica. <br></br>Ackerman, P. (2017).
       .col-lg-4.mb-4(data-aos="fade-left")
         figure
           img.img-t.mx-auto(src='@/assets/curso/tema3/img01.png', alt='')
@@ -79,7 +79,7 @@
           figure.mb-4(data-aos="fade-down-right")
             img.img-t.m-auto(src='@/assets/curso/tema3/img10.png', alt='')
         .col-lg-8(data-aos="fade-left")
-          p Endurecer la infraestructura de una red es un proceso, no una tarea. Es algo que, una vez iniciado, no termina. Se debe permanecer constantemente atento a las amenazas que se ciernen sobre la red y emprender de forma continua acciones para prevenir cualquier peligro. Debido a la escala de una empresa, el endurecimiento de la infraestructura de la red no es un esfuerzo que deba emprender a la ligera. Dependiendo del tamaño y la complejidad de su entorno, podría pasar semanas o incluso meses planificando antes de realizar cualquier cambio Ackerman (2017). 
+          p Endurecer la infraestructura de una red es un proceso, no una tarea. Es algo que, una vez iniciado, no termina. Se debe permanecer constantemente atento a las amenazas que se ciernen sobre la red y emprender de forma continua acciones para prevenir cualquier peligro. Debido a la escala de una empresa, el endurecimiento de la infraestructura de la red no es un esfuerzo que deba emprender a la ligera. Dependiendo del tamaño y la complejidad de su entorno, podría pasar semanas o incluso meses planificando antes de realizar cualquier cambio. (Ackerman, 2017). 
           p Al mismo tiempo, si se está estudiando cómo reforzar la red, probablemente se pueda reconocer que hay problemas de seguridad que deben ser abordados, incluso si no se está seguro de cuáles son exactamente esos problemas o cómo solucionarlos. Esto puede ser un inconveniente, ya que puede tener problemas que realmente necesitan ser abordados inmediatamente, antes de que comience el proceso de endurecimiento a gran escala.
 
     p Hay muchas tareas que se pueden realizar como parte del proceso de endurecimiento sistemático. Por lo general, todas ellas de gran envergadura, como por ejemplo, el endurecimiento de los routers y switches o la implementación de DMZ (Zonas desmilitarizadas) y dispositivos de red perimetral. Estas tareas llevan tiempo, a veces meses, desde la fase inicial de planificación y diseño hasta la implementación. Y aunque todas son necesarias, se debería realizar seis tareas, en particular, antes de hacer cualquier otra cosa en su red, tome nota: 
@@ -125,7 +125,7 @@
               figure
                 img.img-t.m-auto(src='@/assets/curso/tema3/img16.svg', alt='')
             p.text-bold.m-0 Implementar la protección contra virus
-            p Los gusanos y virus actuales provocan a menudo ataques de denegación de servicio distribuido (DDoS) contra los routers y los conmutadores.  La forma más fácil de protegerse es con protección antivirus que incluya dispositivos de entrada y pasarelas SMTP, para evitar los virus y gusanos basados en el correo electrónico.
+            p Los gusanos y virus actuales provocan a menudo ataques de denegación de servicio distribuido (DDoS) contra los <em>router</em> y los conmutadores.  La forma más fácil de protegerse es con protección antivirus que incluya dispositivos de entrada y pasarelas SMTP, para evitar los virus y gusanos basados en el correo electrónico.
       .col-lg-4.col-md-6.col-12.mb-4
         .bg_41.p-4.p-md-3.p-lg-4
           .row.justify-content-center
@@ -219,7 +219,7 @@
           img.img85.mx-auto(src='@/assets/curso/tema3/img25.svg' alt='AvatarTop')
           .tarjeta.color-primario
             .p-4
-              p.text-center Explotación mediante parches binarios, sustitución de código o extensión de código Crackeo de licencias de <em>software</em>.
+              p.text-center Explotación mediante parches binarios, sustitución de código o extensión de código. Crackeo de licencias de <em>software</em>.
     
       .col-lg-4.col-10(data-aos="fade-left")
         .tarjeta-avatar

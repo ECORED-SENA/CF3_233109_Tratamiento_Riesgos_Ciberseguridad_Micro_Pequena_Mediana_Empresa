@@ -390,7 +390,7 @@
       .col-lg-8
         figure.mb-4(data-aos="fade-down-right")
           img.img-t.m-auto(src='@/assets/curso/tema1/img35.svg', alt='')
-        figcaption Tomado de Li (2009)
+        figcaption Nota. Tomado de Li (2009).
 
     p.mb-5 Utilizando la infraestructura de cuña, puede modificar la dirección de la función de Windows resuelta en la tabla de importación, sustituyéndola por un puntero a una función en el código de cuña alternativo:
 
@@ -398,7 +398,7 @@
       .col-lg-10
         figure.mb-4(data-aos="fade-down-right")
           img.img-t.m-auto(src='@/assets/curso/tema1/img36.svg', alt='')
-        figcaption Tomado de Li (2009)
+        figcaption Nota. Tomado de Li (2009).
 
     p.mb-5 EMET aprovecha esta arquitectura de cuña para imponer sus perfiles de protección. Los perfiles de protección de EMET son archivos XML que contienen ajustes preconfigurados de EMET. Las empresas pueden proporcionar perfiles de protección de EMET adaptados para que funcionen con las aplicaciones y sistemas que venden. La empresa prueba y valida que la configuración del perfil de protección funcione para una variedad de sistemas operativos y aplicaciones.
 
@@ -608,7 +608,7 @@
     .row(data-aos="fade-right")
       .col-lg-5
         .bg_29.p-4
-          h3.ms-4.text-white Amazon Web Services
+          h3.ms-4.text-white Desplegar una aplicación en Google Cloud.
 
     .row.justify-content-center.mb-5
       .col-lg-8
@@ -838,7 +838,7 @@
     .bg_14-1
       .row.justify-content-center.mb-5.mb-lg-4
         .col-lg-8
-          p A lo largo de los últimos cincuenta años, ciertas tendencias clave crearon cambios fundamentales en la forma de prestar servicios de computación. El procesamiento de mainframe impulsó los años sesenta y setenta. Los computadores personales, la digitalización del escritorio físico y la tecnología cliente/servidor encabezaron los años ochenta y noventa. Internet, el auge y la burbuja, abarcó el siglo pasado y el actual y continúa en la actualidad. Pero estamos en medio de otra de esas tendencias que cambian el modelo: la virtualización, una tecnología disruptiva, que rompe el statu quo de cómo se manejan los computadores físicos, se prestan los servicios y se asignan los presupuestos. 
+          p A lo largo de los últimos cincuenta años, ciertas tendencias clave crearon cambios fundamentales en la forma de prestar servicios de computación. El procesamiento de <em>mainframe</em> impulsó los años sesenta y setenta. Los computadores personales, la digitalización del escritorio físico y la tecnología cliente/servidor encabezaron los años ochenta y noventa. Internet, el auge y la burbuja, abarcó el siglo pasado y el actual y continúa en la actualidad. Pero estamos en medio de otra de esas tendencias que cambian el modelo: la virtualización, una tecnología disruptiva, que rompe el statu quo de cómo se manejan los computadores físicos, se prestan los servicios y se asignan los presupuestos. 
           p Para entender por qué la virtualización ha tenido un efecto tan profundo en el entorno computacional actual, es necesario comprender mejor lo que ha sucedido en el pasado. La palabra virtual ha sufrido un cambio en los últimos años, su uso se ha ampliado junto con la expansión de la computación, especialmente con el uso generalizado de Internet y los teléfonos inteligentes. Las aplicaciones en línea han permitido comprar en tiendas virtuales, examinar posibles lugares de vacaciones a través de visitas virtuales, e incluso guardar libros virtuales en bibliotecas virtuales. Muchas personas invierten tiempo y dinero en explorar y aventurarse por mundos enteros que sólo existen en la imaginación de alguien y en un servidor de juegos.
         .col-lg-4
           figure(data-aos="fade-down-right")
@@ -854,7 +854,7 @@
               figure(data-aos="fade-down-right")
                 img.img-t.m-auto(src='@/assets/curso/tema1/img74.svg', alt='')
         .col-lg-10(data-aos="fade-right")
-          p Si todavía no está familiarizado con la idea de la virtualización computacional, es posible que sus primeros pensamientos sean los de la realidad virtual, la tecnología que, mediante el uso de sofisticadas proyecciones visuales y retroalimentación sensorial, puede dar a una persona la experiencia de estar realmente en ese entorno creado. En un nivel fundamental, esto es exactamente lo que es la virtualización computacional: es cómo una aplicación computacional experimenta su entorno creado.
+          p Si todavía no está familiarizado con la idea de la virtualización computacional, es posible que sus primeros pensamientos sean los de la realidad virtual, la tecnología que, mediante el uso de sofisticadas proyecciones visuales y retroalimentación sensorial, puede dar a una persona la experiencia de estar realmente en ese entorno creado. En un nivel fundamental, esto es exactamente lo que es la virtualización computacional: es como una aplicación computacional experimenta su entorno creado.
 
     .row.justify-content-center.mb-5(data-aos="fade-down-right")
       .col-lg-4.col-8.mb-4.mb-lg-0
@@ -864,7 +864,7 @@
         .bg_34.p-4.pt-xxl-5
           .row.justify-content-center
             .col.pe-5
-              p La primera virtualización generalizada se realizó en los <em>mainframes</em> de IBM en los años 60, pero fueron <em>Gerald Popek y Robert Goldberg</em> quienes en 1974 codificaron el marco que describe los requisitos para que un sistema computacional soporte la virtualización. Su artículo  Formal <em>requirements for virtualizable third generation architectures</em> describe las funciones y propiedades de las máquinas virtuales y de los monitores de máquinas virtuales que se siguen utilizando en la actualidad (Popek & Goldberg, 1974). 
+              p La primera virtualización generalizada se realizó en los <em>mainframes</em> de IBM en los años 60, pero fueron <em>Gerald Popek y Robert Goldberg</em> quienes en 1974 codificaron el marco que describe los requisitos para que un sistema computacional soporte la virtualización. Su artículo  <em>Formal</em> <em>requirements for virtualizable third generation architectures</em> describe las funciones y propiedades de las máquinas virtuales y de los monitores de máquinas virtuales que se siguen utilizando en la actualidad (Popek & Goldberg, 1974). 
 
     p Por su definición, una máquina virtual (VM) puede virtualizar todos los recursos de <em>hardware</em>, incluidos los procesadores, la memoria, el almacenamiento y la conectividad de red. Un monitor de máquina virtual (VMM), que hoy en día se denomina comúnmente hipervisor, es el <em>software</em> que proporciona el entorno en el que operan las VM. La siguiente figura ilustra de forma sencilla un VMM.
 
@@ -977,7 +977,7 @@
             div
               h4 Virtualización de escritorios
               p Alternativa para la computación de escritorios que para las empresas resulta costosa e ineficiente (requiere personal para actualizaciones de <em>software</em>, soporte de <em>hardware</em>, asistencia técnica).   
-              p Los escritorios virtuales se ejecutan en servidores del centro de datos al igual que las aplicaciones a las que se conectan los usuarios, lo que reduce enormemente el tráfico de red y amplía los recursos.  En cuanto a la seguridad, máquinas virtuales específicamente diseñadas que residen en cada host, protegen todos los escritorios virtuales que allí se ejecutan.   
+              p Los escritorios virtuales se ejecutan en servidores del centro de datos al igual que las aplicaciones a las que se conectan los usuarios, lo que reduce enormemente el tráfico de red y amplía los recursos.  En cuanto a la seguridad, máquinas virtuales específicamente diseñadas que residen en cada <em>host</em>, protegen todos los escritorios virtuales que allí se ejecutan.   
           .col-11.col-lg-5.mt-0.mt-md-4
             figure
               img.img-t.m-auto(src='@/assets/curso/tema1/img89.png', alt='Texto que describa la imagen')
