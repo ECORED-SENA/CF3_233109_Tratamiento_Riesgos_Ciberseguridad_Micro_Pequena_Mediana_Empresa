@@ -31,51 +31,51 @@
             img.img-t.m-auto(src='@/assets/curso/tema2/img03.svg', alt='')
         .col-lg-7.align-self-center(data-aos="fade-left")
           ul.lista-ul--color
-            li 
+            li
               i.fas.fa-check-circle
-              p.m-0 Política.
-            li 
+              | Política.
+            li
               i.fas.fa-check-circle
-              p.m-0 Control de la gobernanza.
-            li 
+              | Control de la gobernanza.
+            li
               i.fas.fa-check-circle
-              p.m-0 Seguridad del personal.
-            li 
+              | Seguridad del personal.
+            li
               i.fas.fa-check-circle
-              p.m-0 Seguridad física y del entorno. 
-            li 
+              | Seguridad física y del entorno.
+            li
               i.fas.fa-check-circle
-              p.m-0 Gestión de activos.
-            li 
+              | Gestión de activos.
+            li
               i.fas.fa-check-circle
-              p.m-0 Control de acceso.
-            li 
+              | Control de acceso.
+            li
               i.fas.fa-check-circle
-              p.m-0 Seguridad de las operaciones.
-            li 
+              | Seguridad de las operaciones.
+            li
               i.fas.fa-check-circle
-              p.m-0 Seguridad de la red.
-            li 
+              | Seguridad de la red.
+            li
               i.fas.fa-check-circle
-              p.m-0 Seguridad informática.
-            li 
+              | Seguridad informática.
+            li
               i.fas.fa-check-circle
-              p.m-0 Seguridad en el desarrollo y mantenimiento del <em>software</em>.
-            li 
+              | Seguridad en el desarrollo y mantenimiento del <em>software</em>.
+            li
               i.fas.fa-check-circle
-              p.m-0 Adquisición.
-            li 
+              | Adquisición.
+            li
               i.fas.fa-check-circle
-              p.m-0 Gestión de incidentes.
-            li 
+              | Gestión de incidentes.
+            li
               i.fas.fa-check-circle
-              p.m-0 Cumplimiento de la normativa.
-            li 
+              | Cumplimiento de la normativa.
+            li
               i.fas.fa-check-circle
-              p.m-0 Continuidad.
-            li 
+              | Continuidad.
+            li
               i.fas.fa-check-circle
-              p.m-0 Elementos de los factores humanos, como la formación y la educación.
+              | Elementos de los factores humanos, como la formación y la educación.
 
     .bg_38
       .row.mb-5.mb-lg-4
@@ -83,7 +83,7 @@
           p Los controles sugeridos por cada una de estas normas pueden servir como punto de referencia para desarrollar una respuesta de ciberseguridad a medida. Sin embargo, ninguno de ellos será eficaz a menos que la organización lleve a cabo un análisis exhaustivo del entorno de amenazas utilizando algún tipo de lista de comprobación u otra orientación estándar que normalmente se desarrolla a partir del conjunto de controles recomendados.
         .col-lg-2.order-1.order-lg-2.mb-4.mb-lg-0
           .row.justify-content-center
-            .col-auto 
+            .col-auto
               figure(data-aos="fade-down-right")
                 img.img-t.m-auto(src='@/assets/curso/tema2/img04.svg', alt='')
 
@@ -94,7 +94,7 @@
         .bg_39.p-4
           h3.ms-4.text-white Implementación del proceso
 
-    p La aplicación de cualquiera de estos modelos en un entorno práctico se posibilita y se sostiene a través de un plan estratégico de gestión de la ciberseguridad que enumera las áreas generales y actividades de control que constituirán el proceso global de gobierno de la ciberseguridad. Esto incluye el desglose de los procedimientos específicos que se seguirán para realizar el trabajo, además de todas las funciones, responsabilidades e interrelaciones de la organización que deben estar explícitamente definidas y asignadas por este plan. El producto final de este proceso es un enfoque estratégico completo y totalmente documentado de la seguridad de la información.  
+    p La aplicación de cualquiera de estos modelos en un entorno práctico se posibilita y se sostiene a través de un plan estratégico de gestión de la ciberseguridad que enumera las áreas generales y actividades de control que constituirán el proceso global de gobierno de la ciberseguridad. Esto incluye el desglose de los procedimientos específicos que se seguirán para realizar el trabajo, además de todas las funciones, responsabilidades e interrelaciones de la organización que deben estar explícitamente definidas y asignadas por este plan. El producto final de este proceso es un enfoque estratégico completo y totalmente documentado de la seguridad de la información.
 
     p.text-bold.mb-5 La siguiente secuencia presenta algunos elementos de consideración para la implementación del proceso:
 
@@ -109,15 +109,15 @@
               .col-lg-5(data-aos="fade-left")
                 figure
                   img.img-t.mx-auto(src='@/assets/curso/tema2/img05.png', alt='Texto que describa la imagen')
-                  
+
             .row.justify-content-end.align-items-center
               .col-lg-5.mb-4.mb-lg-0.order-last.order-lg-first(data-aos="fade-right")
                 figure
-                  img.img-t.mx-auto(src='@/assets/curso/tema2/img06.png', alt='Texto que describa la imagen')                
+                  img.img-t.mx-auto(src='@/assets/curso/tema2/img06.png', alt='Texto que describa la imagen')
               .col-lg-7.text-start.order-first.order-lg-last.mb-4.mb-lg-0(data-aos="fade-left")
                 h4 Acordar y explicitar los criterios para la identificación de los elementos del activo.
                 p Incluye un desglose de todos los criterios de decisión que se emplearán para definir las distintas cualidades del activo. Afirmaciones como <em>"El elemento de información debe ser directamente rastreable y apoyar un proceso de negocio"</em>, podrían utilizarse como base para decidir si un elemento de información tiene valor para la organización.
-                
+
             .row.justify-content-center.align-items-center
               .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
                 h4 Garantizar que las personas responsables del etiquetado sigan los criterios establecidos.
@@ -129,11 +129,11 @@
             .row.justify-content-end.align-items-center
               .col-lg-5.mb-4.mb-lg-0.order-last.order-lg-first(data-aos="fade-right")
                 figure
-                  img.img-t.mx-auto(src='@/assets/curso/tema2/img08.png', alt='Texto que describa la imagen')                
+                  img.img-t.mx-auto(src='@/assets/curso/tema2/img08.png', alt='Texto que describa la imagen')
               .col-lg-7.text-start.order-first.order-lg-last.mb-4.mb-lg-0(data-aos="fade-left")
                 h4 Identificación y etiquetado de activos.
                 p Cada activo de información se identifica y se etiqueta adecuadamente. Es esencialmente un proceso de documentación asociado al caso de negocio.
-                
+
             .row.justify-content-center.align-items-center
               .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
                 h4 Descripción de una línea de base de alto nivel de elementos.
@@ -145,7 +145,7 @@
             .row.justify-content-end.align-items-center
               .col-lg-5.mb-4.mb-lg-0.order-last.order-lg-first(data-aos="fade-right")
                 figure
-                  img.img-t.mx-auto(src='@/assets/curso/tema2/img10.png', alt='Texto que describa la imagen')                
+                  img.img-t.mx-auto(src='@/assets/curso/tema2/img10.png', alt='Texto que describa la imagen')
               .col-lg-7.text-start.order-first.order-lg-last.mb-4.mb-lg-0(data-aos="fade-left")
                 h4 Detalle de elementos individuales.
                 p Se detallan todos los elementos individuales que componen los grandes elementos de la línea de base de alto nivel. Cada uno de estos elementos de datos componentes también se identifica individualmente y se etiqueta de forma única. El resultado es una descripción de elementos del mundo real que requieren control.
@@ -153,7 +153,7 @@
             .row.justify-content-center.align-items-center
               .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
                 h4 A cada objetivo de control un conjunto de controles de comportamiento.
-                p Dado que los comportamientos de control varían en su propósito y efecto, es importante que a cada objetivo de control se le asigne un conjunto de controles de comportamiento cuidadosamente elaborados.            
+                p Dado que los comportamientos de control varían en su propósito y efecto, es importante que a cada objetivo de control se le asigne un conjunto de controles de comportamiento cuidadosamente elaborados.
               .col-lg-5(data-aos="fade-left")
                 figure
                   img.img-t.mx-auto(src='@/assets/curso/tema2/img11.png', alt='Texto que describa la imagen')
@@ -161,7 +161,7 @@
             .row.justify-content-end.align-items-center
               .col-lg-5.mb-4.mb-lg-0.order-last.order-lg-first(data-aos="fade-right")
                 figure
-                  img.img-t.mx-auto(src='@/assets/curso/tema2/img12.png', alt='Texto que describa la imagen')                
+                  img.img-t.mx-auto(src='@/assets/curso/tema2/img12.png', alt='Texto que describa la imagen')
               .col-lg-7.text-start.order-first.order-lg-last.mb-4.mb-lg-0(data-aos="fade-left")
                 h4 Gestión de la configuración.
                 p Función de análisis y autorización aplicable al conjunto de objetivos de control y controles asociados. Es necesario un proceso exhaustivo considerando la constante evolución de los objetivos de control y la estructura de control que cambia en función de las alteraciones de la política y de la forma del propio activo.
@@ -184,36 +184,36 @@
       .col-lg-10
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Definir comportamientos de control apropiados")
-            .col-lg-11              
+            .col-lg-11
               p Avanzar elemento por elemento a través de la línea base y decidir qué comportamientos de control son apropiados y factibles para proteger la integridad y disponibilidad de los componentes de la información. Esta actividad se basa en el grado de riesgo estimado, cuya evaluación formal o informal, debe identificar todas las debilidades lógicas.
           .row(titulo="Evaluar los tipos de amenaza")
-            .col-lg-11              
+            .col-lg-11
               p Los tipos de amenaza se evalúan y clasifican en forma de tabla bidimensional dependiendo de si son físicos o lógicos y la fuente interna o externa, de donde provengan.
           .row(titulo="Evaluar la viabilidad de los controles")
-            .col-lg-11              
+            .col-lg-11
               p Evaluar la viabilidad de cada uno de los controles que se desplegarán para responder a cada amenaza identificada. El resultado práctico del proceso de identificación de activos y formulación de la línea de base de control es un sistema de gobernanza de ciberseguridad que funciona.
           .row(titulo="Formular normas, procedimientos o comportamientos de control")
             .col-lg-11
-              p Estos comportamientos dictarán con precisión cómo los controles específicos de ciberseguridad interactúan entre sí dentro del esquema de gobierno. La ejecución de los comportamientos de control requeridos para cada elemento de información debe explicarse en forma de prácticas de trabajo detalladas, a las que se hace referencia en los documentos de política y procedimiento pertinentes.          
+              p Estos comportamientos dictarán con precisión cómo los controles específicos de ciberseguridad interactúan entre sí dentro del esquema de gobierno. La ejecución de los comportamientos de control requeridos para cada elemento de información debe explicarse en forma de prácticas de trabajo detalladas, a las que se hace referencia en los documentos de política y procedimiento pertinentes.
           .row(titulo="Especificar comportamientos concretos")
             .col-lg-11
               p Asegurarse de incluir la especificación de comportamientos concretos para dictar:
               ul.lista-ul--color
-                li 
+                li
                   i.fas.fa-check-circle
-                  p.m-0 Secuencia y calendario de utilización del control.
-                li 
+                  | Secuencia y calendario de utilización del control.
+                li
                   i.fas.fa-check-circle
-                  p.m-0 Prácticas específicas de control.
-                li 
+                  | Prácticas específicas de control.
+                li
                   i.fas.fa-check-circle
-                  p.m-0 Responsabilidades.
-                li 
+                  | Responsabilidades.
+                li
                   i.fas.fa-check-circle
-                  p.m-0 Documentación e informes.
-                li 
+                  | Documentación e informes.
+                li
                   i.fas.fa-check-circle
-                  p.m-0 Responsabilidad en la resolución de problemas.
+                  | Responsabilidad en la resolución de problemas.
 
     p El campo de la ciberseguridad abarca las medidas adecuadas para garantizar que los datos electrónicos se mantengan a salvo de accesos no autorizados o de daños. Los procesos, las tecnologías y las prácticas en el campo de la ciberseguridad se desarrollan al servicio de este propósito. Un conjunto eficaz de controles de ciberseguridad debe:
 
@@ -221,30 +221,30 @@
       .col-xxl-12.col-lg-10.col-md-12(data-aos="fade-down")
         SlyderF.mb-5(columnas="col-md-6 col-lg-6 col-xl-4").color_i-1
           .tarjeta-avatar.hg-100
-            img.img85(src='@/assets/curso/tema2/img16.svg' alt='AvatarTop').m-auto        
+            img.img85(src='@/assets/curso/tema2/img16.svg' alt='AvatarTop').m-auto
             .tarjeta.color-acento-contenido
               .p-4
                 p.text-center Identificar y autenticar con precisión a todas las entidades que desean acceder a un sistema.
           .tarjeta-avatar.hg-100
             img.img85.mx-auto(src='@/assets/curso/tema2/img17.svg' alt='AvatarTop')
             .tarjeta.color-acento-contenido
-              .p-4        
+              .p-4
                 p.text-center Autorizar el acceso sólo a los objetos que el nivel de confianza de la entidad permite.
           .tarjeta-avatar.hg-100
             img.img85.mx-auto(src='@/assets/curso/tema2/img18.svg' alt='AvatarTop')
             .tarjeta.color-acento-contenido
-              .p-4        
-                p.text-center Supervisar y controlar las actividades durante el tiempo en que se concede el acceso a la entidad.    
+              .p-4
+                p.text-center Supervisar y controlar las actividades durante el tiempo en que se concede el acceso a la entidad.
           .tarjeta-avatar.hg-100
             img.img85.mx-auto(src='@/assets/curso/tema2/img19.svg' alt='AvatarTop')
             .tarjeta.color-acento-contenido
-              .p-4        
+              .p-4
                 p.text-center Asegurar el acceso no autorizado o la manipulación de los datos.
           .tarjeta-avatar.hg-100
             img.img85.mx-auto(src='@/assets/curso/tema2/img20.svg' alt='AvatarTop')
             .tarjeta.color-acento-contenido
-              .p-4        
-                p.text-center Asegurar la manipulación no autorizada de los objetos del sistema.  
+              .p-4
+                p.text-center Asegurar la manipulación no autorizada de los objetos del sistema.
 
     p.mb-4 La aplicación estratégica de los principios de ciberseguridad se centra en la cuestión de decidir qué se necesita para determinar el valor de la seguridad para una organización y a partir de allí, considerar aspectos de relevancia como los que se destacan en la siguiente infografía:
 
