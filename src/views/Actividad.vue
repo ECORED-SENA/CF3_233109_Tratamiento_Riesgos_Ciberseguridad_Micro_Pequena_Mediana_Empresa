@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(icono="fas fa-tasks" titulo="Actividad didáctica")
+  BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
@@ -28,7 +28,7 @@
             img(src="@/assets/template/arrastrar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Estrategias de endurecimiento de la ciberseguridad.
+          h2 Estrategias de endurecimiento de la ciberseguridad
         p.mb-4 #[b Objetivo] Identificar conceptos básicos del endurecimiento de la ciberseguridad con miras a la definición de estrategias de mejora en los sistemas de computación con referencia a la seguridad de la información.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center

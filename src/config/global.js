@@ -44,25 +44,21 @@ export default {
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
         numero: '1',
         titulo: 'Defensa en profundidad',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: 'Capas',
             hash: 't_1_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.2',
             titulo: 'Conceptos',
             hash: 't_1_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.3',
             titulo: 'Características',
             hash: 't_1_3',
@@ -72,19 +68,16 @@ export default {
 
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
         numero: '2',
         titulo: 'Diseño de controles',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '2.1',
             titulo: 'Tipos',
             hash: 't_2_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.2',
             titulo: 'Características',
             hash: 't_2_2',
@@ -93,19 +86,16 @@ export default {
       },
       {
         nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
         numero: '3',
         titulo: 'Endurecimiento del servicio',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '3.1',
             titulo: 'Características',
             hash: 't_3_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '3.2',
             titulo: 'Marcos y técnicas de endurecimiento',
             hash: 't_3_2',
@@ -282,12 +272,12 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del ecosistema',
+          cargo: 'Responsable del Ecosistema',
           centro: 'Dirección General',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes ',
-          cargo: 'Responsable de línea de producción',
+          cargo: 'Responsable de Línea de Producción',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -298,24 +288,24 @@ export default {
       autores: [
         {
           nombre: 'Joaquín Fernando Sánchez',
-          cargo: 'Experto temático',
+          cargo: 'Experto Temático',
           centro:
             'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
         },
         {
           nombre: 'Maribel Avellaneda Nieves',
-          cargo: 'Diseñadora instruccional',
+          cargo: 'Diseñadora Instruccional',
           centro:
             'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
         },
         {
           nombre: 'Silvia Milena Sequeda Cárdenas',
-          cargo: 'Asesora pedagógica y metodológica',
+          cargo: 'Asesora Pedagógica y Metodológica',
           centro: 'Centro de diseño y Metrología - Regional Distrito Capital',
         },
         {
           nombre: 'Sandra Patricia Hoyos Sepúlveda',
-          cargo: 'Correctora de estilo',
+          cargo: 'Correctora de Estilo',
           centro: 'Centro de diseño y Metrología - Regional Distrito Capital',
         },
       ],
@@ -331,25 +321,25 @@ export default {
         },
         {
           nombre: 'Juan Daniel Polanco Muñoz',
-          cargo: 'Diseñador web',
+          cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Wilson Andrés Arenales Cáceres',
-          cargo: 'Storyboard e ilustración',
+          cargo: 'Storyboard e Ilustración',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Carmen Alicia Martínez Torres',
-          cargo: 'Animador y Producción audiovisual',
+          cargo: 'Animador y Productor Multimedia',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Emilsen Alfonso Bautista',
-          cargo: 'Actividad didáctica',
+          cargo: 'Actividad Didáctica',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -360,19 +350,19 @@ export default {
       autores: [
         {
           nombre: 'Zuleidy María Ruíz Torres',
-          cargo: 'Validación y vinculación en plataforma LMS',
+          cargo: 'Validador de Recursos Educativos Digitales',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validación y vinculación en plataforma LMS',
+          cargo: 'Validador de Recursos Educativos Digitales',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Daniel Ricardo Mutis',
-          cargo: 'Validación de contenidos accesibles',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },

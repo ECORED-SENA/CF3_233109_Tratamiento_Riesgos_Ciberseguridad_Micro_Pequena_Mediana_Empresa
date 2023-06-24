@@ -33,49 +33,49 @@
           ul.lista-ul--color
             li
               i.fas.fa-check-circle
-              | Política.
+              span Política.
             li
               i.fas.fa-check-circle
-              | Control de la gobernanza.
+              span Control de la gobernanza.
             li
               i.fas.fa-check-circle
-              | Seguridad del personal.
+              span Seguridad del personal.
             li
               i.fas.fa-check-circle
-              | Seguridad física y del entorno.
+              span Seguridad física y del entorno.
             li
               i.fas.fa-check-circle
-              | Gestión de activos.
+              span Gestión de activos.
             li
               i.fas.fa-check-circle
-              | Control de acceso.
+              span Control de acceso.
             li
               i.fas.fa-check-circle
-              | Seguridad de las operaciones.
+              span Seguridad de las operaciones.
             li
               i.fas.fa-check-circle
-              | Seguridad de la red.
+              span Seguridad de la red.
             li
               i.fas.fa-check-circle
-              | Seguridad informática.
+              span Seguridad informática.
             li
               i.fas.fa-check-circle
-              | Seguridad en el desarrollo y mantenimiento del <em>software</em>.
+              span Seguridad en el desarrollo y mantenimiento del <em>software</em>.
             li
               i.fas.fa-check-circle
-              | Adquisición.
+              span Adquisición.
             li
               i.fas.fa-check-circle
-              | Gestión de incidentes.
+              span Gestión de incidentes.
             li
               i.fas.fa-check-circle
-              | Cumplimiento de la normativa.
+              span Cumplimiento de la normativa.
             li
               i.fas.fa-check-circle
-              | Continuidad.
+              span Continuidad.
             li
               i.fas.fa-check-circle
-              | Elementos de los factores humanos, como la formación y la educación.
+              span Elementos de los factores humanos, como la formación y la educación.
 
     .bg_38
       .row.mb-5.mb-lg-4
@@ -89,10 +89,8 @@
 
     p El término que se utiliza normalmente para describir marcos como este es "modelo paraguas", en el sentido de que su propósito es definir el conjunto completo de competencias asociadas al trabajo de ciberseguridad. El uso de cualquiera de estos modelos consiste en estandarizar conceptos y términos en un conjunto de prácticas profesionales recomendadas. Dicha estandarización centra entonces la formulación de prácticas de control en objetivos de control específicos que existen dentro de cada una de las categorías estándar.
 
-    .row.mb-4(data-aos="fade-right")
-      .col-lg-5
-        .bg_39.p-4
-          h3.ms-4.text-white Implementación del proceso
+    .btn-h3.mb-4
+      span.h3  Implementación del proceso
 
     p La aplicación de cualquiera de estos modelos en un entorno práctico se posibilita y se sostiene a través de un plan estratégico de gestión de la ciberseguridad que enumera las áreas generales y actividades de control que constituirán el proceso global de gobierno de la ciberseguridad. Esto incluye el desglose de los procedimientos específicos que se seguirán para realizar el trabajo, además de todas las funciones, responsabilidades e interrelaciones de la organización que deben estar explícitamente definidas y asignadas por este plan. El producto final de este proceso es un enfoque estratégico completo y totalmente documentado de la seguridad de la información.
 
@@ -252,7 +250,7 @@
       .row.justify-content-center
         .col-lg-12
           figure(data-aos="fade-down-right")
-            img.img-t.m-auto(src='@/assets/curso/tema2/img22.svg', alt='')
+            img.img-t.m-auto(src='@/assets/curso/tema2/img22.svg', alt='La imagen nos presenta cómo lograr un enfoque estratégico de la seguridad de la información, para lo cual se requiere la suma de:Una estructura tangible y coherente de controles técnicos y de gestión (gobernanza administrativa).Una políticas, estructuras organizativas, prácticas y procedimientos.Unas responsabilidades para funciones empresariales específicas.Unas acciones de protección completas, correctas y coordinadas.Y finalmente, un proceso de planificación integral y sostenible en el tiempo.Lo anterior lleva a un plan de gestión estratégica, que involucra las áreas generales y las actividades de control.')
 
 
 </template>

@@ -142,10 +142,8 @@
 
     p La seguridad de las aplicaciones engloba los controles y actividades destinados a encontrar, solucionar y prevenir las vulnerabilidades de las aplicaciones y su entorno de ejecución. Las vulnerabilidades que suelen encontrarse en las aplicaciones pueden dividirse en las categorías que se presentan a continuación.
 
-    .row.mb-2.mb-lg-4(data-aos="fade-right")
-      .col-lg-8
-        .bg_42.p-4
-          h3.ms-4.text-white Vulnerabilidades de validación de entrada
+    .btn-h3.mb-4
+      span.h3 Vulnerabilidades de validación de entrada
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8(data-aos="fade-right")
@@ -189,12 +187,10 @@
           .p-4
             p.mt-2.text-center.flex-center-text Canonización de comandos del sistema operativo.
 
-    p Nunca hay que confiar en los datos externos, investigue las técnicas de validación de entrada adecuadas para su aplicación y haga que las pruebas de validación de entrada formen parte de su proceso de desarrollo de aplicaciones.
+    p.mb-4 Nunca hay que confiar en los datos externos, investigue las técnicas de validación de entrada adecuadas para su aplicación y haga que las pruebas de validación de entrada formen parte de su proceso de desarrollo de aplicaciones.
 
-    .row.mb-4(data-aos="fade-right")
-      .col-lg-5
-        .bg_43.p-4
-          h3.ms-4.text-white Manipulación del <em>software</em>
+    .btn-h3.mb-4
+      span.h3  Manipulación del <em>software</em>
 
     .bg_14.mb-5.mb-lg-4
       .row.justify-content-center.align-items-center
@@ -251,10 +247,8 @@
                       i.fas.fa-check-circle
                       span Descargue siempre los instaladores de <em>software</em> y las imágenes de <em>firmware</em> del sitio web del proveedor.  Restrinja el acceso al ordenador o dispositivo que ejecuta el <em>software</em> o <em>firmware</em> en la medida de lo posible, impidiendo  acceso a puertos periféricos, como USB y <em>Firmware</em>, a los puertos de diagnóstico y depuración, y acceso físico al ordenador o dispositivo.
 
-    .row.mb-2.mb-lg-4(data-aos="fade-right")
-      .col-lg-6
-        .bg_44.p-4
-          h3.ms-4.text-white Vulnerabilidades de autenticación
+    .btn-h3.my-4
+      span.h3  Vulnerabilidades de autenticación
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8(data-aos="fade-right")
@@ -289,21 +283,19 @@
             .col-auto
               figure
                 img(src='@/assets/curso/tema3/img31.svg', alt='')
-          p Repetición de cookies.
+          p Repetición de #[em cookies].
       .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-left")
         .tarjeta--boton.color-acento-contenido.p-4
           .row.mb-4
             .col-auto
               figure
                 img(src='@/assets/curso/tema3/img31.svg', alt='')
-          p Ataques "Pass-the-hash".
+          p Ataques #[em "Pass-the-hash"].
 
     p.mb-4 Una medida eficaz, utilizada para detener los ataques de autenticación (automatizados), es añadir contenido aleatorio a la página de inicio de sesión presentada al cliente o usuario que se autentifica. El usuario debe ser capaz de enviar con éxito este contenido aleatorio como parte del proceso de autenticación para poder continuar en el sitio web o la aplicación. Otras medidas preventivas o correctivas incluyen procedimientos de autenticación rigurosos, el uso de tokens de autenticación sensibles al tiempo y restricciones a los intentos de autenticación fallidos.
 
-    .row.mb-4(data-aos="fade-right")
-      .col-lg-6
-        .bg_45.p-4
-          h3.ms-4.text-white Vulnerabilidades de autorización
+    .btn-h3.mb-5.mt-4
+      span.h3  Vulnerabilidades de autorización
 
     .bg_30-1
       .row.mb-5
@@ -316,7 +308,7 @@
           p.mb-4 La autorización es el concepto de permitir el acceso a los recursos sólo a aquellos que están autorizados a utilizarlos. Es el proceso que viene después de una autenticación exitosa, por lo que el usuario, en este punto, tendrá credenciales válidas asociadas a un conjunto bien definido de roles y privilegios. Las vulnerabilidades de esta categoría implican la verificación de los roles y privilegios. Al usuario se le permite más acceso a la aplicación o al sistema de lo necesario para realizar la tarea.
           p.text-bold.d-none.d-lg-block Los ataques más comunes asociados a las vulnerabilidades de autorización son:
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-43
       .col-xxl-3.col-lg-6.col-md-6.col-12.mb-4.mb-lg-0.mb-lg-4
         .row.g-0.tarjeta1
           .col-auto.tarjeta1__img.p-3
@@ -372,10 +364,8 @@
                       i.fas.fa-check-circle
                       span Imponga tiempos de espera en las sesiones iniciadas y realice comprobaciones.
 
-    .row.mb-2.mb-lg-4(data-aos="fade-right")
-      .col-lg-8
-        .bg_46.p-4
-          h3.ms-4.text-white Vulnerabilidades de configuración inseguras
+    .btn-h3.my-4
+      span.h3  Vulnerabilidades de configuración inseguras
 
     p.mb-4 Las configuraciones desempeñan un papel fundamental en la seguridad de una aplicación. A menudo, los sistemas y las aplicaciones se ejecutan con una configuración por defecto, extraída del manual del proveedor o de Internet. Esto hace que adivinar las contraseñas, eludir las páginas de inicio de sesión y encontrar vulnerabilidades de configuración bien conocidas sea muy fácil. Otra forma de gestión de la configuración insegura es cuando una configuración es simplemente errónea, ya sea desde el principio o después de haber realizado cambios que comprometen la seguridad de la aplicación o el sistema. Esta configuración defectuosa puede acabar utilizándose en cualquier lugar de la empresa.
 
@@ -424,10 +414,8 @@
 
     p La mejor defensa contra las vulnerabilidades de la configuración insegura es la gestión rigurosa de sus configuraciones. Debe adherirse a un estricto proceso de gestión de la configuración, definiendo los procedimientos en torno a la creación, el cambio y la verificación de las configuraciones. Debe detallar cómo deben configurarse las aplicaciones antes de su despliegue, cómo abordar los cambios de configuración y cómo verificar periódicamente que las configuraciones están actualizadas y siguen siendo relevantes desde el punto de vista de la seguridad.
 
-    .row.mb-0.mb-lg-4(data-aos="fade-right")
-      .col-lg-8
-        .bg_48.p-4
-          h3.ms-4.text-white Vulnerabilidades en la gestión de sesiones
+    .btn-h3.mb-4
+      span.h3  Vulnerabilidades en la gestión de sesiones
 
     .bg_14-1.mb-4
       .row.justify-content-center.mb-5.mb-lg-4
@@ -466,12 +454,10 @@
 
     p Asegúrese de que utiliza técnicas adecuadas de gestión de sesiones, adhiriéndose a buenas prácticas como la generación aleatoria de sesiones (claves) el seguimiento adecuado de las sesiones y la finalización adecuada de las mismas. Añada valores únicos para el usuario a una clave de sesión para minimizar el riesgo de interceptación y reutilización de las claves de sesión.
 
-    .row.mb-0.mb-lg-4(data-aos="fade-right")
-      .col-lg-8
-        .bg_49.p-4
-          h3.ms-4.text-white Vulnerabilidades de manipulación de parámetros
+    .btn-h3.my-4
+      span.h3  Vulnerabilidades de manipulación de parámetros
 
-    p Las vulnerabilidades de manipulación de parámetros permiten manipular los parámetros intercambiados entre un cliente y el servidor con el fin de modificar los datos de la aplicación, como las credenciales y los permisos de los usuarios, el precio y la cantidad de los productos.  Esta información puede almacenarse en cookies, en campos de formularios ocultos o en cadenas de consulta de URL.
+    p Las vulnerabilidades de manipulación de parámetros permiten manipular los parámetros intercambiados entre un cliente y el servidor con el fin de modificar los datos de la aplicación, como las credenciales y los permisos de los usuarios, el precio y la cantidad de los productos.  Esta información puede almacenarse en #[em cookies], en campos de formularios ocultos o en cadenas de consulta de URL.
     p En los primeros días de las tiendas web en línea, los programadores cometieron el costoso error de codificar el precio de un artículo como un campo de formulario oculto en sus páginas HTML. Los atacantes simplemente descargaban el archivo HTML de la tienda web, cambiaban el precio y hacían el pedido con un enorme descuento. Este es un ejemplo clásico de una vulnerabilidad de manipulación de parámetros.
 
     p.text-bold(data-aos="fade-right") Los ataques más comunes asociados a las vulnerabilidades de manipulación de parámetros son los siguientes:
@@ -489,21 +475,19 @@
                   ul.lista-ul--color.ms-0.ms-lg-5
                     li
                       i.fas.fa-check-circle
-                      p.m-0 Manipulación de cadenas de consulta.
+                      span Manipulación de cadenas de consulta.
                     li
                       i.fas.fa-check-circle
-                      p.m-0 Manipulación de campos de formulario Manipulación de cookies.
+                      span Manipulación de campos de formulario Manipulación de #[em cookies].
                     li
                       i.fas.fa-check-circle
-                      p.m-0 Manipulación de cabeceras HTTP.
+                      span Manipulación de cabeceras HTTP.
                     li
                       i.fas.fa-check-circle
-                      p.m-0 La defensa contra este tipo de vulnerabilidades incluye prácticas de codificación adecuadas y una estricta validación de entradas.
+                      span La defensa contra este tipo de vulnerabilidades incluye prácticas de codificación adecuadas y una estricta validación de entradas.
 
-    .row.mb-0.mb-lg-4(data-aos="fade-right")
-      .col-lg-8
-        .bg_50.p-4
-          h3.ms-4.text-white Pruebas de seguridad de las aplicaciones
+    .btn-h3.my-4
+      span.h3  Pruebas de seguridad de las aplicaciones
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0

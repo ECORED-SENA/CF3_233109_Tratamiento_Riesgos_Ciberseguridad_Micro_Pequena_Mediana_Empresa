@@ -16,7 +16,7 @@
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/tema1/img02.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema1/img02.svg', alt='La imagen nos muestra una analogía de un castillo medieval con sus medidas de seguridad: claro alrededor del castillo, foso, guardias, muro, puertas e interior.')
 
             .tarjeta.color1.p-3(x="7%" y="77.6%" numero="+")
               .h5.mb-2 Guardias
@@ -123,7 +123,7 @@
             figure.mb-5
               img.img-t.m-auto(src='@/assets/curso/tema1/img14.png')
             h4.text-white Computación
-            p.text-white Gestión de parches, <em>software</em> antimalware, eliminación de aplicaciones/protocolos/servicios no utilizados, cierre de puertos lógicos innecesarios y protección de puertos físicos.
+            p.text-white Gestión de parches, <em>software</em> <em>antimalware</em>, eliminación de aplicaciones/protocolos/servicios no utilizados, cierre de puertos lógicos innecesarios y protección de puertos físicos.
           .tarjeta.bg_03.p-4
             figure.mb-5
               img.img-t.m-auto(src='@/assets/curso/tema1/img15.png')
@@ -144,10 +144,8 @@
 
     p A continuación, se revisan cada una de las capas del modelo, sus principales características, alcances e implicaciones.
 
-    .row.mb-2(data-aos="fade-right")
-      .col-lg-5
-        .bg_04.p-4
-          h3.ms-4.text-white Seguridad física
+    .btn-h3.mb-4
+      span.h3 Seguridad física
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-4.mb-5(data-aos="fade-right")
@@ -156,14 +154,12 @@
       .col-lg-8(data-aos="fade-left")
         p.m-0 El objetivo de la seguridad física es mantener a las personas fuera de las zonas en las que no están autorizadas a estar. Esto incluye áreas restringidas, salas de control, áreas de alta seguridad, paneles eléctricos y de red, salas de servidores y otras áreas restringidas o sensibles. Si un atacante tiene acceso físico a la red o a los equipos de computación, es sólo cuestión de tiempo que consiga acceder a la red o al sistema de computación. La capa de defensa física incluye recomendaciones como la construcción de muros de tamaño suficiente, la aplicación de cerraduras en las puertas, la instalación de cámaras de CCTV y la definición de políticas y controles para tratar a los visitantes e invitados (Noonan, 2004).
 
-    .row.mb-2(data-aos="fade-right")
-      .col-lg-5
-        .bg_05.p-4
-          h3.ms-4.text-white Seguridad de la red
+    .btn-h3.mb-4
+      span.h3 Seguridad de la red
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8(data-aos="fade-right")
-        p Al igual que la seguridad física, consiste en restringir el acceso a las áreas lógicas de la red ICS. La idea es dividir la red en zonas de seguridad, aplicando reglas de firewall, estableciendo listas de control de acceso e implementando sistemas de detección de intrusos (IDS) para separar las partes más sensibles (zonas más seguras) de la red de las zonas menos seguras. Al controlar y supervisar estrechamente el tráfico que atraviesa las zonas de seguridad, se pueden detectar y gestionar eficazmente las anomalías.
+        p Al igual que la seguridad física, consiste en restringir el acceso a las áreas lógicas de la red ICS. La idea es dividir la red en zonas de seguridad, aplicando reglas de #[em firewall], estableciendo listas de control de acceso e implementando sistemas de detección de intrusos (IDS) para separar las partes más sensibles (zonas más seguras) de la red de las zonas menos seguras. Al controlar y supervisar estrechamente el tráfico que atraviesa las zonas de seguridad, se pueden detectar y gestionar eficazmente las anomalías.
         p La implementación de una seguridad sólida comienza literalmente desde los cimientos. Al aplicar una base sólida a una red ICS, se allana el camino para permitir una implementación más ágil del programa de seguridad de la red. Una base sólida viene en forma de decisiones de diseño de arquitectura de red centradas en la seguridad, por ejemplo:
       .col-lg-4(data-aos="fade-left")
         figure
@@ -188,10 +184,8 @@
 
     p Al dedicar un poco más de tiempo por adelantado, diseñando adecuadamente los cimientos de la red ICS, el trabajo de asegurar la red se vuelve más fácil en general.
 
-    .row.mb-2(data-aos="fade-right")
-      .col-lg-5
-        .bg_07.p-4
-          h3.ms-4.text-white Segmentación de la red
+    .btn-h3.mb-4
+      span.h3 Segmentación de la red
 
     .row.mb-2.mb-lg-5
       .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
@@ -218,7 +212,7 @@
       .row.justify-content-center
         .col-lg-12
           figure(data-aos="fade-down-right")
-            img.img-t.m-auto(src='@/assets/curso/tema1/img26.svg', alt='')
+            img.img-t.m-auto(src='@/assets/curso/tema1/img26.svg', alt='La imagen presenta las zonas de seguridad red: Zonas del área celular: nivel de confianza alta, Zona industrial: nivel de confianza alta, DMZ industrial: nivel de confianza media, Zona empresarial: nivel de confianza baja.')
 
     p.mb-5 El establecimiento de un pequeño número de zonas de seguridad de la red con requisitos de seguridad claramente definidos limita la complejidad y elimina la ambigüedad a la hora de seleccionar una zona para nuevos sistemas y dispositivos. Observe la siguiente tabla que detalla cada una de las zonas de seguridad de una red ICS, sus principales características, sistemas y servicios:
 
@@ -342,10 +336,8 @@
     p.mt-4.mt-lg-0 El modelo de zonas de seguridad de la red utiliza el concepto de confianza como base de su funcionamiento. A cada zona se le asigna un nivel de confianza. La confianza aumenta desde la zona exterior hasta la interior, que alberga los activos y datos de producción más críticos de la empresa. Sólo se permite la comunicación entre los sistemas de las zonas adyacentes y no se permite saltarse las zonas. Se colocan controles de seguridad entre cada zona, como cortafuegos de inspección de estado, sistemas de prevención y detección de intrusiones y sólidos controles de acceso. Los controles de seguridad implementados dentro de una zona permiten la detección de actividades maliciosas entre los sistemas de una zona.
     p.mb-5 La direccionalidad del tráfico también se puede tener en cuenta a la hora de definir las reglas de comunicación entre zonas. Por ejemplo, se podría permitir que el tráfico HTTPS entre la Zona Empresarial y la Zona Industrial sólo se origine en los clientes de la Zona Empresarial.
 
-    .row(data-aos="fade-right")
-      .col-lg-5
-        .bg_11.p-4
-          h3.ms-4.text-white Seguridad de computación
+    .btn-h3.mb-4
+      span.h3  Seguridad de computación
 
     .row.justify-content-center.mb-4.mb-lg-0
       .col-lg-8(data-aos="fade-right")
@@ -389,7 +381,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         figure.mb-4(data-aos="fade-down-right")
-          img.img-t.m-auto(src='@/assets/curso/tema1/img35.svg', alt='')
+          img.img-t.m-auto(src='@/assets/curso/tema1/img35.svg', alt='La imagen presenta cómo si un ejecutable hace una llamada a una función de Windows, esta llamada a los archivos de la biblioteca externa tendrá lugar a través de la tabla de direcciones de importación (IAT).')
         figcaption Nota. Tomado de Li (2009).
 
     p.mb-5 Utilizando la infraestructura de cuña, puede modificar la dirección de la función de Windows resuelta en la tabla de importación, sustituyéndola por un puntero a una función en el código de cuña alternativo:
@@ -397,15 +389,13 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         figure.mb-4(data-aos="fade-down-right")
-          img.img-t.m-auto(src='@/assets/curso/tema1/img36.svg', alt='')
+          img.img-t.m-auto(src='@/assets/curso/tema1/img36.svg', alt='La imagen presenta cómo, utilizando la infraestructura de cuña, puede modificar la dirección de la función de Windows resuelta en la tabla de importación, sustituyéndola por un puntero a una función en el código de cuña alternativo.')
         figcaption Nota. Tomado de Li (2009).
 
     p.mb-5 EMET aprovecha esta arquitectura de cuña para imponer sus perfiles de protección. Los perfiles de protección de EMET son archivos XML que contienen ajustes preconfigurados de EMET. Las empresas pueden proporcionar perfiles de protección de EMET adaptados para que funcionen con las aplicaciones y sistemas que venden. La empresa prueba y valida que la configuración del perfil de protección funcione para una variedad de sistemas operativos y aplicaciones.
 
-    .row.mb-5(data-aos="fade-right")
-      .col-lg-5
-        .bg_13.p-4
-          h3.ms-4.text-white Seguridad de las aplicaciones
+    .btn-h3.mb-4
+      span.h3  Seguridad de las aplicaciones
 
     .bg_14
       .row.justify-content-center.align-items-center.mb-5
@@ -415,10 +405,8 @@
         .col-lg-8(data-aos="fade-left")
           p Mientras que la seguridad de la información consiste en mantener a un intruso fuera de un sistema informático, la seguridad de las aplicaciones consiste en evitar que un usuario realice interacciones no autorizadas con los programas y servicios que se ejecutan en el sistema informático. Esto se consigue implementando la autenticación, la autorización y la auditoría. Aquí, la autenticación verifica que el usuario es quien dice ser, la autorización restringe las acciones del usuario y la auditoría registra todas las interacciones que el usuario tiene con el sistema. Mantener las aplicaciones libres de vulnerabilidades mediante la detección y la aplicación de parches es también una forma de seguridad de las aplicaciones.
 
-    .row.mb-4(data-aos="fade-right")
-      .col-lg-5
-        .bg_13.p-4
-          h3.ms-4.text-white Seguridad de los dispositivos
+    .btn-h3.mb-4
+      span.h3  Seguridad de los dispositivos
 
     .row.justify-content-center.mb-4
       .col-lg-8(data-aos="fade-left")
@@ -428,10 +416,8 @@
         figure(data-aos="fade-down-right")
           img.img-t.m-auto(src='@/assets/curso/tema1/img39.svg', alt='')
 
-    .row.mb-4(data-aos="fade-right")
-      .col-lg-8
-        .bg_15.p-4
-          h3.ms-4.text-white Políticas, procedimientos y concienciación
+    .btn-h3.mb-5
+      span.h3  Políticas, procedimientos y concienciación
 
     .bg_12-1
       .row
@@ -456,10 +442,8 @@
         figure(data-aos="fade-down-right")
           img.img-t.m-auto(src='@/assets/curso/tema1/img42.svg', alt='')
 
-    .row(data-aos="fade-right")
-      .col-lg-5
-        .bg_16.p-4
-          h3.ms-4.text-white Azure
+    .btn-h3.mb-4
+      span.h3  Azure
 
     p.mb-4.mb-lg-5 Azure es un nuevo sistema en la nube de Microsoft que permite que las aplicaciones se ejecuten desde un sistema conectado de forma remota, alojado en un centro de datos de Microsoft, y que almacene los datos en la nube. La plataforma consta de tres partes:
 
@@ -498,7 +482,7 @@
       .row.justify-content-center
         .col-lg-9
           figure(data-aos="fade-down-right")
-            img.img-t.m-auto.my-5(src='@/assets/curso/tema1/img49.svg', alt='')
+            img.img-t.m-auto.my-5(src='@/assets/curso/tema1/img49.svg', alt='La imagen nos presenta gráficamente el concepto de la plataforma Azure.')
     figcaption.mb-5 <b>Nota.</b> Tomada de <em>Introduction to Windows Azure</em> (p. xvii), por H. Li, 2009, H. (2009), <em>Apress</em>.
 
     .bg_18
@@ -520,7 +504,7 @@
       .row.justify-content-center
         .col-lg-9
           figure(data-aos="fade-down-right")
-            img.img-t.m-auto(src='@/assets/curso/tema1/img57.svg', alt='')
+            img.img-t.m-auto(src='@/assets/curso/tema1/img57.svg', alt='La imagen presenta el entorno de una aplicación local de Azure.')
       figcaption.mb-5.mt-2 <b>Nota.</b> Tomada de <em>Introduction to Windows Azure</em> (p. xvii), por H. Li, 2009, H. (2009), <em>Apress.F</em>.
 
 
@@ -568,10 +552,8 @@
               img.img-t.m-auto(src='@/assets/curso/tema1/img52.svg', alt='Texto que describa la imagen')
 
 
-    .row.mb-4(data-aos="fade-right")
-      .col-lg-5
-        .bg_27.p-4
-          h3.ms-4.text-white Google Cloud
+    .btn-h3.mb-5
+      span.h3 Google Cloud
 
     .bg_30
       .row.mb-4
@@ -594,25 +576,24 @@
           ul.lista-ul--color
             li
               i.fas.fa-check-circle
-              p.m-0 Consola de desarrolladores de Google (http:// console.developers.google.com), que proporciona una interfaz de usuario (UI) basada en la <em>web</em> con formularios HTML para la creación y la configuración de instancias.
+              span Consola de desarrolladores de Google (http:// console.developers.google.com), que proporciona una interfaz de usuario (UI) basada en la <em>web</em> con formularios HTML para la creación y la configuración de instancias.
             li
               i.fas.fa-check-circle
-              p.m-0 Gcloud compute, una interfaz de línea de comandos que puede utilizarse de forma interactiva o en <em>scripts</em> para una automatización sencilla.
+              span Gcloud compute, una interfaz de línea de comandos que puede utilizarse de forma interactiva o en <em>scripts</em> para una automatización sencilla.
             li
               i.fas.fa-check-circle
-              p.m-0 API de Compute Engine, una API RESTful para la integración en su propio código y en aplicaciones de gestión de la nube.
+              span API de Compute Engine, una API RESTful para la integración en su propio código y en aplicaciones de gestión de la nube.
 
     p Para empezar a trabajar con Google Compute Engine, primero se debe crear un proyecto Compute Engine en la Consola de Desarrolladores. Un proyecto de Compute Engine es una colección de información sobre la aplicación y actúa como un contenedor para los recursos y configuraciones de Compute Engine. Los discos, los cortafuegos, las redes y las instancias están asociados a un único proyecto y contenidos en él. La facturación se aplica a un proyecto en función de la cantidad de recursos utilizados. Los miembros del equipo pueden añadirse al proyecto con permisos específicos para acceder a los recursos de Compute Engine del proyecto.
     p.mb-5 El siguiente video ilustra paso a paso el proceso para desplegar una aplicación en Google Cloud:
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/c7F0qr9xXG8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/c7F0qr9xXG8" title="Amazon Web Services (AWS)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Amazon Web Services (AWS)
 
-    .row(data-aos="fade-right")
-      .col-lg-5
-        .bg_29.p-4
-          h3.ms-4.text-white Desplegar una aplicación en Google Cloud.
+    .btn-h3.mb-4
+      span.h3  Desplegar una aplicación en Google Cloud.
 
     .row.justify-content-center.mb-5
       .col-lg-8
@@ -630,7 +611,7 @@
       .row.justify-content-center
         .col-lg-9
           figure(data-aos="fade-down-right")
-            img.img-t.m-auto.my-5(src='@/assets/curso/tema1/img64.svg', alt='')
+            img.img-t.m-auto.my-5(src='@/assets/curso/tema1/img64.svg', alt='La imagen nos presenta la ubicación geográfica de los centros de datos AWS.')
     figcaption.mb-5 <b>Nota.</b> Tomada de <em>Introduction to Windows Azure</em> (p. xvii), por H. Li, 2009, H. (2009), <em>Apress.F</em>.
 
     p.mb-4 Detalle a través de la situación descrita en el siguiente video, las posibilidades que ofrece AWS en el proceso de implementación de una arquitectura de sistema tolerante a fallos.
@@ -652,7 +633,7 @@
       .row.justify-content-center
         .col-lg-9
           figure(data-aos="fade-down-right")
-            img.img-t.m-auto.my-5(src='@/assets/curso/tema1/img66.svg', alt='')
+            img.img-t.m-auto.my-5(src='@/assets/curso/tema1/img66.svg', alt='Se encuentran 3 imágenes que presentan los patrones de tráfico, una por horas, otra por días y otra por meses.')
     figcaption.mb-5 <b>Nota.</b> Tomada de <em>Amazon web services in action</em> (p. 11), por M. Wittig & A. Wittig, 2018, Manning.
 
     h4.border_b1 Los servicios de AWS
@@ -667,7 +648,7 @@
       .row.justify-content-center
         .col-lg-9
           figure(data-aos="fade-down-right")
-            img.img-t.m-auto(src='@/assets/curso/tema1/img68.svg', alt='')
+            img.img-t.m-auto(src='@/assets/curso/tema1/img68.svg', alt='La imagen presenta los diferentes servicios, tanto software como hardware, que presenta AWS.')
     figcaption.mb-5 <b>Nota.</b> Tomada de <em>Amazon web services in action</em> (p. 16), por M. Wittig & A. Wittig, 2018, Manning.
 
     p Los servidores virtuales tienen una peculiaridad: se puede hacer la conexión a los servidores virtuales a través de SSH, por ejemplo, y obtener acceso de administrador. Esto significa que se puede instalar el <em>software</em> que quiera en un servidor virtual. Otros servicios, como el servicio de base de datos NoSQL, ofrecen sus características a través de una API y ocultan todo lo que ocurre entre bastidores. La Figura 7 muestra un administrador instalando una aplicación web PHP personalizada en un servidor virtual y gestionando servicios dependientes como una base de datos NoSQL utilizada por la aplicación web PHP.
@@ -680,7 +661,7 @@
       .row.justify-content-center
         .col-lg-9
           figure(data-aos="fade-down-right")
-            img.img-t.m-auto(src='@/assets/curso/tema1/img70.svg', alt='')
+            img.img-t.m-auto(src='@/assets/curso/tema1/img70.svg', alt='La imagen presenta el proceso cómo un administrador instala una aplicación web PHP.')
     figcaption.mb-5 <b>Nota.</b> Tomada de <em>Amazon web services in action</em> (p. 17), por M. Wittig & A. Wittig, 2018, Manning.
 
     p.mb-5 Los usuarios envían peticiones HTTP a un servidor virtual. En este servidor virtual se instala un servidor web junto con una aplicación web PHP personalizada. La aplicación web necesita hablar con los servicios de AWS para responder a las solicitudes HTTP de los usuarios. Por ejemplo, la aplicación web necesita consultar datos de una base de datos NoSQL, almacenar archivos estáticos y enviar correos electrónicos. La comunicación entre la aplicación web y los servicios de AWS se gestiona mediante la API, como muestra la siguiente figura.
@@ -693,7 +674,7 @@
       .row.justify-content-center
         .col-lg-9
           figure(data-aos="fade-down-right")
-            img.img-t.m-auto(src='@/assets/curso/tema1/img72.svg', alt='')
+            img.img-t.m-auto(src='@/assets/curso/tema1/img72.svg', alt='La imagen presenta cómo es la comunicación entre los procesos de un servidor virtual.')
     figcaption.mb-5 <b>Nota.</b> Tomada de <em>Amazon web services in action</em> (p. 17), por M. Wittig & A. Wittig, 2018, Manning.
 
     p.mb-5 La cantidad de servicios disponibles puede asustar al principio. <b>La siguiente categorización de los servicios de AWS le ayudará a orientarse en la jungla:</b>
@@ -704,30 +685,28 @@
           ul.lista-ul--color.mb_1
             li.mb_1
               i.fas.fa-check-circle
-              | Los servicios de computación ofrecen potencia de cálculo y memoria. Puede iniciar servidores virtuales y utilizarlos para ejecutar sus aplicaciones.
+              span Los servicios de computación ofrecen potencia de cálculo y memoria. Puede iniciar servidores virtuales y utilizarlos para ejecutar sus aplicaciones.
             li.mb_1
               i.fas.fa-check-circle
-              | Los servicios de aplicaciones ofrecen soluciones para casos de uso comunes como colas de mensajes, temas y búsqueda de grandes cantidades de datos para integrarlos en sus aplicaciones.
+              span Los servicios de aplicaciones ofrecen soluciones para casos de uso comunes como colas de mensajes, temas y búsqueda de grandes cantidades de datos para integrarlos en sus aplicaciones.
             li.mb_1
               i.fas.fa-check-circle
-              | Los servicios para empresas ofrecen soluciones independientes como servidores de correo y servicios de directorio.
+              span Los servicios para empresas ofrecen soluciones independientes como servidores de correo y servicios de directorio.
             li.mb_1
               i.fas.fa-check-circle
-              | Los servicios de implementación y administración funcionan sobre los servicios mencionados hasta ahora. Le ayudan a conceder y revocar el acceso a los recursos de la nube, a supervisar sus servidores virtuales y a desplegar aplicaciones.
+              span Los servicios de implementación y administración funcionan sobre los servicios mencionados hasta ahora. Le ayudan a conceder y revocar el acceso a los recursos de la nube, a supervisar sus servidores virtuales y a desplegar aplicaciones.
             li.mb_1
               i.fas.fa-check-circle
-              | El almacenamiento es necesario para recoger, persistir y archivar datos. AWS ofrece diferentes opciones de almacenamiento: un almacén de objetos o una solución de almacenamiento conectado a la red para su uso con servidores virtuales.
+              span El almacenamiento es necesario para recoger, persistir y archivar datos. AWS ofrece diferentes opciones de almacenamiento: un almacén de objetos o una solución de almacenamiento conectado a la red para su uso con servidores virtuales.
             li.mb_1
               i.fas.fa-check-circle
-              | El almacenamiento de bases de datos tiene algunas ventajas sobre las soluciones de almacenamiento simples cuando se necesitan gestionar datos estructurados. AWS ofrece soluciones para bases de datos relacionales y NoSQL.
+              span El almacenamiento de bases de datos tiene algunas ventajas sobre las soluciones de almacenamiento simples cuando se necesitan gestionar datos estructurados. AWS ofrece soluciones para bases de datos relacionales y NoSQL.
             li.mb_1
               i.fas.fa-check-circle
-              | Los servicios de red son una parte elemental de AWS. Puede definir redes privadas y utilizar un DNS bien integrado.
+              span Los servicios de red son una parte elemental de AWS. Puede definir redes privadas y utilizar un DNS bien integrado.
 
-    .row(data-aos="fade-right")
-      .col-lg-5
-        .bg_32.p-4
-          h3.ms-4.text-white Comparación de alternativas
+    .btn-h3.mb-4
+      span.h3  Comparación de alternativas
 
     .bg_33
       .row.mb-5.mb-lg-4
@@ -880,16 +859,16 @@
       .row.justify-content-center
         .col-lg-9
           figure(data-aos="fade-down-right")
-            img.img-t.m-auto(src='@/assets/curso/tema1/img77.svg', alt='')
+            img.img-t.m-auto(src='@/assets/curso/tema1/img77.svg', alt='La imagen presenta un diagrama de una máquina virtual.')
     figcaption.mb-5 <b>Nota.</b> Tomada de <b>Virtualization essentials</b> (Vol. 19), por M. Portnoy, 2012, John Wiley & Sons. Según Popek y Goldberg.
 
     p.text-bold.mb-5 Un VMM debe presentar tres propiedades para satisfacer correctamente su definición:
 
     .row.justify-content-center.mb-5
       .col-lg-9
-        .row.justify-content-center.mb-3.mb-lg-5
-          .col-sm-6.col-lg-4.mb-4(data-aos="fade-right")
-            .tarjeta--boton.color-acento-contenido.p-4
+        .row.justify-content-center.align-items-stretch.mb-3.mb-lg-5
+          .col-sm-6.col-lg-4.mb-4.mb-sm-0(data-aos="fade-right")
+            .tarjeta--boton.color-acento-contenido.h-100.p-4
               .row.mb-5
                 .col-auto
                   figure
@@ -898,7 +877,7 @@
               p El entorno que se crea para la VM es esencialmente idéntico al de la máquina física original (<em>hardware</em>).
 
           .col-sm-6.col-lg-4.mb-4.mb-sm-0(data-aos="fade-right")
-            .tarjeta--boton.color-acento-contenido.p-4
+            .tarjeta--boton.color-acento-contenido.h-100.p-4
               .row.mb-5
                 .col-auto
                   figure
@@ -906,7 +885,7 @@
               h4 Aislamiento o seguridad
               p El VMM debe tener un control total de los recursos del sistema.
           .col-sm-6.col-lg-4.mb-4.mb-sm-0(data-aos="fade-left")
-            .tarjeta--boton.color-acento-contenido.p-4
+            .tarjeta--boton.color-acento-contenido.h-100.p-4
               .row.mb-5
                 .col-auto
                   figure
@@ -914,10 +893,8 @@
               h4 Rendimiento
               p Debe haber poca o ninguna diferencia de rendimiento entre la VM y un equivalente físico.
 
-    .row.mb-4.mb-lg-5(data-aos="fade-right")
-      .col-lg-5
-        .bg_35.p-4
-          h3.ms-4.text-white La importancia de la virtualización
+    .btn-h3.mb-4
+      span.h3 La importancia de la virtualización
 
     .bg_14
       .row.justify-content-center.align-items-center.mb-5.mb-lg-4
@@ -938,7 +915,7 @@
       .row.justify-content-center
         .col-lg-9
           figure(data-aos="fade-down-right")
-            img.img-t.m-auto(src='@/assets/curso/tema1/img83.svg', alt='')
+            img.img-t.m-auto(src='@/assets/curso/tema1/img83.svg', alt='La imagen nos presenta lo que se denomina consolidación de virtualización.')
     figcaption.mb-5 <b>Nota.</b> Tomada de <b>Virtualization essentials</b> (Vol. 19), por M. Portnoy, 2012, John Wiley & Sons.
 
     .row.justify-content-center.mb-4
