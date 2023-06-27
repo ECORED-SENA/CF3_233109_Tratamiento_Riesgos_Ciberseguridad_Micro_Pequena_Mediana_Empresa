@@ -246,11 +246,11 @@
 
     p.mb-4 La aplicación estratégica de los principios de ciberseguridad se centra en la cuestión de decidir qué se necesita para determinar el valor de la seguridad para una organización y a partir de allí, considerar aspectos de relevancia como los que se destacan en la siguiente infografía:
 
-    .bg_40.p-4
-      .row.justify-content-center
-        .col-lg-12
-          figure(data-aos="fade-down-right")
-            img.img-t.m-auto(src='@/assets/curso/tema2/img22.svg', alt='La imagen nos presenta cómo lograr un enfoque estratégico de la seguridad de la información, para lo cual se requiere la suma de:Una estructura tangible y coherente de controles técnicos y de gestión (gobernanza administrativa).Una políticas, estructuras organizativas, prácticas y procedimientos.Unas responsabilidades para funciones empresariales específicas.Unas acciones de protección completas, correctas y coordinadas.Y finalmente, un proceso de planificación integral y sostenible en el tiempo.Lo anterior lleva a un plan de gestión estratégica, que involucra las áreas generales y las actividades de control.')
+
+    .row.justify-content-center
+      .col-lg-12
+        figure(data-aos="fade-down-right")
+          img.img-t.m-auto(src='@/assets/curso/tema2/img22.svg', alt='La imagen nos presenta cómo lograr un enfoque estratégico de la seguridad de la información, para lo cual se requiere la suma de:Una estructura tangible y coherente de controles técnicos y de gestión (gobernanza administrativa).Una políticas, estructuras organizativas, prácticas y procedimientos.Unas responsabilidades para funciones empresariales específicas.Unas acciones de protección completas, correctas y coordinadas.Y finalmente, un proceso de planificación integral y sostenible en el tiempo.Lo anterior lleva a un plan de gestión estratégica, que involucra las áreas generales y las actividades de control.')
 
 
 </template>
