@@ -215,34 +215,72 @@
 
     p El campo de la ciberseguridad abarca las medidas adecuadas para garantizar que los datos electrónicos se mantengan a salvo de accesos no autorizados o de daños. Los procesos, las tecnologías y las prácticas en el campo de la ciberseguridad se desarrollan al servicio de este propósito. Un conjunto eficaz de controles de ciberseguridad debe:
 
-    .row.justify-content-center.mb-2.mb-lg-5
-      .col-xxl-12.col-lg-10.col-md-12(data-aos="fade-down")
+    //.row.justify-content-center.mb-2.mb-lg-5
+      .col-xxl-12.col-lg-10.col-md-12
         SlyderF.mb-5(columnas="col-md-6 col-lg-6 col-xl-4").color_i-1
           .tarjeta-avatar.hg-100
-            img.img85(src='@/assets/curso/tema2/img16.svg' alt='AvatarTop').m-auto
+            img.img85(src='@/assets/curso/tema2/img16.svg' alt='').m-auto
             .tarjeta.color-acento-contenido
               .p-4
                 p.text-center Identificar y autenticar con precisión a todas las entidades que desean acceder a un sistema.
           .tarjeta-avatar.hg-100
-            img.img85.mx-auto(src='@/assets/curso/tema2/img17.svg' alt='AvatarTop')
+            img.img85.mx-auto(src='@/assets/curso/tema2/img17.svg' alt='')
             .tarjeta.color-acento-contenido
               .p-4
                 p.text-center Autorizar el acceso sólo a los objetos que el nivel de confianza de la entidad permite.
           .tarjeta-avatar.hg-100
-            img.img85.mx-auto(src='@/assets/curso/tema2/img18.svg' alt='AvatarTop')
+            img.img85.mx-auto(src='@/assets/curso/tema2/img18.svg' alt='')
             .tarjeta.color-acento-contenido
               .p-4
                 p.text-center Supervisar y controlar las actividades durante el tiempo en que se concede el acceso a la entidad.
           .tarjeta-avatar.hg-100
-            img.img85.mx-auto(src='@/assets/curso/tema2/img19.svg' alt='AvatarTop')
+            img.img85.mx-auto(src='@/assets/curso/tema2/img19.svg' alt='')
             .tarjeta.color-acento-contenido
               .p-4
                 p.text-center Asegurar el acceso no autorizado o la manipulación de los datos.
           .tarjeta-avatar.hg-100
-            img.img85.mx-auto(src='@/assets/curso/tema2/img20.svg' alt='AvatarTop')
+            img.img85.mx-auto(src='@/assets/curso/tema2/img20.svg' alt='')
             .tarjeta.color-acento-contenido
               .p-4
                 p.text-center Asegurar la manipulación no autorizada de los objetos del sistema.
+
+    .row.justify-content-center.mb-2.mb-lg-5
+      .col-xxl-12.col-lg-10.col-md-12
+        SlyderF.mb-5(columnas="col-lg-6 col-xl-4").color_i-1
+          .tarjeta.color-acento-contenido.p-4
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/tema2/img16.svg' alt='' style="max-width: 100px").m-auto
+
+            p.text-center Identificar y autenticar con precisión a todas las entidades que desean acceder a un sistema.
+
+          .tarjeta.color-acento-contenido.p-4
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/tema2/img17.svg' alt='' style="max-width: 100px").m-auto
+
+            p.text-center Autorizar el acceso sólo a los objetos que el nivel de confianza de la entidad permite.
+
+          .tarjeta.color-acento-contenido.p-4
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/tema2/img18.svg' alt='' style="max-width: 100px").m-auto
+
+            p.text-center Supervisar y controlar las actividades durante el tiempo en que se concede el acceso a la entidad.
+
+          .tarjeta.color-acento-contenido.p-4
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/tema2/img19.svg' alt='' style="max-width: 100px").m-auto
+
+            p.text-center Asegurar el acceso no autorizado o la manipulación de los datos.
+
+          .tarjeta.color-acento-contenido.p-4
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/tema2/img20.svg' alt='' style="max-width: 100px").m-auto
+
+            p.text-center Asegurar la manipulación no autorizada de los objetos del sistema.
 
     p.mb-4 La aplicación estratégica de los principios de ciberseguridad se centra en la cuestión de decidir qué se necesita para determinar el valor de la seguridad para una organización y a partir de allí, considerar aspectos de relevancia como los que se destacan en la siguiente infografía:
 
@@ -256,8 +294,10 @@
 </template>
 
 <script>
+import SlyderF from '../components/SlyderF.vue'
 export default {
   name: 'Tema2',
+  components: { SlyderF },
   data: () => ({
     // variables de vue
   }),
@@ -272,4 +312,9 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.slyder-f
+  .slyder-f__main
+    .horizontal-scroll__wrapper
+      padding-top: 1rem
+</style>

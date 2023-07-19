@@ -977,9 +977,10 @@
 </template>
 
 <script>
+import SlyderF from '../components/SlyderF.vue'
 export default {
   name: 'Tema1',
-  components: {},
+  components: { SlyderF },
   data: () => ({
     // variables de vue
   }),
@@ -994,4 +995,9 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.slyder-f
+  .slyder-f__main
+    .horizontal-scroll__wrapper
+      padding-top: 1rem
+</style>

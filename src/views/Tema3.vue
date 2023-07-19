@@ -155,37 +155,49 @@
 
     p.text-bold.mb-5 Los ataques más comunes asociados a las vulnerabilidades de validación de entrada son:
 
-    SlyderF.mb-5(columnas="col-md-6 col-lg-6 col-xl-4").color_i-1(data-aos="fade-right")
-      .tarjeta-avatar-b.m_tarslyder2
-        .tarjeta-avatar-b__img
-          img(src='@/assets/curso/tema3/img20.svg' alt='AvatarTop')
-        .tarjeta.tarjeta--azul
-          .p-4.py-5
-            p.m-0.text-center Desbordamiento del búfer.
-      .tarjeta-avatar-b.m_tarslyder2
-        .tarjeta-avatar-b__img
-          img(src='@/assets/curso/tema3/img20.svg' alt='AvatarTop')
-        .tarjeta.tarjeta--azul
-          .p-4
-            p.mt-2.text-center.flex-center-text Secuencia de comandos en sitios cruzados.
-      .tarjeta-avatar-b.m_tarslyder2
-        .tarjeta-avatar-b__img
-          img(src='@/assets/curso/tema3/img20.svg' alt='AvatarTop')
-        .tarjeta.tarjeta--azul
-          .p-4.py-5
-            p.m-0.text-center Inyección de código.
-      .tarjeta-avatar-b.m_tarslyder2
-        .tarjeta-avatar-b__img
-          img(src='@/assets/curso/tema3/img20.svg' alt='AvatarTop')
-        .tarjeta.tarjeta--azul
-          .p-4.py-5
-            p.m-0.text-center Inyección SQL.
-      .tarjeta-avatar-b.m_tarslyder2
-        .tarjeta-avatar-b__img
-          img(src='@/assets/curso/tema3/img20.svg' alt='AvatarTop')
-        .tarjeta.tarjeta--azul
-          .p-4
-            p.mt-2.text-center.flex-center-text Canonización de comandos del sistema operativo.
+    //SlyderF.mb-5(columnas="col-md-6 col-lg-6 col-xl-4").color_i-1(data-aos="fade-right")
+
+    .row.justify-content-center.mb-4
+      .col-lg-4.col-md-6.mb-4
+        .tarjeta-avatar-b.m_tarslyder2
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/tema3/img20.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4.py-5
+              p.m-0.text-center Desbordamiento del búfer.
+
+      .col-lg-4.col-md-6.mb-4
+        .tarjeta-avatar-b.m_tarslyder2
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/tema3/img20.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              p.mt-2.text-center.flex-center-text Secuencia de comandos en sitios cruzados.
+
+      .col-lg-4.col-md-6
+        .tarjeta-avatar-b.m_tarslyder2
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/tema3/img20.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4.py-5
+              p.m-0.text-center Inyección de código.
+
+    .row.justify-content-center.mb-5
+      .col-lg-4.col-md-6.mb-4
+        .tarjeta-avatar-b.m_tarslyder2
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/tema3/img20.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4.py-5
+              p.m-0.text-center Inyección SQL.
+
+      .col-lg-4.col-md-6.mb-4
+        .tarjeta-avatar-b.m_tarslyder2
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/tema3/img20.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              p.mt-2.text-center.flex-center-text Canonización de comandos del sistema operativo.
 
     p.mb-4 Nunca hay que confiar en los datos externos, investigue las técnicas de validación de entrada adecuadas para su aplicación y haga que las pruebas de validación de entrada formen parte de su proceso de desarrollo de aplicaciones.
 
@@ -404,7 +416,7 @@
               span Certificados SSL y ajustes de cifrado mal configurados.
             li
               i.fas.fa-check-circle
-              span Uso de certificados autofirmados para lograr la autenticación y la protección man-in-the-middle.
+              span Uso de certificados autofirmados para lograr la autenticación y la protección #[em man-in-the-middle].
             li
               i.fas.fa-check-circle
               span Uso de certificados por defecto.
